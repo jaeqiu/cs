@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1eac0cfdcf6a3f42",
+        "id": "525ae890ca58808e",
         "type": "tabs",
         "children": [
           {
-            "id": "e34891a1ff96b517",
+            "id": "fec6082de80f1b7e",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -90,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "test 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for test 3"
             }
           },
           {
@@ -108,11 +109,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "test 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from test 3"
             }
           },
           {
@@ -136,12 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "test 3.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of test 3"
             }
           }
         ]
@@ -153,16 +156,30 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:Create new canvas": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-importer:Open Importer": false
     }
   },
   "active": "f38f63138afcffa6",
   "lastOpenFiles": [
+    "tessttt.md",
+    "test.md",
+    "big canvs.canvas",
+    "test 3.md",
+    "encapsulation.canvas",
+    "small canvas 1.canvas",
+    "small canvas.canvas",
+    "small canvas 2.canvas",
+    "fdsgfdsgfds.canvas",
+    "test.canvas",
+    "fdsgfdsgfds 1.canvas",
+    "Untitled 1.canvas",
     "repo_status.bat",
     "repo_save.bat",
     "repo_fetch.bat",
