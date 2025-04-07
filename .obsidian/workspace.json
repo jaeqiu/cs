@@ -4,17 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "525ae890ca58808e",
+        "id": "f9b53d58eb2ba20e",
         "type": "tabs",
         "children": [
           {
-            "id": "fec6082de80f1b7e",
+            "id": "5a1af677d4698aa7",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "canvas",
+              "state": {
+                "file": "Algorithms and Data Structures/ads_canvas.canvas",
+                "viewState": {
+                  "x": 76.83059651183402,
+                  "y": 112.34284382864278,
+                  "zoom": -0.3585028854268885
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "ads_canvas"
             }
           }
         ]
@@ -166,20 +173,47 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "f38f63138afcffa6",
+  "active": "5a1af677d4698aa7",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250407185418.png",
+    "attachments/Pasted image 20250407185406.png",
+    "Algorithms and Data Structures/ads_canvas.canvas",
+    "orphaned files output.md",
+    "attachments/Pasted image 20250407175921.png",
+    "attachments/Pasted image 20250407175956.png",
+    "attachments/Pasted image 20250407180211.png",
+    "attachments/Pasted image 20250407175809.png",
+    "attachments/Pasted image 20250407175033.png",
+    "attachments/Pasted image 20250407182316.png",
+    "attachments/Pasted image 20250407182340.png",
+    "attachments/Pasted image 20250407181002.png",
+    "Algorithms and Data Structures/Untitled.md",
+    "attachments/Pasted image 20250407180513.png",
+    "Algorithms and Data Structures/fdsafdas.md",
+    "Algorithms and Data Structures/fdsafdsa.md",
+    "Algorithms and Data Structures/gfsdgfds.md",
+    "attachments",
+    "Algorithms and Data Structures/Data Structure.md",
+    "attachments/image",
+    "Algorithms and Data Structures/attachments",
+    "Algorithms and Data Structures/ads_merged_unified.pdf",
+    "Data Structue.md",
+    "Algorithms and Data Structures/fffffffffffffff.md",
+    "Data Structure.md",
+    "Algorithms and Data Structures/Algi.md",
+    "hgdfhgfd.md",
+    "Algorithms and Data Structures/Untitled 1.canvas",
+    "Untitled.canvas",
+    "Algorithms and Data Structures",
+    "big canvs.canvas",
     "tessttt.md",
     "test.md",
-    "big canvs.canvas",
     "test 3.md",
     "encapsulation.canvas",
     "small canvas 1.canvas",
     "small canvas.canvas",
     "small canvas 2.canvas",
     "fdsgfdsgfds.canvas",
-    "test.canvas",
-    "fdsgfdsgfds 1.canvas",
-    "Untitled 1.canvas",
     "repo_status.bat",
     "repo_save.bat",
     "repo_fetch.bat",

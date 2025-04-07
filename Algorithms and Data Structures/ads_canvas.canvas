@@ -1,0 +1,453 @@
+{
+  "edges": [
+    {
+      "fromNode": "eb14414626caaaa4",
+      "fromSide": "left",
+      "id": "a54da5b22cbf4d5a",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "ba1f763b732e5b3a",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "ba1f763b732e5b3a",
+      "fromSide": "bottom",
+      "id": "9afd5ef4c802d5f9",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "6a25b6662d783183",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "e5d38de2c76d11e5",
+      "fromSide": "bottom",
+      "id": "20ea600c209fb2d1",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "74c5b381e62a9002",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "13b13025ca9b84bb",
+      "fromSide": "bottom",
+      "id": "40babc70d1ef97dc",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "6a25b6662d783183",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "c651c3f7a0cbc1f8",
+      "fromSide": "bottom",
+      "id": "31a261be6fab5a30",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "eb14414626caaaa4",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "eb14414626caaaa4",
+      "fromSide": "right",
+      "id": "c50eeda0d5fe9e53",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "f8fc354a08676c03",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "eb14414626caaaa4",
+      "fromSide": "bottom",
+      "id": "7cb90cfe35a7ee2c",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "0e1681e923ab3665",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "6a25b6662d783183",
+      "fromSide": "bottom",
+      "id": "3d7f028cf70e0589",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "0d2c6cc91b386a0f",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "0e1681e923ab3665",
+      "fromSide": "bottom",
+      "id": "13bfe5f8a2c9cc8d",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "408bedb8828932c3",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "0e1681e923ab3665",
+      "fromSide": "bottom",
+      "id": "2be3b1f1a4b705de",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "2202da18a7062c7c",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "0e1681e923ab3665",
+      "fromSide": "bottom",
+      "id": "7006295f348349d1",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "13b13025ca9b84bb",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "0e1681e923ab3665",
+      "fromSide": "bottom",
+      "id": "0b20c2966dc9c7a9",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "78008a33ae1aba07",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "0e1681e923ab3665",
+      "fromSide": "bottom",
+      "id": "ad6050f7cc7098a0",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "e5d38de2c76d11e5",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "color": "4",
+      "height": 2100,
+      "id": "9c1dff6cd3029ff9",
+      "label": "Data Structure",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1940,
+      "x": -520,
+      "y": -560
+    },
+    {
+      "color": "3",
+      "height": 1560,
+      "id": "790d3bd9d9086230",
+      "label": "Abstract Data Types",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 442,
+      "x": -1400,
+      "y": -560
+    },
+    {
+      "color": "2",
+      "height": 1560,
+      "id": "6990e7a8a2508786",
+      "label": "Algorithms",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 440,
+      "x": -960,
+      "y": -560
+    },
+    {
+      "color": "5",
+      "height": 640,
+      "id": "5dbc3d90a05fcd49",
+      "label": "Order Theory",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 880,
+      "x": -1400,
+      "y": 1000
+    },
+    {
+      "color": "1",
+      "height": 200,
+      "id": "6a4089a10db343d9",
+      "label": "Complexity",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 2800,
+      "x": -1400,
+      "y": -760
+    },
+    {
+      "height": 60,
+      "id": "742996adf69348d4",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Format to store and organize data.",
+      "type": "text",
+      "width": 320,
+      "x": -480,
+      "y": -540
+    },
+    {
+      "height": 60,
+      "id": "c651c3f7a0cbc1f8",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Graph\nNode Edge",
+      "type": "text",
+      "width": 260,
+      "x": 180,
+      "y": -440
+    },
+    {
+      "height": 320,
+      "id": "0d2c6cc91b386a0f",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": null
+      },
+      "text": "max-heap\n\nThe keys stored at each node of the tree must be comparable according to a total order relations of comparability, antisymmetry, and transitivity.\n\n- binary tree\n- parent element is max value of its subtree\n- complete.",
+      "type": "text",
+      "width": 300,
+      "x": -460,
+      "y": 640
+    },
+    {
+      "height": 148,
+      "id": "ba1f763b732e5b3a",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Heap\nHeap Invariant",
+      "type": "text",
+      "width": 260,
+      "x": -440,
+      "y": 320
+    },
+    {
+      "height": 60,
+      "id": "6a25b6662d783183",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Binary Heap",
+      "type": "text",
+      "width": 300,
+      "x": -460,
+      "y": 540
+    },
+    {
+      "height": 216,
+      "id": "2202da18a7062c7c",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Full Binary Tree\n0 or 2 children\n![[Pasted image 20250407180301.png]]",
+      "type": "text",
+      "width": 160,
+      "x": 160,
+      "y": 160
+    },
+    {
+      "height": 150,
+      "id": "0e1681e923ab3665",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Binary Tree\nTree\nAll nodes have 0, 1 or 2 children",
+      "type": "text",
+      "width": 260,
+      "x": 180,
+      "y": -60
+    },
+    {
+      "height": 360,
+      "id": "13b13025ca9b84bb",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Complete Binary Tree\n![[Pasted image 20250407180314.png]]\n\nFilled from left\n-levels 0 until h-1 are completely full\n-level h is left-most",
+      "type": "text",
+      "width": 250,
+      "x": -120,
+      "y": 160
+    },
+    {
+      "height": 60,
+      "id": "eb14414626caaaa4",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Tree",
+      "type": "text",
+      "width": 260,
+      "x": 180,
+      "y": -180
+    },
+    {
+      "height": 220,
+      "id": "f8fc354a08676c03",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "B+ Tree\n![[Pasted image 20250407180137.png]]",
+      "type": "text",
+      "width": 380,
+      "x": 620,
+      "y": -260
+    },
+    {
+      "height": 380,
+      "id": "e5d38de2c76d11e5",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Binary Search tree\nThe rightmost child of the left child is smaller than the leftmost child of the right child\n![[Pasted image 20250407185418.png]]",
+      "type": "text",
+      "width": 300,
+      "x": 340,
+      "y": 160
+    },
+    {
+      "height": 228,
+      "id": "408bedb8828932c3",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Perfect Binary Tree\n![[Pasted image 20250407180513.png]]\nfilled layers",
+      "type": "text",
+      "width": 250,
+      "x": 680,
+      "y": 160
+    },
+    {
+      "height": 460,
+      "id": "78008a33ae1aba07",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Balanced Binary Tree\n![[Pasted image 20250407181002.png]]\nno two leaves differ in depth by more than one\n\nMore specifically:\n1. difference between the left and the right subtree heights for any node is not more than one\n2. the left subtree is balanced\n3. the right subtree is balanced",
+      "type": "text",
+      "width": 400,
+      "x": 960,
+      "y": 160
+    },
+    {
+      "height": 520,
+      "id": "74c5b381e62a9002",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "RB-tree\n![[Pasted image 20250407182340.png]]\n\nFor all nodes, any path from this node to a descendant leaf has the same amount of black nodes (includes nil leaves being black)\n\nBlack-height: property of a node/subtree. Number of black nodes on the way to any leaf (includes the blackness of the leaves). Will be the same regardless of path because of the RB-Trees invariant. (Black height is only well-defined when Red-Black Tree invariants are satisfied)",
+      "type": "text",
+      "width": 460,
+      "x": 260,
+      "y": 620
+    },
+    {
+      "height": 60,
+      "id": "77cc438c5c847135",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Step by step to solve a problem.",
+      "type": "text",
+      "width": 360,
+      "x": -920,
+      "y": -540
+    },
+    {
+      "height": 60,
+      "id": "8ee805a5d364f08b",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "An abstract data type defines what you can do; a data structure defines how you do it.",
+      "type": "text",
+      "width": 413,
+      "x": -1378,
+      "y": -540
+    },
+    {
+      "file": "attachments/Pasted image 20250407175041.png",
+      "height": 341,
+      "id": "54ea35908554a94a",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -1240,
+      "y": 1160
+    },
+    {
+      "height": 80,
+      "id": "55cc5cd9be786bc3",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "A partial order defines a hierarchy without requiring all elements to be comparable, while a total order enforces comparability between every element.",
+      "type": "text",
+      "width": 680,
+      "x": -1280,
+      "y": 1020
+    },
+    {
+      "height": 60,
+      "id": "daa472f67ff60a27",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "text": "Total Order Relation (Linear)",
+      "type": "text",
+      "width": 280,
+      "x": -1320,
+      "y": 1520
+    },
+    {
+      "height": 60,
+      "id": "01f3e7bcbf64d533",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Growth of required time/space as input size grows",
+      "type": "text",
+      "width": 400,
+      "x": -1360,
+      "y": -720
+    }
+  ]
+}
