@@ -194,16 +194,15 @@
     },
     {
       "height": 60,
-      "id": "742996adf69348d4",
+      "id": "daa472f67ff60a27",
       "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
+        "border": "dashed"
       },
-      "text": "Format to store and organize data.",
+      "text": "Total Order Relation (Linear)",
       "type": "text",
-      "width": 320,
-      "x": -480,
-      "y": -540
+      "width": 280,
+      "x": -1320,
+      "y": 1520
     },
     {
       "height": 60,
@@ -336,6 +335,19 @@
       "y": 160
     },
     {
+      "height": 60,
+      "id": "742996adf69348d4",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Format to store and organize data.",
+      "type": "text",
+      "width": 320,
+      "x": -480,
+      "y": -540
+    },
+    {
       "height": 228,
       "id": "408bedb8828932c3",
       "styleAttributes": {
@@ -423,18 +435,6 @@
       "width": 680,
       "x": -1280,
       "y": 1020
-    },
-    {
-      "height": 60,
-      "id": "daa472f67ff60a27",
-      "styleAttributes": {
-        "border": "dashed"
-      },
-      "text": "Total Order Relation (Linear)",
-      "type": "text",
-      "width": 280,
-      "x": -1320,
-      "y": 1520
     },
     {
       "height": 60,
