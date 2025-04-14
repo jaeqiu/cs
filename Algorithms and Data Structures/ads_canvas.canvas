@@ -129,6 +129,106 @@
       },
       "toNode": "e5d38de2c76d11e5",
       "toSide": "top"
+    },
+    {
+      "fromNode": "9fe9221d49497a37",
+      "fromSide": "bottom",
+      "id": "6bddbd12fe882bc0",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "687d83780d866bd0",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "9fe9221d49497a37",
+      "fromSide": "bottom",
+      "id": "a487dd735fd2b4c2",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "a64442b10f822e10",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "687d83780d866bd0",
+      "fromSide": "bottom",
+      "id": "603fa0f8d91b1020",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "ece0f5a072ba9ab6",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "4296def73cf0f3fe",
+      "fromSide": "right",
+      "id": "10db53ce298f68a0",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "2175a48bdf5b3fe8",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "16972ad6676e5214",
+      "fromSide": "right",
+      "id": "a1f333f662f1fda0",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "9813b52e4b8ec1f5",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9b9b7e6c33d435c2",
+      "fromSide": "right",
+      "id": "c659662ad76e63fa",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "7f917f2c5eb42d73",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "a4a908945ba82333",
+      "fromSide": "right",
+      "id": "12bb8093439ab3a8",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "79bc63a035794a1d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "079741e329ed0c8b",
+      "fromSide": "right",
+      "id": "435e0f4c6b800e19",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "0398523956eaadb2",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "2d59e4ce3e724407",
+      "fromSide": "right",
+      "id": "4e3c1fde3272256d",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "d6e720e89789125a",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "4a79aa9751352e0c",
+      "fromSide": "right",
+      "id": "45d2449e9e590c2b",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "a4a908945ba82333",
+      "toSide": "left"
     }
   ],
   "nodes": [
@@ -143,6 +243,15 @@
       "width": 1940,
       "x": -520,
       "y": -560
+    },
+    {
+      "height": 1160,
+      "id": "f133bab6096c9c02",
+      "label": "Hash table",
+      "type": "group",
+      "width": 1520,
+      "x": -3160,
+      "y": 80
     },
     {
       "color": "3",
@@ -193,6 +302,24 @@
       "y": -760
     },
     {
+      "height": 400,
+      "id": "92a2f01e359f828e",
+      "label": "values",
+      "type": "group",
+      "width": 220,
+      "x": -2400,
+      "y": 120
+    },
+    {
+      "height": 400,
+      "id": "8b4d66a1a2f2e346",
+      "label": "indices",
+      "type": "group",
+      "width": 140,
+      "x": -2540,
+      "y": 120
+    },
+    {
       "height": 60,
       "id": "daa472f67ff60a27",
       "styleAttributes": {
@@ -203,19 +330,6 @@
       "width": 280,
       "x": -1320,
       "y": 1520
-    },
-    {
-      "height": 60,
-      "id": "c651c3f7a0cbc1f8",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Graph\nNode Edge",
-      "type": "text",
-      "width": 260,
-      "x": 180,
-      "y": -440
     },
     {
       "height": 320,
@@ -257,6 +371,82 @@
       "y": 540
     },
     {
+      "height": 360,
+      "id": "13b13025ca9b84bb",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Complete Binary Tree\n![[Pasted image 20250407180314.png]]\n\nFilled from left\n-levels 0 until h-1 are completely full\n-level h is left-most",
+      "type": "text",
+      "width": 250,
+      "x": -120,
+      "y": 160
+    },
+    {
+      "height": 380,
+      "id": "e5d38de2c76d11e5",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Binary Search tree\nThe rightmost child of the left child is smaller than the leftmost child of the right child\n![[Pasted image 20250407185418.png]]",
+      "type": "text",
+      "width": 300,
+      "x": 340,
+      "y": 160
+    },
+    {
+      "height": 228,
+      "id": "408bedb8828932c3",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Perfect Binary Tree\n![[Pasted image 20250407180513.png]]\nfilled layers",
+      "type": "text",
+      "width": 250,
+      "x": 680,
+      "y": 160
+    },
+    {
+      "file": "attachments/Pasted image 20250407175041.png",
+      "height": 341,
+      "id": "54ea35908554a94a",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -1240,
+      "y": 1160
+    },
+    {
+      "height": 80,
+      "id": "55cc5cd9be786bc3",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "A partial order defines a hierarchy without requiring all elements to be comparable, while a total order enforces comparability between every element.",
+      "type": "text",
+      "width": 680,
+      "x": -1280,
+      "y": 1020
+    },
+    {
+      "height": 60,
+      "id": "c651c3f7a0cbc1f8",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Graph\nNode Edge",
+      "type": "text",
+      "width": 260,
+      "x": 180,
+      "y": -440
+    },
+    {
       "height": 216,
       "id": "2202da18a7062c7c",
       "styleAttributes": {
@@ -283,19 +473,6 @@
       "y": -60
     },
     {
-      "height": 360,
-      "id": "13b13025ca9b84bb",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Complete Binary Tree\n![[Pasted image 20250407180314.png]]\n\nFilled from left\n-levels 0 until h-1 are completely full\n-level h is left-most",
-      "type": "text",
-      "width": 250,
-      "x": -120,
-      "y": 160
-    },
-    {
       "height": 60,
       "id": "eb14414626caaaa4",
       "styleAttributes": {
@@ -320,45 +497,6 @@
       "width": 380,
       "x": 620,
       "y": -260
-    },
-    {
-      "height": 380,
-      "id": "e5d38de2c76d11e5",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Binary Search tree\nThe rightmost child of the left child is smaller than the leftmost child of the right child\n![[Pasted image 20250407185418.png]]",
-      "type": "text",
-      "width": 300,
-      "x": 340,
-      "y": 160
-    },
-    {
-      "height": 60,
-      "id": "742996adf69348d4",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Format to store and organize data.",
-      "type": "text",
-      "width": 320,
-      "x": -480,
-      "y": -540
-    },
-    {
-      "height": 228,
-      "id": "408bedb8828932c3",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Perfect Binary Tree\n![[Pasted image 20250407180513.png]]\nfilled layers",
-      "type": "text",
-      "width": 250,
-      "x": 680,
-      "y": 160
     },
     {
       "height": 460,
@@ -388,6 +526,19 @@
     },
     {
       "height": 60,
+      "id": "742996adf69348d4",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Format to store and organize data.",
+      "type": "text",
+      "width": 320,
+      "x": -480,
+      "y": -540
+    },
+    {
+      "height": 60,
       "id": "77cc438c5c847135",
       "styleAttributes": {
         "border": "dashed",
@@ -413,30 +564,6 @@
       "y": -540
     },
     {
-      "file": "attachments/Pasted image 20250407175041.png",
-      "height": 341,
-      "id": "54ea35908554a94a",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": -1240,
-      "y": 1160
-    },
-    {
-      "height": 80,
-      "id": "55cc5cd9be786bc3",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "A partial order defines a hierarchy without requiring all elements to be comparable, while a total order enforces comparability between every element.",
-      "type": "text",
-      "width": 680,
-      "x": -1280,
-      "y": 1020
-    },
-    {
       "height": 60,
       "id": "01f3e7bcbf64d533",
       "styleAttributes": {
@@ -448,6 +575,240 @@
       "width": 400,
       "x": -1360,
       "y": -720
+    },
+    {
+      "height": 60,
+      "id": "4296def73cf0f3fe",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "0",
+      "type": "text",
+      "width": 60,
+      "x": -2520,
+      "y": 140
+    },
+    {
+      "height": 60,
+      "id": "16972ad6676e5214",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "1",
+      "type": "text",
+      "width": 60,
+      "x": -2520,
+      "y": 200
+    },
+    {
+      "height": 60,
+      "id": "9b9b7e6c33d435c2",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "2",
+      "type": "text",
+      "width": 60,
+      "x": -2520,
+      "y": 260
+    },
+    {
+      "height": 60,
+      "id": "a4a908945ba82333",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "3",
+      "type": "text",
+      "width": 60,
+      "x": -2520,
+      "y": 320
+    },
+    {
+      "height": 60,
+      "id": "079741e329ed0c8b",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "4",
+      "type": "text",
+      "width": 60,
+      "x": -2520,
+      "y": 380
+    },
+    {
+      "height": 60,
+      "id": "2d59e4ce3e724407",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "5",
+      "type": "text",
+      "width": 60,
+      "x": -2520,
+      "y": 440
+    },
+    {
+      "height": 60,
+      "id": "2175a48bdf5b3fe8",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "[cucumber, spinach]",
+      "type": "text",
+      "width": 180,
+      "x": -2380,
+      "y": 140
+    },
+    {
+      "height": 60,
+      "id": "d6e720e89789125a",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "[pink, green]",
+      "type": "text",
+      "width": 180,
+      "x": -2380,
+      "y": 440
+    },
+    {
+      "height": 60,
+      "id": "9813b52e4b8ec1f5",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "[water, soda]",
+      "type": "text",
+      "width": 180,
+      "x": -2380,
+      "y": 200
+    },
+    {
+      "height": 60,
+      "id": "7f917f2c5eb42d73",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "[table, chair]",
+      "type": "text",
+      "width": 180,
+      "x": -2380,
+      "y": 260
+    },
+    {
+      "height": 60,
+      "id": "79bc63a035794a1d",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "[lychee]",
+      "type": "text",
+      "width": 180,
+      "x": -2380,
+      "y": 320
+    },
+    {
+      "height": 60,
+      "id": "0398523956eaadb2",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "[euro, dollar]",
+      "type": "text",
+      "width": 180,
+      "x": -2380,
+      "y": 380
+    },
+    {
+      "height": 100,
+      "id": "4a79aa9751352e0c",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "(fruit, lychee)",
+      "type": "text",
+      "width": 200,
+      "x": -3120,
+      "y": 300
+    },
+    {
+      "height": 60,
+      "id": "9fe9221d49497a37",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Collision Handling Methods",
+      "type": "text",
+      "width": 260,
+      "x": -2080,
+      "y": 680
+    },
+    {
+      "height": 60,
+      "id": "a64442b10f822e10",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Seperate Chaining",
+      "type": "text",
+      "width": 120,
+      "x": -1920,
+      "y": 900
+    },
+    {
+      "height": 60,
+      "id": "ece0f5a072ba9ab6",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Linear Probing",
+      "type": "text",
+      "width": 140,
+      "x": -2520,
+      "y": 1040
+    },
+    {
+      "height": 60,
+      "id": "687d83780d866bd0",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Open Addressing",
+      "type": "text",
+      "width": 120,
+      "x": -2440,
+      "y": 900
+    },
+    {
+      "height": 120,
+      "id": "b21c73d925fd6f72",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "Hash Function\n(usually not locality sensitive)\n\nh(fruit) = 3",
+      "type": "text",
+      "width": 360,
+      "x": -2920,
+      "y": 280
     }
   ]
 }
