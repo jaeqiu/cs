@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "ac0d85800b25154b",
+        "id": "04beeac62acd3639",
         "type": "tabs",
         "children": [
           {
-            "id": "42ca3c28ec571638",
+            "id": "ed5c056dd46459fd",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "Algorithms and Data Structures/ads_canvas.canvas",
                 "viewState": {
-                  "x": -4744.293095958811,
-                  "y": 89.39275547410398,
-                  "zoom": 0.3333333333333332
+                  "x": -511.81579591712585,
+                  "y": 1516.9552820206734,
+                  "zoom": -0.7446366075191353
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -173,8 +173,13 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "42ca3c28ec571638",
+  "active": "ed5c056dd46459fd",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250414231956.png",
+    "attachments/Pasted image 20250414231859.png",
+    "attachments/Pasted image 20250414231849.png",
+    "Algorithms and Data Structures/ads_merged_unified.pdf",
+    "Algorithms and Data Structures/ads_canvas.canvas",
     "attachments/Pasted image 20250414175909.png",
     "attachments/Pasted image 20250414175541.png",
     "attachments/Pasted image 20250414174847.png",
@@ -186,16 +191,12 @@
     "Algorithms and Data Structures/test.md",
     "Algorithms and Data Structures/Seperate Chaining.md",
     "Algorithms and Data Structures/Collision Handling Methods.md",
-    "Algorithms and Data Structures/ads_canvas.canvas",
     "Algorithms and Data Structures/Open Addressing.md",
     "Algorithms and Data Structures/Linear Probing.md",
     "Algorithms and Data Structures/tessst.md",
     "Algorithms and Data Structures/test2.md",
     "attachments/Pasted image 20250407185418.png",
-    "attachments/Pasted image 20250407185406.png",
     "orphaned files output.md",
-    "attachments/Pasted image 20250407175921.png",
-    "attachments/Pasted image 20250407175956.png",
     "Algorithms and Data Structures/Untitled.md",
     "Algorithms and Data Structures/fdsafdas.md",
     "Algorithms and Data Structures/fdsafdsa.md",
@@ -204,7 +205,6 @@
     "Algorithms and Data Structures/Data Structure.md",
     "attachments/image",
     "Algorithms and Data Structures/attachments",
-    "Algorithms and Data Structures/ads_merged_unified.pdf",
     "Data Structue.md",
     "Algorithms and Data Structures/fffffffffffffff.md",
     "Data Structure.md",
