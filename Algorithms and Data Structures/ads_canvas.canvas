@@ -1376,13 +1376,13 @@
       "y": 1360
     },
     {
-      "height": 740,
+      "height": 320,
       "id": "d9830949207b4b3f",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "Deletion\nIf the deleted key is in a:\n- leaf node: Delete, Fix\n- internal node: Swap, Delete, Fix\n\nFixing is necessary when a node breaks the 2-4 children invariant:\n1. Transfer from sibling that is not minimal, to parent, parent to us\n2. Fuse sibling (minimal) , parent and us. Leave parent node be.\n\nDetailed:\nIf the to be deleted key resides in a node on the leaf layer, just delete and fix\nIf the to be deleted key resides in a node that is not the leaf layer, swap with immediate left cousin, then delete, then do any fixing\n\n\n\n\n\n\n\n\n\nYOUTUBE GUY CLAIMS ALL THE FOLLOWING, DIFFERS FROM TU DELFT:\nThe naive goal is to replace the to be deleted element with it's immediate successor.\n(to preserve the integrity of inequalities)\n\nWhile finding the immediate successor, any traversed node with 1 element triggers a restructure:\n\nRestructure options (Utilize first that applies):\n1. Steal from sibling\n2. Steal from parent\n3. Merge with sibling and parent\n\nMore detailed:\n1.  Steal from immediate (adjacent) sibling (w/ >1 element)\n\t- Rotate (stolen element joins parent, parent joins us), then adopt the orphaned children of the stolen element.\n2. Steal from parent (w/ >1 element)\n\t- Steal a key from the parent, Steal orphaned children elements\n3. Merge with parent and immediate sibling\nThe first option triggers a rotation, then an adoption of child nodes\nThe second option triggers adoption",
+      "text": "Deletion\nIf the deleted key is in a:\n- leaf node: Delete, Fix\n- internal node: Swap, Delete, Fix\n\nFixing is necessary when a node breaks the 2-4 children invariant:\n1. Transfer from sibling that is not minimal, to parent, parent to us\n2. Fuse sibling (minimal) , parent and us. Leave parent node be.\n",
       "type": "text",
       "width": 640,
       "x": 4080,
