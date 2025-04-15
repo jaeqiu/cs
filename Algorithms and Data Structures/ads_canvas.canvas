@@ -253,21 +253,21 @@
     {
       "fromNode": "e5d38de2c76d11e5",
       "fromSide": "bottom",
-      "id": "5438923f10070198",
-      "styleAttributes": {
-        "pathfindingMethod": "square"
-      },
-      "toNode": "8a9231b254e3b0fb",
-      "toSide": "top"
-    },
-    {
-      "fromNode": "e5d38de2c76d11e5",
-      "fromSide": "bottom",
       "id": "b9c31f83330f2ca7",
       "styleAttributes": {
         "pathfindingMethod": "square"
       },
       "toNode": "f166fc1855fa307f",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "78008a33ae1aba07",
+      "fromSide": "bottom",
+      "id": "79bd89a9f2c734c1",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "8a9231b254e3b0fb",
       "toSide": "top"
     }
   ],
@@ -304,8 +304,8 @@
       "styleAttributes": {
       },
       "type": "group",
-      "width": 1360,
-      "x": 3440,
+      "width": 1140,
+      "x": 2880,
       "y": 720
     },
     {
@@ -1225,7 +1225,7 @@
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "RB-tree\n![[Pasted image 20250407182340.png]]\n\nFor all nodes, any path from this node to a descendant leaf has the same amount of black nodes (includes nil leaves being black)\n\nBlack-height: property of a node/subtree. Number of black nodes on the way to any leaf (includes the blackness of the leaves). Will be the same regardless of path because of the RB-Trees invariant. (Black height is only well-defined when Red-Black Tree invariants are satisfied)",
+      "text": "RB-tree\n![[Pasted image 20250407182340.png]]\n\nFor all nodes, any path from this node to a descendant leaf has the same amount of black nodes (includes nil leaves being black)\n\nBlack-height: property of a node/subtree. Number of black nodes on the way to any leaf (includes the blackness of the leaves). Will be the same regardless of path because of the RB-Trees invariant. (Black height is only well-defined when Red-Black Tree invariants are satisfied)\n\nInsertion\n1. Insert the new node as a red node.\n2. If the inserted node was the root, color black\n3. While invariant \"no red children of red parents\" is broken, apply one of the following to the red child:\n\t1. red uncle -> recolor parent, grandparent, uncle\n\t2. black uncle  (triangle) -> rotate parent in opposite direction of child's orientation (if i am left child, rotate right)\n\t3. black uncle (line) -> rotate grandparent opposite direction of  self, recolor original parent, grandparent\n\nDeletion\nIf the to be deleted node has any nil child:\n- transplant(grandparent, child)\n- delete_fixup(child) if deleted was black\nIf the to be deleted node has two children:\n- swap with immediate successor, then delete original.\n- delete_fixup(place_of_deleted_node_after_swap) if deleted was black\n\nDelete_fixup(x):\nsibling is w\nif:\n- w is red:\n\t- set w black\n\t- set parent red\n\t- left rotate parent\n\t- set sibling pointer to new sibling\n- w is black parent of two black children\n\t- set w red\n\t- set x pointer to x's parent\n- w is black parent of red left child and black right child\n\t- set left child black\n\t- set w to red\n\t- right rotate w\n\t- set sibling pointer to new sibling\n- w is black parent of red right child\n\t- set w to parents color\n\t- set parents color to black\n\t- set red child's color to black\n\t- left rotate parent\n\t- set x pointer to root\n",
       "type": "text",
       "width": 460,
       "x": 2340,
@@ -1284,19 +1284,6 @@
       "y": -540
     },
     {
-      "height": 380,
-      "id": "8a9231b254e3b0fb",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "AVL-Tree\n![[Pasted image 20250414231859.png]]\nheight of left and right subtrees may not differ by more than 1, for all subtrees",
-      "type": "text",
-      "width": 460,
-      "x": 2860,
-      "y": 760
-    },
-    {
       "height": 220,
       "id": "f8fc354a08676c03",
       "styleAttributes": {
@@ -1323,19 +1310,6 @@
       "y": 160
     },
     {
-      "height": 460,
-      "id": "78008a33ae1aba07",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Balanced Binary Tree\n![[Pasted image 20250407181002.png]]\nno two leaves differ in depth by more than one\n\nMore specifically:\n1. difference between the left and the right subtree heights for any node is not more than one\n2. the left subtree is balanced\n3. the right subtree is balanced",
-      "type": "text",
-      "width": 400,
-      "x": 3240,
-      "y": 160
-    },
-    {
       "height": 380,
       "id": "f166fc1855fa307f",
       "styleAttributes": {
@@ -1345,7 +1319,7 @@
       "text": "2,4-Tree\n![[Pasted image 20250414231956.png]]",
       "type": "text",
       "width": 340,
-      "x": 3480,
+      "x": 2920,
       "y": 760
     },
     {
@@ -1359,21 +1333,8 @@
       "text": "A multiway search tree where all nodes must have between 2-4 children",
       "type": "text",
       "width": 360,
-      "x": 3480,
-      "y": 1200
-    },
-    {
-      "height": 140,
-      "id": "4b23fb956b376acd",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Insertion\nFind the place and insert.\nIf this results in a tree with 4 elements, promote a middle child to the parent's elements (and repeat until the condition fails.)",
-      "type": "text",
-      "width": 480,
-      "x": 3480,
-      "y": 1360
+      "x": 3300,
+      "y": 740
     },
     {
       "height": 320,
@@ -1382,11 +1343,63 @@
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "Deletion\nIf the deleted key is in a:\n- leaf node: Delete, Fix\n- internal node: Swap, Delete, Fix\n\nFixing is necessary when a node breaks the 2-4 children invariant:\n1. Transfer from sibling that is not minimal, to parent, parent to us\n2. Fuse sibling (minimal) , parent and us. Leave parent node be.\n",
+      "text": "Deletion\nIf the deleted key is in a:\n- leaf node: Delete, Fix\n- internal node: Swap, Delete, Fix\n\nFixing is necessary when a node breaks the 2-4 children invariant:\n1. Transfer from sibling that is not minimal, to parent, parent to us\n2. Fuse sibling (minimal) , parent and us. Leave parent node be (potentially key-less).\n",
       "type": "text",
       "width": 640,
-      "x": 4080,
-      "y": 800
+      "x": 3320,
+      "y": 880
+    },
+    {
+      "height": 320,
+      "id": "4b23fb956b376acd",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Insertion\n1. Use the search invariants to find the designated leaf node to inject into\n2. Add the new key\n3. Fix overflows by promoting a middle child to the parent node (just add to parent, no intermediate generation is initialized)\n4. Keep fixing potential overflows that bubble\nIf this results in a tree with 4 elements, promote a middle child to the parent's elements (and repeat until the condition fails.)",
+      "type": "text",
+      "width": 640,
+      "x": 3340,
+      "y": 1220
+    },
+    {
+      "height": 460,
+      "id": "78008a33ae1aba07",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Balanced Binary Tree\n![[Pasted image 20250407181002.png]]\nno two leaves differ in depth by more than one\n\nMore specifically:\n1. difference between the left and the right subtree heights for any node is not more than one\n2. the left subtree is balanced\n3. the right subtree is balanced",
+      "type": "text",
+      "width": 400,
+      "x": 4320,
+      "y": 160
+    },
+    {
+      "height": 380,
+      "id": "8a9231b254e3b0fb",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "AVL-Tree\n![[Pasted image 20250414231859.png]]\nheight of left and right subtrees may not differ by more than 1, for all subtrees",
+      "type": "text",
+      "width": 480,
+      "x": 4280,
+      "y": 720
+    },
+    {
+      "height": 150,
+      "id": "dce6d2b1daf416ac",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "heapify\nread the raw data as a binary tree indexed tree\ngo layer by layer, bottom up, and make sure that subtrees from that layer downwards are heaps (by swapping from top to bottom)\n\nIterate bottom up, enforce invariant top down",
+      "type": "text",
+      "width": 400,
+      "x": 1400,
+      "y": 560
     }
   ]
 }
