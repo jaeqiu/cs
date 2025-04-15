@@ -285,18 +285,6 @@
       "y": -560
     },
     {
-      "color": "#fffa66",
-      "height": 2080,
-      "id": "35289eb4174be150",
-      "label": "EXAM TRAINING FAILS",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 1800,
-      "x": -2320,
-      "y": 1200
-    },
-    {
       "color": "3",
       "height": 2240,
       "id": "790d3bd9d9086230",
@@ -309,18 +297,6 @@
       "y": -560
     },
     {
-      "color": "#00ffcc",
-      "height": 1000,
-      "id": "f133bab6096c9c02",
-      "label": "Hash table",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 1640,
-      "x": -2160,
-      "y": 200
-    },
-    {
       "color": "#00bfff",
       "height": 880,
       "id": "ed220e67568d1a8f",
@@ -331,6 +307,30 @@
       "width": 1360,
       "x": 3440,
       "y": 720
+    },
+    {
+      "color": "#fffa66",
+      "height": 2080,
+      "id": "35289eb4174be150",
+      "label": "EXAM TRAINING FAILS",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1800,
+      "x": -2320,
+      "y": 1200
+    },
+    {
+      "color": "#00ffcc",
+      "height": 1000,
+      "id": "f133bab6096c9c02",
+      "label": "Hash table",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1640,
+      "x": -2160,
+      "y": 200
     },
     {
       "color": "5",
@@ -895,15 +895,249 @@
     },
     {
       "height": 60,
-      "id": "8ee805a5d364f08b",
+      "id": "29653a0c82beb068",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "An abstract data type defines what you can do; a data structure defines how you do it.",
+      "text": "Hash Table",
       "type": "text",
-      "width": 413,
-      "x": -380,
+      "width": 160,
+      "x": 1080,
+      "y": -120
+    },
+    {
+      "height": 60,
+      "id": "64f59c14cc855861",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Heap",
+      "type": "text",
+      "width": 160,
+      "x": 1080,
+      "y": -20
+    },
+    {
+      "height": 60,
+      "id": "b1540284dafa76df",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Graph",
+      "type": "text",
+      "width": 160,
+      "x": 1080,
+      "y": 80
+    },
+    {
+      "height": 60,
+      "id": "f25a876b98d12bb0",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Stack",
+      "type": "text",
+      "width": 160,
+      "x": 1080,
+      "y": 180
+    },
+    {
+      "height": 60,
+      "id": "f264a6d7f9f971c2",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Queue",
+      "type": "text",
+      "width": 160,
+      "x": 1080,
+      "y": 280
+    },
+    {
+      "height": 60,
+      "id": "d7c6c427a2f2594b",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Tree",
+      "type": "text",
+      "width": 140,
+      "x": 800,
+      "y": 180
+    },
+    {
+      "height": 60,
+      "id": "fbea0653f96b075a",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Priority Queue",
+      "type": "text",
+      "width": 140,
+      "x": 800,
+      "y": 280
+    },
+    {
+      "height": 60,
+      "id": "52876202d41dd4a0",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Set",
+      "type": "text",
+      "width": 140,
+      "x": 800,
+      "y": -20
+    },
+    {
+      "height": 60,
+      "id": "5fe792321d4426b2",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Graph",
+      "type": "text",
+      "width": 140,
+      "x": 800,
+      "y": 80
+    },
+    {
+      "height": 60,
+      "id": "3f5ffd642805b818",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Doubly Linked List",
+      "type": "text",
+      "width": 160,
+      "x": 1080,
+      "y": -320
+    },
+    {
+      "height": 60,
+      "id": "87204c72c505c6dd",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Circular Linked List",
+      "type": "text",
+      "width": 160,
+      "x": 1080,
+      "y": -220
+    },
+    {
+      "height": 60,
+      "id": "b9cc3768cecea460",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Queue",
+      "type": "text",
+      "width": 140,
+      "x": 800,
+      "y": -320
+    },
+    {
+      "height": 60,
+      "id": "e7914c0b8614867a",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Deque",
+      "type": "text",
+      "width": 140,
+      "x": 800,
+      "y": -220
+    },
+    {
+      "height": 60,
+      "id": "19c3a28eeb7a7d2a",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Map",
+      "type": "text",
+      "width": 140,
+      "x": 800,
+      "y": -120
+    },
+    {
+      "height": 60,
+      "id": "7a1438e1ebb5b98e",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Linked List",
+      "type": "text",
+      "width": 160,
+      "x": 1080,
+      "y": -420
+    },
+    {
+      "height": 60,
+      "id": "67e1aee430d9c343",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Stack",
+      "type": "text",
+      "width": 140,
+      "x": 800,
+      "y": -420
+    },
+    {
+      "height": 60,
+      "id": "f4c56ce58b311993",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Array",
+      "type": "text",
+      "width": 160,
+      "x": 1080,
+      "y": -520
+    },
+    {
+      "height": 60,
+      "id": "5abcad5ac22d008b",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "List",
+      "type": "text",
+      "width": 140,
+      "x": 800,
+      "y": -520
+    },
+    {
+      "height": 60,
+      "id": "742996adf69348d4",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Format to store and organize data.",
+      "type": "text",
+      "width": 320,
+      "x": 1800,
       "y": -540
     },
     {
@@ -920,19 +1154,6 @@
       "y": 540
     },
     {
-      "height": 320,
-      "id": "0d2c6cc91b386a0f",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": null
-      },
-      "text": "max-heap\n\nThe keys stored at each node of the tree must be comparable according to a total order relations of comparability, antisymmetry, and transitivity.\n\n- binary tree\n- parent element is max value of its subtree\n- complete.",
-      "type": "text",
-      "width": 300,
-      "x": 1820,
-      "y": 640
-    },
-    {
       "height": 148,
       "id": "ba1f763b732e5b3a",
       "styleAttributes": {
@@ -946,6 +1167,19 @@
       "y": 320
     },
     {
+      "height": 320,
+      "id": "0d2c6cc91b386a0f",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": null
+      },
+      "text": "max-heap\n\nThe keys stored at each node of the tree must be comparable according to a total order relations of comparability, antisymmetry, and transitivity.\n\n- binary tree\n- parent element is max value of its subtree\n- complete.",
+      "type": "text",
+      "width": 300,
+      "x": 1820,
+      "y": 640
+    },
+    {
       "height": 360,
       "id": "13b13025ca9b84bb",
       "styleAttributes": {
@@ -956,6 +1190,19 @@
       "type": "text",
       "width": 250,
       "x": 2160,
+      "y": 160
+    },
+    {
+      "height": 216,
+      "id": "2202da18a7062c7c",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Full Binary Tree\n0 or 2 children\n![[Pasted image 20250407180301.png]]",
+      "type": "text",
+      "width": 160,
+      "x": 2440,
       "y": 160
     },
     {
@@ -972,32 +1219,6 @@
       "y": -440
     },
     {
-      "height": 216,
-      "id": "2202da18a7062c7c",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Full Binary Tree\n0 or 2 children\n![[Pasted image 20250407180301.png]]",
-      "type": "text",
-      "width": 160,
-      "x": 2440,
-      "y": 160
-    },
-    {
-      "height": 380,
-      "id": "e5d38de2c76d11e5",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Binary Search tree\nThe rightmost child of the left child is smaller than the leftmost child of the right child\n![[Pasted image 20250407185418.png]]",
-      "type": "text",
-      "width": 300,
-      "x": 2620,
-      "y": 160
-    },
-    {
       "height": 520,
       "id": "74c5b381e62a9002",
       "styleAttributes": {
@@ -1009,19 +1230,6 @@
       "width": 460,
       "x": 2340,
       "y": 740
-    },
-    {
-      "height": 380,
-      "id": "8a9231b254e3b0fb",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "AVL-Tree\n![[Pasted image 20250414231859.png]]\nheight of left and right subtrees may not differ by more than 1, for all subtrees",
-      "type": "text",
-      "width": 460,
-      "x": 2860,
-      "y": 760
     },
     {
       "height": 60,
@@ -1048,6 +1256,45 @@
       "width": 260,
       "x": 2460,
       "y": -60
+    },
+    {
+      "height": 380,
+      "id": "e5d38de2c76d11e5",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Binary Search tree\nThe rightmost child of the left child is smaller than the leftmost child of the right child\n![[Pasted image 20250407185418.png]]",
+      "type": "text",
+      "width": 300,
+      "x": 2620,
+      "y": 160
+    },
+    {
+      "height": 60,
+      "id": "8ee805a5d364f08b",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "An abstract data type defines what you can do; a data structure defines how you do it.",
+      "type": "text",
+      "width": 413,
+      "x": -380,
+      "y": -540
+    },
+    {
+      "height": 380,
+      "id": "8a9231b254e3b0fb",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "AVL-Tree\n![[Pasted image 20250414231859.png]]\nheight of left and right subtrees may not differ by more than 1, for all subtrees",
+      "type": "text",
+      "width": 460,
+      "x": 2860,
+      "y": 760
     },
     {
       "height": 220,
@@ -1102,19 +1349,6 @@
       "y": 760
     },
     {
-      "height": 740,
-      "id": "d9830949207b4b3f",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Deletion\n\nThe naive goal is to replace the to be deleted element with it's immediate successor.\n(to preserve the integrity of inequalities)\n\nWhile finding the immediate successor, any traversed node with 1 element triggers a restructure:\n\nRestructure options (Utilize first that applies):\n1. Steal from sibling\n2. Steal from parent\n3. Merge with sibling and parent\n\nMore detailed:\n1.  Steal from immediate (adjacent) sibling (w/ >1 element)\n\t- Rotate (stolen element joins parent, parent joins us), then adopt the orphaned children of the stolen element.\n2. Steal from parent (w/ >1 element)\n\t- Steal a key from the parent, Steal orphaned children elements\n3. Merge with parent and immediate sibling\nThe first option triggers a rotation, then an adoption of child nodes\nThe second option triggers adoption",
-      "type": "text",
-      "width": 640,
-      "x": 4080,
-      "y": 800
-    },
-    {
       "color": "#00bfff",
       "height": 120,
       "id": "a5c79b01924468b7",
@@ -1142,251 +1376,17 @@
       "y": 1360
     },
     {
-      "height": 60,
-      "id": "742996adf69348d4",
+      "height": 740,
+      "id": "d9830949207b4b3f",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "Format to store and organize data.",
+      "text": "Deletion\nIf the deleted key is in a:\n- leaf node: Delete, Fix\n- internal node: Swap, Delete, Fix\n\nFixing is necessary when a node breaks the 2-4 children invariant:\n1. Transfer from sibling that is not minimal, to parent, parent to us\n2. Fuse sibling (minimal) , parent and us. Leave parent node be.\n\nDetailed:\nIf the to be deleted key resides in a node on the leaf layer, just delete and fix\nIf the to be deleted key resides in a node that is not the leaf layer, swap with immediate left cousin, then delete, then do any fixing\n\n\n\n\n\n\n\n\n\nYOUTUBE GUY CLAIMS ALL THE FOLLOWING, DIFFERS FROM TU DELFT:\nThe naive goal is to replace the to be deleted element with it's immediate successor.\n(to preserve the integrity of inequalities)\n\nWhile finding the immediate successor, any traversed node with 1 element triggers a restructure:\n\nRestructure options (Utilize first that applies):\n1. Steal from sibling\n2. Steal from parent\n3. Merge with sibling and parent\n\nMore detailed:\n1.  Steal from immediate (adjacent) sibling (w/ >1 element)\n\t- Rotate (stolen element joins parent, parent joins us), then adopt the orphaned children of the stolen element.\n2. Steal from parent (w/ >1 element)\n\t- Steal a key from the parent, Steal orphaned children elements\n3. Merge with parent and immediate sibling\nThe first option triggers a rotation, then an adoption of child nodes\nThe second option triggers adoption",
       "type": "text",
-      "width": 320,
-      "x": 1800,
-      "y": -540
-    },
-    {
-      "height": 60,
-      "id": "29653a0c82beb068",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Hash Table",
-      "type": "text",
-      "width": 160,
-      "x": 1080,
-      "y": -120
-    },
-    {
-      "height": 60,
-      "id": "64f59c14cc855861",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Heap",
-      "type": "text",
-      "width": 160,
-      "x": 1080,
-      "y": -20
-    },
-    {
-      "height": 60,
-      "id": "b1540284dafa76df",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Graph",
-      "type": "text",
-      "width": 160,
-      "x": 1080,
-      "y": 80
-    },
-    {
-      "height": 60,
-      "id": "f25a876b98d12bb0",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Stack",
-      "type": "text",
-      "width": 160,
-      "x": 1080,
-      "y": 180
-    },
-    {
-      "height": 60,
-      "id": "f4c56ce58b311993",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Array",
-      "type": "text",
-      "width": 160,
-      "x": 1080,
-      "y": -520
-    },
-    {
-      "height": 60,
-      "id": "7a1438e1ebb5b98e",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Linked List",
-      "type": "text",
-      "width": 160,
-      "x": 1080,
-      "y": -420
-    },
-    {
-      "height": 60,
-      "id": "3f5ffd642805b818",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Doubly Linked List",
-      "type": "text",
-      "width": 160,
-      "x": 1080,
-      "y": -320
-    },
-    {
-      "height": 60,
-      "id": "87204c72c505c6dd",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Circular Linked List",
-      "type": "text",
-      "width": 160,
-      "x": 1080,
-      "y": -220
-    },
-    {
-      "height": 60,
-      "id": "f264a6d7f9f971c2",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Queue",
-      "type": "text",
-      "width": 160,
-      "x": 1080,
-      "y": 280
-    },
-    {
-      "height": 60,
-      "id": "d7c6c427a2f2594b",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Tree",
-      "type": "text",
-      "width": 140,
-      "x": 800,
-      "y": 180
-    },
-    {
-      "height": 60,
-      "id": "fbea0653f96b075a",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Priority Queue",
-      "type": "text",
-      "width": 140,
-      "x": 800,
-      "y": 280
-    },
-    {
-      "height": 60,
-      "id": "b9cc3768cecea460",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Queue",
-      "type": "text",
-      "width": 140,
-      "x": 800,
-      "y": -320
-    },
-    {
-      "height": 60,
-      "id": "e7914c0b8614867a",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Deque",
-      "type": "text",
-      "width": 140,
-      "x": 800,
-      "y": -220
-    },
-    {
-      "height": 60,
-      "id": "19c3a28eeb7a7d2a",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Map",
-      "type": "text",
-      "width": 140,
-      "x": 800,
-      "y": -120
-    },
-    {
-      "height": 60,
-      "id": "52876202d41dd4a0",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Set",
-      "type": "text",
-      "width": 140,
-      "x": 800,
-      "y": -20
-    },
-    {
-      "height": 60,
-      "id": "5abcad5ac22d008b",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "List",
-      "type": "text",
-      "width": 140,
-      "x": 800,
-      "y": -520
-    },
-    {
-      "height": 60,
-      "id": "67e1aee430d9c343",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Stack",
-      "type": "text",
-      "width": 140,
-      "x": 800,
-      "y": -420
-    },
-    {
-      "height": 60,
-      "id": "5fe792321d4426b2",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Graph",
-      "type": "text",
-      "width": 140,
-      "x": 800,
-      "y": 80
+      "width": 640,
+      "x": 4080,
+      "y": 800
     }
   ]
 }
