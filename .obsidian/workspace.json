@@ -4,24 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "04beeac62acd3639",
+        "id": "418e891b87de0aff",
         "type": "tabs",
         "children": [
           {
-            "id": "ed5c056dd46459fd",
+            "id": "32f225a19d945881",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "pdf",
               "state": {
-                "file": "Algorithms and Data Structures/ads_canvas.canvas",
-                "viewState": {
-                  "x": 1974.7834639870487,
-                  "y": 769.2907945469636,
-                  "zoom": 0.0011332954847670385
-                }
+                "file": "Computational Intelligence/ci_merged_unified.pdf"
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "ads_canvas"
+              "icon": "lucide-file-text",
+              "title": "ci_merged_unified"
             }
           }
         ]
@@ -173,13 +168,16 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "ed5c056dd46459fd",
+  "active": "32f225a19d945881",
   "lastOpenFiles": [
+    "Computational Intelligence/ci_merged_unified.pdf",
+    "Computational Intelligence",
+    "Algorithms and Data Structures/ads_canvas.canvas",
+    "Computational Inte",
     "attachments/Pasted image 20250414231956.png",
     "attachments/Pasted image 20250414231859.png",
     "attachments/Pasted image 20250414231849.png",
     "Algorithms and Data Structures/ads_merged_unified.pdf",
-    "Algorithms and Data Structures/ads_canvas.canvas",
     "attachments/Pasted image 20250414175909.png",
     "attachments/Pasted image 20250414175541.png",
     "attachments/Pasted image 20250414174847.png",
@@ -195,7 +193,6 @@
     "Algorithms and Data Structures/Linear Probing.md",
     "Algorithms and Data Structures/tessst.md",
     "Algorithms and Data Structures/test2.md",
-    "attachments/Pasted image 20250407185418.png",
     "orphaned files output.md",
     "Algorithms and Data Structures/Untitled.md",
     "Algorithms and Data Structures/fdsafdas.md",
@@ -224,7 +221,6 @@
     "fdsgfdsgfds.canvas",
     "repo_status.bat",
     "repo_save.bat",
-    "repo_fetch.bat",
-    "repo_clean_reset.bat"
+    "repo_fetch.bat"
   ]
 }
