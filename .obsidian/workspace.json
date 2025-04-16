@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Algorithms and Data Structures/ads_canvas.canvas",
+                "file": "Computational Intelligence/ci_canvas.canvas",
                 "viewState": {
-                  "x": 1300,
-                  "y": 890,
-                  "zoom": -2.0016472257251587
+                  "x": 2770.905035312879,
+                  "y": 2713.474367621548,
+                  "zoom": 0.3333333333333332
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "ads_canvas"
+              "title": "ci_canvas"
             }
           }
         ]
@@ -175,21 +175,22 @@
   },
   "active": "c0dd23f074418856",
   "lastOpenFiles": [
-    "orphaned files output.md",
-    "attachments/searchtree.png",
-    "attachments/geneticalgorithm.png",
-    "attachments/avltree.png",
+    "attachments/Pasted image 20250416233814.png",
+    "attachments/Pasted image 20250416233749.png",
+    "attachments/Pasted image 20250416233307.png",
+    "attachments/Pasted image 20250416233235.png",
+    "attachments/Pasted image 20250416233022.png",
+    "attachments/Pasted image 20250416232432.png",
+    "attachments/Pasted image 20250416225908.png",
+    "attachments/Pasted image 20250416224402.png",
+    "attachments/Pasted image 20250416224355.png",
+    "attachments/Pasted image 20250416220602.png",
+    "attachments/Pasted image 20250416220127.png",
     "Computational Intelligence/ci_canvas.canvas",
     "Algorithms and Data Structures/ads_canvas.canvas",
+    "orphaned files output.md",
     "Computational Intelligence/Drawing 2025-04-16 17.42.09.excalidraw.md",
     "Computational Intelligence/answers_asdfasdf.pdf",
-    "attachments/cnnvisual.png",
-    "attachments/geneticalgorouletteselection.png",
-    "attachments/fitnessofchromosome2.png",
-    "attachments/fitnessofchromosome.png",
-    "attachments/24tree.png",
-    "attachments/avltreewhite.png",
-    "attachments/adsquestion6.png",
     "Computational Intelligence/testt.pdf",
     "Computational Intelligence/answers_asdfasdf.pdf.crdownload",
     "Computational Intelligence/keywords.md",
