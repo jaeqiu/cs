@@ -418,58 +418,6 @@
     },
     {
       "height": 60,
-      "id": "a4a908945ba82333",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "3",
-      "type": "text",
-      "width": 60,
-      "x": -1440,
-      "y": 480
-    },
-    {
-      "height": 60,
-      "id": "16972ad6676e5214",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "1",
-      "type": "text",
-      "width": 60,
-      "x": -1440,
-      "y": 360
-    },
-    {
-      "height": 60,
-      "id": "9b9b7e6c33d435c2",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "2",
-      "type": "text",
-      "width": 60,
-      "x": -1440,
-      "y": 420
-    },
-    {
-      "height": 60,
-      "id": "79bc63a035794a1d",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "[lychee]",
-      "type": "text",
-      "width": 180,
-      "x": -1300,
-      "y": 480
-    },
-    {
-      "height": 60,
       "id": "2175a48bdf5b3fe8",
       "styleAttributes": {
         "border": "dashed",
@@ -483,29 +431,81 @@
     },
     {
       "height": 60,
-      "id": "9813b52e4b8ec1f5",
+      "id": "2d59e4ce3e724407",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "[water, soda]",
+      "text": "5",
       "type": "text",
-      "width": 180,
-      "x": -1300,
-      "y": 360
+      "width": 60,
+      "x": -1440,
+      "y": 600
     },
     {
       "height": 60,
-      "id": "7f917f2c5eb42d73",
+      "id": "079741e329ed0c8b",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "[table, chair]",
+      "text": "4",
       "type": "text",
-      "width": 180,
-      "x": -1300,
-      "y": 420
+      "width": 60,
+      "x": -1440,
+      "y": 540
+    },
+    {
+      "height": 400,
+      "id": "fd28de06d25b3e20",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "I thought answer b because i imagined n numbers need to be sorted, and for some reason i imagined that a single number being sorted in a k-digit space would take log(k). \n\nThe real answer is C\nRadix sort has a time complexity of $O(d⋅(n+b))$\n- d digits in a single number\n- n numbers to be sorted\n- b base of a digit\nIn essence\nd passes of O(n+b) counting sort, which uses counting to determine the starting index of each number with a certain base, per base. ",
+      "type": "text",
+      "width": 880,
+      "x": -1800,
+      "y": 2280
+    },
+    {
+      "height": 220,
+      "id": "c6fba5a951a00e79",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "I didn't read properly\n\nI had answer B because\nI read \"each considering one new edge\" as \"each adding one new edge\"\nI thought it made sense if they defined a single iteration as ending once an edge has been added.\nIn truth this doesn't make sense because that would require subiterations, which is far-fetched.",
+      "type": "text",
+      "width": 800,
+      "x": -1800,
+      "y": 2720
+    },
+    {
+      "height": 180,
+      "id": "a1660f5460d08c49",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Quadratic Probing\nUpon collision, jump by ${attempt\\_number}^2$",
+      "type": "text",
+      "width": 200,
+      "x": -1360,
+      "y": 880
+    },
+    {
+      "height": 260,
+      "id": "6f5b96aa29bc5e42",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Linear Probing\nUpon collision, traverse linearly until a free spot is found\n\nWhen utilising the result, make sure get functions search until the last position a value can be. Use DEFUNCT when removing to signal to search functions to keep searching beyond DEFUNCT (EMPTY would imply linear probing could never reach beyond)",
+      "type": "text",
+      "width": 440,
+      "x": -1800,
+      "y": 880
     },
     {
       "height": 120,
@@ -535,29 +535,79 @@
     },
     {
       "height": 60,
-      "id": "2d59e4ce3e724407",
+      "id": "cb1faf2a349d16ce",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "5",
+      "text": "Open Addressing",
       "type": "text",
-      "width": 60,
-      "x": -1440,
+      "width": 140,
+      "x": -940,
+      "y": 760
+    },
+    {
+      "file": "attachments/adsquestion4.png",
+      "height": 104,
+      "id": "33e60779ba3e7640",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 399,
+      "x": -2280,
+      "y": 2480
+    },
+    {
+      "height": 180,
+      "id": "6e824f3153cdf1a6",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Double Hashing\nUpon collision, use another hash function to determine jump size",
+      "type": "text",
+      "width": 300,
+      "x": -1160,
+      "y": 880
+    },
+    {
+      "height": 60,
+      "id": "d6e720e89789125a",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "[pink, green]",
+      "type": "text",
+      "width": 180,
+      "x": -1300,
       "y": 600
     },
     {
       "height": 60,
-      "id": "079741e329ed0c8b",
+      "id": "0398523956eaadb2",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "4",
+      "text": "[euro, dollar]",
       "type": "text",
-      "width": 60,
-      "x": -1440,
+      "width": 180,
+      "x": -1300,
       "y": 540
+    },
+    {
+      "height": 60,
+      "id": "a64442b10f822e10",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Seperate Chaining",
+      "type": "text",
+      "width": 120,
+      "x": -680,
+      "y": 760
     },
     {
       "height": 260,
@@ -599,19 +649,6 @@
       "y": 1560
     },
     {
-      "height": 400,
-      "id": "fd28de06d25b3e20",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "I thought answer b because i imagined n numbers need to be sorted, and for some reason i imagined that a single number being sorted in a k-digit space would take log(k). \n\nThe real answer is C\nRadix sort has a time complexity of $O(d⋅(n+b))$\n- d digits in a single number\n- n numbers to be sorted\n- b base of a digit\nIn essence\nd passes of O(n+b) counting sort, which uses counting to determine the starting index of each number with a certain base, per base. ",
-      "type": "text",
-      "width": 880,
-      "x": -1800,
-      "y": 2280
-    },
-    {
       "height": 60,
       "id": "77cc438c5c847135",
       "styleAttributes": {
@@ -623,17 +660,6 @@
       "width": 360,
       "x": -1860,
       "y": -1480
-    },
-    {
-      "file": "attachments/ordertheory.png",
-      "height": 341,
-      "id": "54ea35908554a94a",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": -2120,
-      "y": -280
     },
     {
       "height": 150,
@@ -649,7 +675,7 @@
       "y": 3060
     },
     {
-      "file": "attachments/Pasted image 20250414175541.png",
+      "file": "attachments/adsquestion5.png",
       "height": 262,
       "id": "e5b063cb3df70e49",
       "styleAttributes": {
@@ -660,20 +686,7 @@
       "y": 2720
     },
     {
-      "height": 220,
-      "id": "c6fba5a951a00e79",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "I didn't read properly\n\nI had answer B because\nI read \"each considering one new edge\" as \"each adding one new edge\"\nI thought it made sense if they defined a single iteration as ending once an edge has been added.\nIn truth this doesn't make sense because that would require subiterations, which is far-fetched.",
-      "type": "text",
-      "width": 800,
-      "x": -1800,
-      "y": 2720
-    },
-    {
-      "file": "attachments/Pasted image 20250414175909.png",
+      "file": "attachments/adsquestion6.png",
       "height": 149,
       "id": "1deefd12099234b3",
       "styleAttributes": {
@@ -684,43 +697,28 @@
       "y": 3080
     },
     {
-      "height": 180,
-      "id": "a1660f5460d08c49",
+      "height": 150,
+      "id": "b3588592f0fc5463",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "Quadratic Probing\nUpon collision, jump by ${attempt\\_number}^2$",
+      "text": "-thought a was false, didnt see 2^n\n-thought c was true, mixed up lower bound with upper bound, or mixed up false with true",
       "type": "text",
-      "width": 200,
-      "x": -1360,
-      "y": 880
-    },
-    {
-      "height": 60,
-      "id": "cb1faf2a349d16ce",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Open Addressing",
-      "type": "text",
-      "width": 140,
-      "x": -940,
-      "y": 760
-    },
-    {
-      "height": 260,
-      "id": "6f5b96aa29bc5e42",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Linear Probing\nUpon collision, traverse linearly until a free spot is found\n\nWhen utilising the result, make sure get functions search until the last position a value can be. Use DEFUNCT when removing to signal to search functions to keep searching beyond DEFUNCT (EMPTY would imply linear probing could never reach beyond)",
-      "type": "text",
-      "width": 440,
+      "width": 400,
       "x": -1800,
-      "y": 880
+      "y": 1300
+    },
+    {
+      "file": "attachments/ordertheory.png",
+      "height": 341,
+      "id": "54ea35908554a94a",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -2120,
+      "y": -280
     },
     {
       "height": 80,
@@ -748,20 +746,7 @@
       "y": 80
     },
     {
-      "height": 150,
-      "id": "b3588592f0fc5463",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "-thought a was false, didnt see 2^n\n-thought c was true, mixed up lower bound with upper bound, or mixed up false with true",
-      "type": "text",
-      "width": 400,
-      "x": -1800,
-      "y": 1300
-    },
-    {
-      "file": "attachments/Pasted image 20250414173730.png",
+      "file": "attachments/adsquestion3.png",
       "height": 167,
       "id": "cb04e90190248acb",
       "styleAttributes": {
@@ -772,18 +757,7 @@
       "y": 1980
     },
     {
-      "file": "attachments/Pasted image 20250414174847.png",
-      "height": 104,
-      "id": "33e60779ba3e7640",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 399,
-      "x": -2280,
-      "y": 2480
-    },
-    {
-      "file": "attachments/Pasted image 20250414172217.png",
+      "file": "attachments/adsquestion.png",
       "height": 247,
       "id": "ca310e8346ff0bdd",
       "styleAttributes": {
@@ -794,7 +768,7 @@
       "y": 1260
     },
     {
-      "file": "attachments/Pasted image 20250414172627.png",
+      "file": "attachments/adsquestion2.png",
       "height": 164,
       "id": "a8dfe6ae5f938ea2",
       "styleAttributes": {
@@ -805,7 +779,7 @@
       "y": 1780
     },
     {
-      "file": "attachments/Pasted image 20250414172201.png",
+      "file": "attachments/question.png",
       "height": 164,
       "id": "653d1303858865dc",
       "styleAttributes": {
@@ -814,32 +788,6 @@
       "width": 400,
       "x": -2260,
       "y": 1560
-    },
-    {
-      "height": 60,
-      "id": "b9cc3768cecea460",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Queue",
-      "type": "text",
-      "width": 140,
-      "x": 800,
-      "y": -320
-    },
-    {
-      "height": 60,
-      "id": "e7914c0b8614867a",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Deque",
-      "type": "text",
-      "width": 140,
-      "x": 800,
-      "y": -220
     },
     {
       "height": 60,
@@ -866,6 +814,32 @@
       "width": 140,
       "x": 800,
       "y": -120
+    },
+    {
+      "height": 60,
+      "id": "b9cc3768cecea460",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Queue",
+      "type": "text",
+      "width": 140,
+      "x": 800,
+      "y": -320
+    },
+    {
+      "height": 60,
+      "id": "e7914c0b8614867a",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Deque",
+      "type": "text",
+      "width": 140,
+      "x": 800,
+      "y": -220
     },
     {
       "height": 60,
@@ -947,6 +921,84 @@
     },
     {
       "height": 60,
+      "id": "a4a908945ba82333",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "3",
+      "type": "text",
+      "width": 60,
+      "x": -1440,
+      "y": 480
+    },
+    {
+      "height": 60,
+      "id": "16972ad6676e5214",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "1",
+      "type": "text",
+      "width": 60,
+      "x": -1440,
+      "y": 360
+    },
+    {
+      "height": 60,
+      "id": "9b9b7e6c33d435c2",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "2",
+      "type": "text",
+      "width": 60,
+      "x": -1440,
+      "y": 420
+    },
+    {
+      "height": 60,
+      "id": "79bc63a035794a1d",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "[lychee]",
+      "type": "text",
+      "width": 180,
+      "x": -1300,
+      "y": 480
+    },
+    {
+      "height": 60,
+      "id": "9813b52e4b8ec1f5",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "[water, soda]",
+      "type": "text",
+      "width": 180,
+      "x": -1300,
+      "y": 360
+    },
+    {
+      "height": 60,
+      "id": "7f917f2c5eb42d73",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "[table, chair]",
+      "type": "text",
+      "width": 180,
+      "x": -1300,
+      "y": 420
+    },
+    {
+      "height": 60,
       "id": "5abcad5ac22d008b",
       "styleAttributes": {
         "border": "dashed",
@@ -970,58 +1022,6 @@
       "width": 413,
       "x": -380,
       "y": -540
-    },
-    {
-      "height": 180,
-      "id": "6e824f3153cdf1a6",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Double Hashing\nUpon collision, use another hash function to determine jump size",
-      "type": "text",
-      "width": 300,
-      "x": -1160,
-      "y": 880
-    },
-    {
-      "height": 60,
-      "id": "d6e720e89789125a",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "[pink, green]",
-      "type": "text",
-      "width": 180,
-      "x": -1300,
-      "y": 600
-    },
-    {
-      "height": 60,
-      "id": "0398523956eaadb2",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "[euro, dollar]",
-      "type": "text",
-      "width": 180,
-      "x": -1300,
-      "y": 540
-    },
-    {
-      "height": 60,
-      "id": "a64442b10f822e10",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Seperate Chaining",
-      "type": "text",
-      "width": 120,
-      "x": -680,
-      "y": 760
     },
     {
       "height": 60,
@@ -1095,7 +1095,7 @@
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "B+ Tree\n![[Pasted image 20250407180137.png]]",
+      "text": "B+ Tree\n![[tree.png]]",
       "type": "text",
       "width": 380,
       "x": 2900,
@@ -1108,7 +1108,7 @@
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "Perfect Binary Tree\n![[Pasted image 20250407180513.png]]\nfilled layers",
+      "text": "Perfect Binary Tree\n![[perfectbinarytree.png]]\nfilled layers",
       "type": "text",
       "width": 250,
       "x": 2960,
@@ -1134,7 +1134,7 @@
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "AVL-Tree\n![[Pasted image 20250414231859.png]]\nheight of left and right subtrees may not differ by more than 1, for all subtrees",
+      "text": "AVL-Tree\n![[avltreewhite.png]]\nheight of left and right subtrees may not differ by more than 1, for all subtrees",
       "type": "text",
       "width": 480,
       "x": 4280,
@@ -1147,7 +1147,7 @@
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "Balanced Binary Tree\n![[Pasted image 20250407181002.png]]\nno two leaves differ in depth by more than one\n\nMore specifically:\n1. difference between the left and the right subtree heights for any node is not more than one\n2. the left subtree is balanced\n3. the right subtree is balanced",
+      "text": "Balanced Binary Tree\n![[binarytree.png]]\nno two leaves differ in depth by more than one\n\nMore specifically:\n1. difference between the left and the right subtree heights for any node is not more than one\n2. the left subtree is balanced\n3. the right subtree is balanced",
       "type": "text",
       "width": 400,
       "x": 4320,
@@ -1160,7 +1160,7 @@
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "2,4-Tree\n![[Pasted image 20250414231956.png]]",
+      "text": "2,4-Tree\n![[24tree.png]]",
       "type": "text",
       "width": 340,
       "x": 2920,
@@ -1186,7 +1186,7 @@
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "RB-tree\n![[Pasted image 20250407182340.png]]\n\nFor all nodes, any path from this node to a descendant leaf has the same amount of black nodes (includes nil leaves being black)\n\nBlack-height: property of a node/subtree. Number of black nodes on the way to any leaf (includes the blackness of the leaves). Will be the same regardless of path because of the RB-Trees invariant. (Black height is only well-defined when Red-Black Tree invariants are satisfied)\n\nInsertion\n1. Insert the new node as a red node.\n2. If the inserted node was the root, color black\n3. While invariant \"no red children of red parents\" is broken, apply one of the following to the red child:\n\t1. red uncle -> recolor parent, grandparent, uncle\n\t2. black uncle  (triangle) -> rotate parent in opposite direction of child's orientation (if i am left child, rotate right)\n\t3. black uncle (line) -> rotate grandparent opposite direction of  self, recolor original parent, grandparent\n\nDeletion\nIf the to be deleted node has any nil child:\n- transplant(grandparent, child)\n- delete_fixup(child) if deleted was black\nIf the to be deleted node has two children:\n- swap with immediate successor, then delete original.\n- delete_fixup(place_of_deleted_node_after_swap) if deleted was black\n\nDelete_fixup(x):\nsibling is w\nif:\n- w is red:\n\t- set w black\n\t- set parent red\n\t- left rotate parent\n\t- set sibling pointer to new sibling\n- w is black parent of two black children\n\t- set w red\n\t- set x pointer to x's parent\n- w is black parent of red left child and black right child\n\t- set left child black\n\t- set w to red\n\t- right rotate w\n\t- set sibling pointer to new sibling\n- w is black parent of red right child\n\t- set w to parents color\n\t- set parents color to black\n\t- set red child's color to black\n\t- left rotate parent\n\t- set x pointer to root\n",
+      "text": "RB-tree\n![[rbtree.png]]\n\nFor all nodes, any path from this node to a descendant leaf has the same amount of black nodes (includes nil leaves being black)\n\nBlack-height: property of a node/subtree. Number of black nodes on the way to any leaf (includes the blackness of the leaves). Will be the same regardless of path because of the RB-Trees invariant. (Black height is only well-defined when Red-Black Tree invariants are satisfied)\n\nInsertion\n1. Insert the new node as a red node.\n2. If the inserted node was the root, color black\n3. While invariant \"no red children of red parents\" is broken, apply one of the following to the red child:\n\t1. red uncle -> recolor parent, grandparent, uncle\n\t2. black uncle  (triangle) -> rotate parent in opposite direction of child's orientation (if i am left child, rotate right)\n\t3. black uncle (line) -> rotate grandparent opposite direction of  self, recolor original parent, grandparent\n\nDeletion\nIf the to be deleted node has any nil child:\n- transplant(grandparent, child)\n- delete_fixup(child) if deleted was black\nIf the to be deleted node has two children:\n- swap with immediate successor, then delete original.\n- delete_fixup(place_of_deleted_node_after_swap) if deleted was black\n\nDelete_fixup(x):\nsibling is w\nif:\n- w is red:\n\t- set w black\n\t- set parent red\n\t- left rotate parent\n\t- set sibling pointer to new sibling\n- w is black parent of two black children\n\t- set w red\n\t- set x pointer to x's parent\n- w is black parent of red left child and black right child\n\t- set left child black\n\t- set w to red\n\t- right rotate w\n\t- set sibling pointer to new sibling\n- w is black parent of red right child\n\t- set w to parents color\n\t- set parents color to black\n\t- set red child's color to black\n\t- left rotate parent\n\t- set x pointer to root\n",
       "type": "text",
       "width": 460,
       "x": 2340,
@@ -1239,7 +1239,7 @@
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "Full Binary Tree\n0 or 2 children\n![[Pasted image 20250407180301.png]]",
+      "text": "Full Binary Tree\n0 or 2 children\n![[balancedtree.png]]",
       "type": "text",
       "width": 160,
       "x": 2440,
@@ -1252,7 +1252,7 @@
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "Complete Binary Tree\n![[Pasted image 20250407180314.png]]\n\nFilled from left\n-levels 0 until h-1 are completely full\n-level h is left-most",
+      "text": "Complete Binary Tree\n![[completetree.png]]\n\nFilled from left\n-levels 0 until h-1 are completely full\n-level h is left-most",
       "type": "text",
       "width": 250,
       "x": 2160,
@@ -1278,7 +1278,7 @@
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "Binary Search tree\nThe rightmost child of the left child is smaller than the leftmost child of the right child\n![[Pasted image 20250407185418.png]]",
+      "text": "Binary Search tree\nThe rightmost child of the left child is smaller than the leftmost child of the right child\n![[searchtreewhite.png]]",
       "type": "text",
       "width": 300,
       "x": 2620,

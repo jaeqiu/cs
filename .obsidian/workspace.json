@@ -11,57 +11,37 @@
             "id": "9199d7df9807f481",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Computational Intelligence/Drawing 2025-04-16 17.42.09.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-04-16 17.42.09.excalidraw"
-            }
-          },
-          {
-            "id": "d4c0d52bd8d40935",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Computational Intelligence/answers_asdfasdf.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "answers_asdfasdf"
-            }
-          },
-          {
-            "id": "4fa3be75d3d789de",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "attachments/ordertheory.png"
-              },
-              "icon": "lucide-image",
-              "title": "ordertheory"
-            }
-          },
-          {
-            "id": "f2931c3181531004",
-            "type": "leaf",
-            "state": {
               "type": "canvas",
               "state": {
                 "file": "Algorithms and Data Structures/ads_canvas.canvas",
                 "viewState": {
-                  "x": -1116.0812554410631,
-                  "y": 179.1548131904076,
-                  "zoom": -1.001647225725159
+                  "x": 1300,
+                  "y": 890,
+                  "zoom": -2.0016472257251587
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "ads_canvas"
             }
+          },
+          {
+            "id": "d538716a12a71864",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Computational Intelligence/ci_canvas.canvas",
+                "viewState": {
+                  "x": 2120,
+                  "y": 1470,
+                  "zoom": -1.6630228419654831
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "ci_canvas"
+            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -210,26 +190,25 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "f2931c3181531004",
+  "active": "9199d7df9807f481",
   "lastOpenFiles": [
-    "attachments/ordertheory.png",
     "Computational Intelligence/ci_canvas.canvas",
-    "attachments/Pasted image 20250416200622.png",
-    "attachments/Pasted image 20250416200513.png",
-    "attachments/Pasted image 20250416194613.png",
-    "attachments/Pasted image 20250416194518.png",
-    "attachments/neuralnetwork.png",
-    "attachments/Pasted image 20250414231956.png",
-    "attachments/Pasted image 20250416200736.png",
-    "Computational Intelligence/answers_asdfasdf.pdf",
+    "Algorithms and Data Structures/ads_canvas.canvas",
     "Computational Intelligence/Drawing 2025-04-16 17.42.09.excalidraw.md",
-    "attachments/Pasted image 20250416203732.png",
+    "Computational Intelligence/answers_asdfasdf.pdf",
+    "attachments/cnnvisual.png",
+    "attachments/geneticalgorouletteselection.png",
+    "attachments/fitnessofchromosome2.png",
+    "attachments/fitnessofchromosome.png",
+    "attachments/geneticalgorithm.png",
+    "attachments/24tree.png",
+    "attachments/avltreewhite.png",
+    "attachments/avltree.png",
+    "attachments/adsquestion6.png",
+    "attachments/adsquestion5.png",
     "Computational Intelligence/testt.pdf",
     "Computational Intelligence/answers_asdfasdf.pdf.crdownload",
-    "Algorithms and Data Structures/ads_canvas.canvas",
     "Computational Intelligence/keywords.md",
-    "attachments/Pasted Image 20250416174242_902.png",
-    "attachments/image/testing-1744818150123.jpeg",
     "Computational Intelligence/Drawing 2025-04-16 17.26.32.excalidraw.md",
     "Computational Intelligence/ci_merged_unified.pdf",
     "Excalidraw/Drawing 2025-04-16 17.26.13.excalidraw.md",

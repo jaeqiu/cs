@@ -215,18 +215,6 @@
       "y": -420
     },
     {
-      "color": "2",
-      "height": 1040,
-      "id": "6c46668e8aaf072a",
-      "label": "ANN",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 2220,
-      "x": -180,
-      "y": 480
-    },
-    {
       "color": "1",
       "height": 1320,
       "id": "e04954ab57484210",
@@ -263,6 +251,18 @@
       "y": 2000
     },
     {
+      "color": "2",
+      "height": 1040,
+      "id": "6c46668e8aaf072a",
+      "label": "ANN",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 2220,
+      "x": -180,
+      "y": 480
+    },
+    {
       "color": "4",
       "height": 520,
       "id": "324f1f7dde7356ad",
@@ -286,6 +286,121 @@
       "y": 1720
     },
     {
+      "file": "attachments/fitnessofchromosome.png",
+      "height": 240,
+      "id": "5df7cdc695cb4bf9",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 624,
+      "x": 3200,
+      "y": 680
+    },
+    {
+      "height": 271,
+      "id": "92f0e85f0d6f6f12",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Selection\n![[geneticalgorouletteselection.png]]\n\n\nKeep selecting two chromosomes for reproduction\n",
+      "type": "text",
+      "width": 268,
+      "x": 2860,
+      "y": 780
+    },
+    {
+      "height": 309,
+      "id": "f1811824cbd2eada",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Reproduction\n\n1. Get 2 children per pair (for every pair of parents):\n\t- with p_c: clone both parents into next generation\n\t- with 1-p_c: pick random cross-over bit, swap to get two children\n2. For each child, for each gene, flip the gene's bit with probability p_m\n\n",
+      "type": "text",
+      "width": 338,
+      "x": 3062,
+      "y": 1231
+    },
+    {
+      "height": 44,
+      "id": "aff43d0ec5183593",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "parents",
+      "type": "text",
+      "width": 149,
+      "x": 2920,
+      "y": 1187
+    },
+    {
+      "height": 200,
+      "id": "827f34e8286d27f5",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Fitness Function\nthe value that tells you how well a candidate solution performs on a given task\n\nThe fitness function specifies the objective for the behavior modeled by the transfer function.",
+      "type": "text",
+      "width": 440,
+      "x": 3820,
+      "y": 960
+    },
+    {
+      "height": 240,
+      "id": "94ec34c5ef38d579",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "MLP Multi-Layer Perceptron\n![[neuralnetwork.png]]\na basic neural network with multiple layers for learning complex, non-linear patterns.\n",
+      "type": "text",
+      "width": 400,
+      "x": 80,
+      "y": 860
+    },
+    {
+      "height": 150,
+      "id": "6e2da7f7caa90cb7",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Tanh**\nan activation function that squashes values to between -1 and 1 for smoother gradients.\n",
+      "type": "text",
+      "width": 400,
+      "x": 720,
+      "y": 1340
+    },
+    {
+      "height": 150,
+      "id": "3a7510e9512faba7",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Activation functions**\na formula applied to a neuron's output to decide whether it should be passed on.\n",
+      "type": "text",
+      "width": 400,
+      "x": 300,
+      "y": 1120
+    },
+    {
+      "height": 150,
+      "id": "e504ed0cb6b750af",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Softmax**\nan activation function that converts outputs into probabilities over multiple classes.\n",
+      "type": "text",
+      "width": 400,
+      "x": 300,
+      "y": 1340
+    },
+    {
       "height": 150,
       "id": "e74cdbc99f4d1ce5",
       "styleAttributes": {
@@ -297,71 +412,6 @@
       "width": 400,
       "x": 20,
       "y": 100
-    },
-    {
-      "height": 60,
-      "id": "04cab98a33a32310",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "an optimization method using evolution-like steps to find good solutions.\n",
-      "type": "text",
-      "width": 440,
-      "x": 2240,
-      "y": 660
-    },
-    {
-      "height": 249,
-      "id": "cb619ba78ca4ed6e",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Evaluation\n![[Pasted image 20250416200622.png]]\n\nCompute the fitness of all the chromosomes in the population\n\n",
-      "type": "text",
-      "width": 220,
-      "x": 2380,
-      "y": 820
-    },
-    {
-      "height": 44,
-      "id": "fd72204162328e16",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "chromosome",
-      "type": "text",
-      "width": 187,
-      "x": 2240,
-      "y": 1426
-    },
-    {
-      "height": 295,
-      "id": "328af62d958cab21",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Population\n![[Pasted image 20250416200513.png]]\n\n\n\n\nRandomly select an initial population of N chromosomes",
-      "type": "text",
-      "width": 280,
-      "x": 2340,
-      "y": 1125
-    },
-    {
-      "height": 92,
-      "id": "5f8e47ce871e45b2",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Encoding\nEach chromosome is a candidate solution",
-      "type": "text",
-      "width": 296,
-      "x": 2300,
-      "y": 1580
     },
     {
       "height": 160,
@@ -388,32 +438,6 @@
       "width": 500,
       "x": 460,
       "y": -160
-    },
-    {
-      "height": 44,
-      "id": "49551d8af2d21033",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Solution form",
-      "type": "text",
-      "width": 191,
-      "x": 2400,
-      "y": 1740
-    },
-    {
-      "height": 150,
-      "id": "b3d5b95f82fc581b",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Classification\nsorting data into groups based on similar features.\n",
-      "type": "text",
-      "width": 400,
-      "x": -40,
-      "y": -100
     },
     {
       "height": 150,
@@ -455,56 +479,6 @@
       "y": 2020
     },
     {
-      "height": 60,
-      "id": "b94e55db009d71dd",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "learning through trial and error where actions are rewarded or punished.\n",
-      "type": "text",
-      "width": 400,
-      "x": 2240,
-      "y": 2040
-    },
-    {
-      "height": 44,
-      "id": "8d919a0652557279",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "modified offspring",
-      "type": "text",
-      "width": 223,
-      "x": 2660,
-      "y": 1200
-    },
-    {
-      "file": "attachments/Pasted image 20250416194613.png",
-      "height": 240,
-      "id": "5df7cdc695cb4bf9",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 624,
-      "x": 3200,
-      "y": 680
-    },
-    {
-      "height": 271,
-      "id": "92f0e85f0d6f6f12",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Selection\n![[Pasted image 20250416200736.png]]\n\n\nKeep selecting two chromosomes for reproduction\n",
-      "type": "text",
-      "width": 268,
-      "x": 2860,
-      "y": 780
-    },
-    {
       "height": 150,
       "id": "e5a5545167069be1",
       "styleAttributes": {
@@ -518,95 +492,43 @@
       "y": 2320
     },
     {
-      "height": 150,
-      "id": "f0d5e18e15493701",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Action selection with delayed rewards\nchoosing actions when rewards come after a delay, not immediately.\n",
-      "type": "text",
-      "width": 400,
-      "x": 2420,
-      "y": 2220
-    },
-    {
-      "height": 150,
-      "id": "797d2c059ce5d268",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "**Utility function**\na tool to measure the benefit of an action, guiding a system towards achieving its goal.\n",
-      "type": "text",
-      "width": 400,
-      "x": 2920,
-      "y": 2220
-    },
-    {
-      "height": 309,
-      "id": "f1811824cbd2eada",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Reproduction\n\n1. Get 2 children per pair (for every pair of parents):\n\t- with p_c: clone both parents into next generation\n\t- with 1-p_c: pick random cross-over bit, swap to get two children\n2. For each child, for each gene, flip the gene's bit with probability p_m\n\n",
-      "type": "text",
-      "width": 338,
-      "x": 3062,
-      "y": 1231
-    },
-    {
-      "height": 44,
-      "id": "aff43d0ec5183593",
+      "height": 50,
+      "id": "14da08bd61e3f170",
       "styleAttributes": {
         "border": "invisible",
         "textAlign": "center"
       },
-      "text": "parents",
+      "text": "a computer model made of interconnected units that mimics the human brain.\n",
       "type": "text",
-      "width": 149,
-      "x": 2920,
-      "y": 1187
+      "width": 400,
+      "x": 640,
+      "y": 520
     },
     {
       "height": 150,
-      "id": "70ffab3d6f2895e1",
+      "id": "9c46c129035ead5d",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "**Reward formulation**\ndesigning reward signals so that an agent learns to make the right decisions.\n",
+      "text": "Convolution\nsliding a filter over data to extract key features like edges in an image.\n",
       "type": "text",
       "width": 400,
-      "x": 2500,
-      "y": 2440
+      "x": 780,
+      "y": 1100
     },
     {
       "height": 150,
-      "id": "0c1e06c446c69493",
+      "id": "c2af52c4656c8bfc",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "**R(s')**\nthe reward received when arriving at a new state s', helping measure success.\n",
+      "text": "**Feature map**\nthe grid of outputs from a convolution layer that shows the presence of specific patterns.\n",
       "type": "text",
       "width": 400,
-      "x": 2920,
-      "y": 2420
-    },
-    {
-      "height": 150,
-      "id": "5bdd725fd4849284",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Evaluation Criterion\na measure for judging how good a solution is, often linked to the fitness function.\n",
-      "type": "text",
-      "width": 400,
-      "x": 3100,
-      "y": 1620
+      "x": 1200,
+      "y": 1100
     },
     {
       "height": 60,
@@ -620,19 +542,6 @@
       "width": 400,
       "x": -220,
       "y": -400
-    },
-    {
-      "height": 200,
-      "id": "827f34e8286d27f5",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Fitness Function\nthe value that tells you how well a candidate solution performs on a given task\n\nThe fitness function specifies the objective for the behavior modeled by the transfer function.",
-      "type": "text",
-      "width": 440,
-      "x": 3820,
-      "y": 960
     },
     {
       "height": 150,
@@ -688,29 +597,68 @@
     },
     {
       "height": 150,
-      "id": "0a019d7aea308ffe",
+      "id": "bbc6f28afdbd28a1",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "**Pr(r | s, a, s')**\nthe chance of getting reward r when you take action a in state s and reach state s′.\n",
+      "text": "**Forward pass**\nprocessing input through a network to produce an output or prediction.\n",
       "type": "text",
       "width": 400,
-      "x": 2360,
-      "y": 2700
+      "x": -140,
+      "y": 1120
     },
     {
       "height": 150,
-      "id": "9c960a019fcd54c9",
+      "id": "10a489b9dec8e846",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "**R(s,a,s')**\nthe reward obtained when taking action a in state s and ending up in state s′.\n",
+      "text": "**ReLu**\nan activation function that outputs the input when positive and zero when negative, speeding up training.\n",
       "type": "text",
       "width": 400,
-      "x": 3080,
-      "y": 2600
+      "x": -120,
+      "y": 1340
+    },
+    {
+      "height": 150,
+      "id": "b3d5b95f82fc581b",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Classification\nsorting data into groups based on similar features.\n",
+      "type": "text",
+      "width": 400,
+      "x": -40,
+      "y": -100
+    },
+    {
+      "height": 150,
+      "id": "0c1e06c446c69493",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**R(s')**\nthe reward received when arriving at a new state s', helping measure success.\n",
+      "type": "text",
+      "width": 400,
+      "x": 2920,
+      "y": 2420
+    },
+    {
+      "height": 150,
+      "id": "5bdd725fd4849284",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Evaluation Criterion\na measure for judging how good a solution is, often linked to the fitness function.\n",
+      "type": "text",
+      "width": 400,
+      "x": 3100,
+      "y": 1620
     },
     {
       "height": 150,
@@ -752,124 +700,7 @@
       "y": 1672
     },
     {
-      "height": 150,
-      "id": "bbc6f28afdbd28a1",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "**Forward pass**\nprocessing input through a network to produce an output or prediction.\n",
-      "type": "text",
-      "width": 400,
-      "x": -140,
-      "y": 1120
-    },
-    {
-      "height": 240,
-      "id": "94ec34c5ef38d579",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "MLP Multi-Layer Perceptron\n![[neuralnetwork.png]]\na basic neural network with multiple layers for learning complex, non-linear patterns.\n",
-      "type": "text",
-      "width": 400,
-      "x": 80,
-      "y": 860
-    },
-    {
-      "height": 50,
-      "id": "14da08bd61e3f170",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "a computer model made of interconnected units that mimics the human brain.\n",
-      "type": "text",
-      "width": 400,
-      "x": 640,
-      "y": 520
-    },
-    {
-      "height": 150,
-      "id": "6e2da7f7caa90cb7",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "**Tanh**\nan activation function that squashes values to between -1 and 1 for smoother gradients.\n",
-      "type": "text",
-      "width": 400,
-      "x": 720,
-      "y": 1340
-    },
-    {
-      "height": 150,
-      "id": "3a7510e9512faba7",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "**Activation functions**\na formula applied to a neuron's output to decide whether it should be passed on.\n",
-      "type": "text",
-      "width": 400,
-      "x": 300,
-      "y": 1120
-    },
-    {
-      "height": 150,
-      "id": "10a489b9dec8e846",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "**ReLu**\nan activation function that outputs the input when positive and zero when negative, speeding up training.\n",
-      "type": "text",
-      "width": 400,
-      "x": -120,
-      "y": 1340
-    },
-    {
-      "height": 150,
-      "id": "e504ed0cb6b750af",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "**Softmax**\nan activation function that converts outputs into probabilities over multiple classes.\n",
-      "type": "text",
-      "width": 400,
-      "x": 300,
-      "y": 1340
-    },
-    {
-      "height": 150,
-      "id": "9c46c129035ead5d",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Convolution\nsliding a filter over data to extract key features like edges in an image.\n",
-      "type": "text",
-      "width": 400,
-      "x": 780,
-      "y": 1100
-    },
-    {
-      "height": 150,
-      "id": "c2af52c4656c8bfc",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "**Feature map**\nthe grid of outputs from a convolution layer that shows the presence of specific patterns.\n",
-      "type": "text",
-      "width": 400,
-      "x": 1200,
-      "y": 1100
-    },
-    {
-      "file": "attachments/Pasted image 20250416203732.png",
+      "file": "attachments/cnnvisual.png",
       "height": 179,
       "id": "4b21869b9ab599c9",
       "styleAttributes": {
@@ -886,7 +717,7 @@
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "CNN Convolutional Neural Network\n![[Pasted image 20250416203732.png]]\n\na type of neural network that uses convolution layers to analyze images and signals.\n",
+      "text": "CNN Convolutional Neural Network\n![[cnnvisual.png]]\n\na type of neural network that uses convolution layers to analyze images and signals.\n",
       "type": "text",
       "width": 400,
       "x": 1200,
@@ -904,6 +735,175 @@
       "width": 400,
       "x": 1620,
       "y": 1100
+    },
+    {
+      "height": 60,
+      "id": "04cab98a33a32310",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "an optimization method using evolution-like steps to find good solutions.\n",
+      "type": "text",
+      "width": 440,
+      "x": 2240,
+      "y": 660
+    },
+    {
+      "height": 249,
+      "id": "cb619ba78ca4ed6e",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Evaluation\n![[fitnessofchromosome2.png]]\n\nCompute the fitness of all the chromosomes in the population\n\n",
+      "type": "text",
+      "width": 220,
+      "x": 2380,
+      "y": 820
+    },
+    {
+      "height": 44,
+      "id": "fd72204162328e16",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "chromosome",
+      "type": "text",
+      "width": 187,
+      "x": 2240,
+      "y": 1426
+    },
+    {
+      "height": 295,
+      "id": "328af62d958cab21",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Population\n![[chromosomefitness.png]]\n\n\n\n\nRandomly select an initial population of N chromosomes",
+      "type": "text",
+      "width": 280,
+      "x": 2340,
+      "y": 1125
+    },
+    {
+      "height": 92,
+      "id": "5f8e47ce871e45b2",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Encoding\nEach chromosome is a candidate solution",
+      "type": "text",
+      "width": 296,
+      "x": 2300,
+      "y": 1580
+    },
+    {
+      "height": 44,
+      "id": "8d919a0652557279",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "modified offspring",
+      "type": "text",
+      "width": 223,
+      "x": 2660,
+      "y": 1200
+    },
+    {
+      "height": 150,
+      "id": "70ffab3d6f2895e1",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Reward formulation**\ndesigning reward signals so that an agent learns to make the right decisions.\n",
+      "type": "text",
+      "width": 400,
+      "x": 2500,
+      "y": 2440
+    },
+    {
+      "height": 150,
+      "id": "0a019d7aea308ffe",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Pr(r | s, a, s')**\nthe chance of getting reward r when you take action a in state s and reach state s′.\n",
+      "type": "text",
+      "width": 400,
+      "x": 2360,
+      "y": 2700
+    },
+    {
+      "height": 150,
+      "id": "9c960a019fcd54c9",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**R(s,a,s')**\nthe reward obtained when taking action a in state s and ending up in state s′.\n",
+      "type": "text",
+      "width": 400,
+      "x": 3080,
+      "y": 2600
+    },
+    {
+      "height": 44,
+      "id": "49551d8af2d21033",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Solution form",
+      "type": "text",
+      "width": 191,
+      "x": 2400,
+      "y": 1740
+    },
+    {
+      "height": 60,
+      "id": "b94e55db009d71dd",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "learning through trial and error where actions are rewarded or punished.\n",
+      "type": "text",
+      "width": 400,
+      "x": 2240,
+      "y": 2040
+    },
+    {
+      "height": 150,
+      "id": "f0d5e18e15493701",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Action selection with delayed rewards\nchoosing actions when rewards come after a delay, not immediately.\n",
+      "type": "text",
+      "width": 400,
+      "x": 2420,
+      "y": 2220
+    },
+    {
+      "height": 150,
+      "id": "797d2c059ce5d268",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Utility function**\na tool to measure the benefit of an action, guiding a system towards achieving its goal.\n",
+      "type": "text",
+      "width": 400,
+      "x": 2920,
+      "y": 2220
     }
   ]
 }
