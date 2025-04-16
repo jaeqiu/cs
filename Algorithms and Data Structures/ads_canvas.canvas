@@ -392,6 +392,431 @@
     },
     {
       "height": 60,
+      "id": "4296def73cf0f3fe",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "0",
+      "type": "text",
+      "width": 60,
+      "x": -1440,
+      "y": 300
+    },
+    {
+      "height": 60,
+      "id": "01f3e7bcbf64d533",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Growth of required time/space as input size grows",
+      "type": "text",
+      "width": 400,
+      "x": -1360,
+      "y": -680
+    },
+    {
+      "height": 60,
+      "id": "a4a908945ba82333",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "3",
+      "type": "text",
+      "width": 60,
+      "x": -1440,
+      "y": 480
+    },
+    {
+      "height": 60,
+      "id": "16972ad6676e5214",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "1",
+      "type": "text",
+      "width": 60,
+      "x": -1440,
+      "y": 360
+    },
+    {
+      "height": 60,
+      "id": "9b9b7e6c33d435c2",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "2",
+      "type": "text",
+      "width": 60,
+      "x": -1440,
+      "y": 420
+    },
+    {
+      "height": 60,
+      "id": "79bc63a035794a1d",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "[lychee]",
+      "type": "text",
+      "width": 180,
+      "x": -1300,
+      "y": 480
+    },
+    {
+      "height": 60,
+      "id": "2175a48bdf5b3fe8",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "[cucumber, spinach]",
+      "type": "text",
+      "width": 180,
+      "x": -1300,
+      "y": 300
+    },
+    {
+      "height": 60,
+      "id": "9813b52e4b8ec1f5",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "[water, soda]",
+      "type": "text",
+      "width": 180,
+      "x": -1300,
+      "y": 360
+    },
+    {
+      "height": 60,
+      "id": "7f917f2c5eb42d73",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "[table, chair]",
+      "type": "text",
+      "width": 180,
+      "x": -1300,
+      "y": 420
+    },
+    {
+      "height": 120,
+      "id": "b21c73d925fd6f72",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "Hash Function\n(usually not locality sensitive)\n\nh(fruit) = 3",
+      "type": "text",
+      "width": 360,
+      "x": -1840,
+      "y": 440
+    },
+    {
+      "height": 100,
+      "id": "4a79aa9751352e0c",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "(fruit, lychee)",
+      "type": "text",
+      "width": 200,
+      "x": -2040,
+      "y": 460
+    },
+    {
+      "height": 60,
+      "id": "2d59e4ce3e724407",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "5",
+      "type": "text",
+      "width": 60,
+      "x": -1440,
+      "y": 600
+    },
+    {
+      "height": 60,
+      "id": "079741e329ed0c8b",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "4",
+      "type": "text",
+      "width": 60,
+      "x": -1440,
+      "y": 540
+    },
+    {
+      "height": 260,
+      "id": "58b5cd350bebf62b",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "i had answer a, because i thought n -2 elements (those which are not pivots) need to be compared, but really, they have to be compared twice (to both pivots)\nthat gives 2(n-2)\nand finally, the relative order of the pivots needs to be consistent with the final sort ordering (+1)\n\n2(n-2) + 1 = 2n-4+1=2n-3",
+      "type": "text",
+      "width": 1220,
+      "x": -1800,
+      "y": 1980
+    },
+    {
+      "height": 150,
+      "id": "665f96f644a56506",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "- confused selection sort with insertion sort",
+      "type": "text",
+      "width": 400,
+      "x": -1800,
+      "y": 1780
+    },
+    {
+      "height": 150,
+      "id": "c6f078da5a6a9004",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "-didnt know heapify starts at the bottom, and ensures invariant per generation (upwards)",
+      "type": "text",
+      "width": 400,
+      "x": -1800,
+      "y": 1560
+    },
+    {
+      "height": 400,
+      "id": "fd28de06d25b3e20",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "I thought answer b because i imagined n numbers need to be sorted, and for some reason i imagined that a single number being sorted in a k-digit space would take log(k). \n\nThe real answer is C\nRadix sort has a time complexity of $O(d⋅(n+b))$\n- d digits in a single number\n- n numbers to be sorted\n- b base of a digit\nIn essence\nd passes of O(n+b) counting sort, which uses counting to determine the starting index of each number with a certain base, per base. ",
+      "type": "text",
+      "width": 880,
+      "x": -1800,
+      "y": 2280
+    },
+    {
+      "height": 60,
+      "id": "77cc438c5c847135",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Step by step to solve a problem.",
+      "type": "text",
+      "width": 360,
+      "x": -1860,
+      "y": -1480
+    },
+    {
+      "file": "attachments/ordertheory.png",
+      "height": 341,
+      "id": "54ea35908554a94a",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -2120,
+      "y": -280
+    },
+    {
+      "height": 150,
+      "id": "d4c67d897333c6c2",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "I was not careful\nI completely missed a 2-node in my result, which led me to answer C. 3, instead of D. 4.\n\nInterestingly, the reference solution only promotes the second value after adding the overflowing element, while i promoted the second value before adding the overflowing element. This led to different values.",
+      "type": "text",
+      "width": 400,
+      "x": -1820,
+      "y": 3060
+    },
+    {
+      "file": "attachments/Pasted image 20250414175541.png",
+      "height": 262,
+      "id": "e5b063cb3df70e49",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -2260,
+      "y": 2720
+    },
+    {
+      "height": 220,
+      "id": "c6fba5a951a00e79",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "I didn't read properly\n\nI had answer B because\nI read \"each considering one new edge\" as \"each adding one new edge\"\nI thought it made sense if they defined a single iteration as ending once an edge has been added.\nIn truth this doesn't make sense because that would require subiterations, which is far-fetched.",
+      "type": "text",
+      "width": 800,
+      "x": -1800,
+      "y": 2720
+    },
+    {
+      "file": "attachments/Pasted image 20250414175909.png",
+      "height": 149,
+      "id": "1deefd12099234b3",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -2260,
+      "y": 3080
+    },
+    {
+      "height": 180,
+      "id": "a1660f5460d08c49",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Quadratic Probing\nUpon collision, jump by ${attempt\\_number}^2$",
+      "type": "text",
+      "width": 200,
+      "x": -1360,
+      "y": 880
+    },
+    {
+      "height": 60,
+      "id": "cb1faf2a349d16ce",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Open Addressing",
+      "type": "text",
+      "width": 140,
+      "x": -940,
+      "y": 760
+    },
+    {
+      "height": 260,
+      "id": "6f5b96aa29bc5e42",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Linear Probing\nUpon collision, traverse linearly until a free spot is found\n\nWhen utilising the result, make sure get functions search until the last position a value can be. Use DEFUNCT when removing to signal to search functions to keep searching beyond DEFUNCT (EMPTY would imply linear probing could never reach beyond)",
+      "type": "text",
+      "width": 440,
+      "x": -1800,
+      "y": 880
+    },
+    {
+      "height": 80,
+      "id": "55cc5cd9be786bc3",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "A partial order defines a hierarchy without requiring all elements to be comparable, while a total order enforces comparability between every element.",
+      "type": "text",
+      "width": 680,
+      "x": -2160,
+      "y": -420
+    },
+    {
+      "height": 60,
+      "id": "daa472f67ff60a27",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "text": "Total Order Relation (Linear)",
+      "type": "text",
+      "width": 280,
+      "x": -2200,
+      "y": 80
+    },
+    {
+      "height": 150,
+      "id": "b3588592f0fc5463",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "-thought a was false, didnt see 2^n\n-thought c was true, mixed up lower bound with upper bound, or mixed up false with true",
+      "type": "text",
+      "width": 400,
+      "x": -1800,
+      "y": 1300
+    },
+    {
+      "file": "attachments/Pasted image 20250414173730.png",
+      "height": 167,
+      "id": "cb04e90190248acb",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 399,
+      "x": -2260,
+      "y": 1980
+    },
+    {
+      "file": "attachments/Pasted image 20250414174847.png",
+      "height": 104,
+      "id": "33e60779ba3e7640",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 399,
+      "x": -2280,
+      "y": 2480
+    },
+    {
+      "file": "attachments/Pasted image 20250414172217.png",
+      "height": 247,
+      "id": "ca310e8346ff0bdd",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 399,
+      "x": -2260,
+      "y": 1260
+    },
+    {
+      "file": "attachments/Pasted image 20250414172627.png",
+      "height": 164,
+      "id": "a8dfe6ae5f938ea2",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -2260,
+      "y": 1780
+    },
+    {
+      "file": "attachments/Pasted image 20250414172201.png",
+      "height": 164,
+      "id": "653d1303858865dc",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -2260,
+      "y": 1560
+    },
+    {
+      "height": 60,
       "id": "b9cc3768cecea460",
       "styleAttributes": {
         "border": "dashed",
@@ -495,82 +920,30 @@
       "y": -420
     },
     {
-      "height": 60,
-      "id": "9813b52e4b8ec1f5",
+      "height": 150,
+      "id": "8448cbd35e4229f1",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "[water, soda]",
-      "type": "text",
-      "width": 180,
-      "x": -1300,
-      "y": 360
-    },
-    {
-      "height": 60,
-      "id": "16972ad6676e5214",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "1",
-      "type": "text",
-      "width": 60,
-      "x": -1440,
-      "y": 360
-    },
-    {
-      "height": 60,
-      "id": "01f3e7bcbf64d533",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Growth of required time/space as input size grows",
+      "text": "Collision Handling",
       "type": "text",
       "width": 400,
-      "x": -1360,
-      "y": -680
+      "x": -960,
+      "y": 480
     },
     {
-      "height": 60,
-      "id": "4296def73cf0f3fe",
+      "height": 150,
+      "id": "e5a8ebc4f814bb15",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "0",
+      "text": "Rehashing\nincreasing the size of the hash table by rehashing all exiting in a replacing hash function that images to a larger output",
       "type": "text",
-      "width": 60,
-      "x": -1440,
-      "y": 300
-    },
-    {
-      "height": 180,
-      "id": "a1660f5460d08c49",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Quadratic Probing\nUpon collision, jump by ${attempt\\_number}^2$",
-      "type": "text",
-      "width": 200,
-      "x": -1360,
-      "y": 880
-    },
-    {
-      "height": 60,
-      "id": "2175a48bdf5b3fe8",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "[cucumber, spinach]",
-      "type": "text",
-      "width": 180,
-      "x": -1300,
-      "y": 300
+      "width": 400,
+      "x": -960,
+      "y": 280
     },
     {
       "height": 60,
@@ -599,32 +972,6 @@
       "y": -540
     },
     {
-      "height": 100,
-      "id": "4a79aa9751352e0c",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "(fruit, lychee)",
-      "type": "text",
-      "width": 200,
-      "x": -2040,
-      "y": 460
-    },
-    {
-      "height": 120,
-      "id": "b21c73d925fd6f72",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "Hash Function\n(usually not locality sensitive)\n\nh(fruit) = 3",
-      "type": "text",
-      "width": 360,
-      "x": -1840,
-      "y": 440
-    },
-    {
       "height": 180,
       "id": "6e824f3153cdf1a6",
       "styleAttributes": {
@@ -636,327 +983,6 @@
       "width": 300,
       "x": -1160,
       "y": 880
-    },
-    {
-      "height": 150,
-      "id": "e5a8ebc4f814bb15",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Rehashing\nincreasing the size of the hash table by rehashing all exiting in a replacing hash function that images to a larger output",
-      "type": "text",
-      "width": 400,
-      "x": -960,
-      "y": 280
-    },
-    {
-      "height": 260,
-      "id": "6f5b96aa29bc5e42",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Linear Probing\nUpon collision, traverse linearly until a free spot is found\n\nWhen utilising the result, make sure get functions search until the last position a value can be. Use DEFUNCT when removing to signal to search functions to keep searching beyond DEFUNCT (EMPTY would imply linear probing could never reach beyond)",
-      "type": "text",
-      "width": 440,
-      "x": -1800,
-      "y": 880
-    },
-    {
-      "height": 60,
-      "id": "77cc438c5c847135",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Step by step to solve a problem.",
-      "type": "text",
-      "width": 360,
-      "x": -1860,
-      "y": -1480
-    },
-    {
-      "height": 60,
-      "id": "9b9b7e6c33d435c2",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "2",
-      "type": "text",
-      "width": 60,
-      "x": -1440,
-      "y": 420
-    },
-    {
-      "height": 60,
-      "id": "7f917f2c5eb42d73",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "[table, chair]",
-      "type": "text",
-      "width": 180,
-      "x": -1300,
-      "y": 420
-    },
-    {
-      "height": 150,
-      "id": "d4c67d897333c6c2",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "I was not careful\nI completely missed a 2-node in my result, which led me to answer C. 3, instead of D. 4.\n\nInterestingly, the reference solution only promotes the second value after adding the overflowing element, while i promoted the second value before adding the overflowing element. This led to different values.",
-      "type": "text",
-      "width": 400,
-      "x": -1820,
-      "y": 3060
-    },
-    {
-      "file": "attachments/Pasted image 20250414175541.png",
-      "height": 262,
-      "id": "e5b063cb3df70e49",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": -2260,
-      "y": 2720
-    },
-    {
-      "file": "attachments/Pasted image 20250414175909.png",
-      "height": 149,
-      "id": "1deefd12099234b3",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": -2260,
-      "y": 3080
-    },
-    {
-      "file": "attachments/Pasted image 20250407175041.png",
-      "height": 341,
-      "id": "54ea35908554a94a",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": -2120,
-      "y": -280
-    },
-    {
-      "height": 60,
-      "id": "daa472f67ff60a27",
-      "styleAttributes": {
-        "border": "dashed"
-      },
-      "text": "Total Order Relation (Linear)",
-      "type": "text",
-      "width": 280,
-      "x": -2200,
-      "y": 80
-    },
-    {
-      "height": 80,
-      "id": "55cc5cd9be786bc3",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "A partial order defines a hierarchy without requiring all elements to be comparable, while a total order enforces comparability between every element.",
-      "type": "text",
-      "width": 680,
-      "x": -2160,
-      "y": -420
-    },
-    {
-      "height": 220,
-      "id": "c6fba5a951a00e79",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "I didn't read properly\n\nI had answer B because\nI read \"each considering one new edge\" as \"each adding one new edge\"\nI thought it made sense if they defined a single iteration as ending once an edge has been added.\nIn truth this doesn't make sense because that would require subiterations, which is far-fetched.",
-      "type": "text",
-      "width": 800,
-      "x": -1800,
-      "y": 2720
-    },
-    {
-      "file": "attachments/Pasted image 20250414173730.png",
-      "height": 167,
-      "id": "cb04e90190248acb",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 399,
-      "x": -2260,
-      "y": 1980
-    },
-    {
-      "height": 260,
-      "id": "58b5cd350bebf62b",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "i had answer a, because i thought n -2 elements (those which are not pivots) need to be compared, but really, they have to be compared twice (to both pivots)\nthat gives 2(n-2)\nand finally, the relative order of the pivots needs to be consistent with the final sort ordering (+1)\n\n2(n-2) + 1 = 2n-4+1=2n-3",
-      "type": "text",
-      "width": 1220,
-      "x": -1800,
-      "y": 1980
-    },
-    {
-      "height": 60,
-      "id": "2d59e4ce3e724407",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "5",
-      "type": "text",
-      "width": 60,
-      "x": -1440,
-      "y": 600
-    },
-    {
-      "file": "attachments/Pasted image 20250414174847.png",
-      "height": 104,
-      "id": "33e60779ba3e7640",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 399,
-      "x": -2280,
-      "y": 2480
-    },
-    {
-      "height": 150,
-      "id": "665f96f644a56506",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "- confused selection sort with insertion sort",
-      "type": "text",
-      "width": 400,
-      "x": -1800,
-      "y": 1780
-    },
-    {
-      "height": 400,
-      "id": "fd28de06d25b3e20",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "I thought answer b because i imagined n numbers need to be sorted, and for some reason i imagined that a single number being sorted in a k-digit space would take log(k). \n\nThe real answer is C\nRadix sort has a time complexity of $O(d⋅(n+b))$\n- d digits in a single number\n- n numbers to be sorted\n- b base of a digit\nIn essence\nd passes of O(n+b) counting sort, which uses counting to determine the starting index of each number with a certain base, per base. ",
-      "type": "text",
-      "width": 880,
-      "x": -1800,
-      "y": 2280
-    },
-    {
-      "height": 150,
-      "id": "b3588592f0fc5463",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "-thought a was false, didnt see 2^n\n-thought c was true, mixed up lower bound with upper bound, or mixed up false with true",
-      "type": "text",
-      "width": 400,
-      "x": -1800,
-      "y": 1300
-    },
-    {
-      "height": 150,
-      "id": "c6f078da5a6a9004",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "-didnt know heapify starts at the bottom, and ensures invariant per generation (upwards)",
-      "type": "text",
-      "width": 400,
-      "x": -1800,
-      "y": 1560
-    },
-    {
-      "file": "attachments/Pasted image 20250414172217.png",
-      "height": 247,
-      "id": "ca310e8346ff0bdd",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 399,
-      "x": -2260,
-      "y": 1260
-    },
-    {
-      "file": "attachments/Pasted image 20250414172627.png",
-      "height": 164,
-      "id": "a8dfe6ae5f938ea2",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": -2260,
-      "y": 1780
-    },
-    {
-      "file": "attachments/Pasted image 20250414172201.png",
-      "height": 164,
-      "id": "653d1303858865dc",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": -2260,
-      "y": 1560
-    },
-    {
-      "height": 150,
-      "id": "8448cbd35e4229f1",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Collision Handling",
-      "type": "text",
-      "width": 400,
-      "x": -960,
-      "y": 480
-    },
-    {
-      "height": 60,
-      "id": "cb1faf2a349d16ce",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Open Addressing",
-      "type": "text",
-      "width": 140,
-      "x": -940,
-      "y": 760
-    },
-    {
-      "height": 60,
-      "id": "a64442b10f822e10",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Seperate Chaining",
-      "type": "text",
-      "width": 120,
-      "x": -680,
-      "y": 760
     },
     {
       "height": 60,
@@ -973,19 +999,6 @@
     },
     {
       "height": 60,
-      "id": "079741e329ed0c8b",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "4",
-      "type": "text",
-      "width": 60,
-      "x": -1440,
-      "y": 540
-    },
-    {
-      "height": 60,
       "id": "0398523956eaadb2",
       "styleAttributes": {
         "border": "dashed",
@@ -999,68 +1012,68 @@
     },
     {
       "height": 60,
-      "id": "a4a908945ba82333",
+      "id": "a64442b10f822e10",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "3",
+      "text": "Seperate Chaining",
       "type": "text",
-      "width": 60,
-      "x": -1440,
-      "y": 480
+      "width": 120,
+      "x": -680,
+      "y": 760
     },
     {
       "height": 60,
-      "id": "79bc63a035794a1d",
+      "id": "64f59c14cc855861",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "[lychee]",
-      "type": "text",
-      "width": 180,
-      "x": -1300,
-      "y": 480
-    },
-    {
-      "height": 216,
-      "id": "2202da18a7062c7c",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Full Binary Tree\n0 or 2 children\n![[Pasted image 20250407180301.png]]",
+      "text": "Heap",
       "type": "text",
       "width": 160,
-      "x": 2440,
-      "y": 160
+      "x": 1080,
+      "y": -20
     },
     {
       "height": 60,
-      "id": "c651c3f7a0cbc1f8",
+      "id": "29653a0c82beb068",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "Graph\nNode Edge",
+      "text": "Hash Table",
       "type": "text",
-      "width": 260,
-      "x": 2460,
-      "y": -440
+      "width": 160,
+      "x": 1080,
+      "y": -120
     },
     {
-      "height": 380,
-      "id": "e5d38de2c76d11e5",
+      "height": 60,
+      "id": "b1540284dafa76df",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "Binary Search tree\nThe rightmost child of the left child is smaller than the leftmost child of the right child\n![[Pasted image 20250407185418.png]]",
+      "text": "Graph",
       "type": "text",
-      "width": 300,
-      "x": 2620,
-      "y": 160
+      "width": 160,
+      "x": 1080,
+      "y": 80
+    },
+    {
+      "height": 60,
+      "id": "f25a876b98d12bb0",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Stack",
+      "type": "text",
+      "width": 160,
+      "x": 1080,
+      "y": 180
     },
     {
       "height": 60,
@@ -1074,19 +1087,6 @@
       "width": 260,
       "x": 2460,
       "y": -180
-    },
-    {
-      "height": 150,
-      "id": "0e1681e923ab3665",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Binary Tree\nTree\nAll nodes have 0, 1 or 2 children",
-      "type": "text",
-      "width": 260,
-      "x": 2460,
-      "y": -60
     },
     {
       "height": 220,
@@ -1128,16 +1128,29 @@
       "y": 1220
     },
     {
-      "height": 360,
-      "id": "13b13025ca9b84bb",
+      "height": 380,
+      "id": "8a9231b254e3b0fb",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "Complete Binary Tree\n![[Pasted image 20250407180314.png]]\n\nFilled from left\n-levels 0 until h-1 are completely full\n-level h is left-most",
+      "text": "AVL-Tree\n![[Pasted image 20250414231859.png]]\nheight of left and right subtrees may not differ by more than 1, for all subtrees",
       "type": "text",
-      "width": 250,
-      "x": 2160,
+      "width": 480,
+      "x": 4280,
+      "y": 720
+    },
+    {
+      "height": 460,
+      "id": "78008a33ae1aba07",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Balanced Binary Tree\n![[Pasted image 20250407181002.png]]\nno two leaves differ in depth by more than one\n\nMore specifically:\n1. difference between the left and the right subtree heights for any node is not more than one\n2. the left subtree is balanced\n3. the right subtree is balanced",
+      "type": "text",
+      "width": 400,
+      "x": 4320,
       "y": 160
     },
     {
@@ -1152,6 +1165,32 @@
       "width": 340,
       "x": 2920,
       "y": 760
+    },
+    {
+      "height": 60,
+      "id": "f264a6d7f9f971c2",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Queue",
+      "type": "text",
+      "width": 160,
+      "x": 1080,
+      "y": 280
+    },
+    {
+      "height": 520,
+      "id": "74c5b381e62a9002",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "RB-tree\n![[Pasted image 20250407182340.png]]\n\nFor all nodes, any path from this node to a descendant leaf has the same amount of black nodes (includes nil leaves being black)\n\nBlack-height: property of a node/subtree. Number of black nodes on the way to any leaf (includes the blackness of the leaves). Will be the same regardless of path because of the RB-Trees invariant. (Black height is only well-defined when Red-Black Tree invariants are satisfied)\n\nInsertion\n1. Insert the new node as a red node.\n2. If the inserted node was the root, color black\n3. While invariant \"no red children of red parents\" is broken, apply one of the following to the red child:\n\t1. red uncle -> recolor parent, grandparent, uncle\n\t2. black uncle  (triangle) -> rotate parent in opposite direction of child's orientation (if i am left child, rotate right)\n\t3. black uncle (line) -> rotate grandparent opposite direction of  self, recolor original parent, grandparent\n\nDeletion\nIf the to be deleted node has any nil child:\n- transplant(grandparent, child)\n- delete_fixup(child) if deleted was black\nIf the to be deleted node has two children:\n- swap with immediate successor, then delete original.\n- delete_fixup(place_of_deleted_node_after_swap) if deleted was black\n\nDelete_fixup(x):\nsibling is w\nif:\n- w is red:\n\t- set w black\n\t- set parent red\n\t- left rotate parent\n\t- set sibling pointer to new sibling\n- w is black parent of two black children\n\t- set w red\n\t- set x pointer to x's parent\n- w is black parent of red left child and black right child\n\t- set left child black\n\t- set w to red\n\t- right rotate w\n\t- set sibling pointer to new sibling\n- w is black parent of red right child\n\t- set w to parents color\n\t- set parents color to black\n\t- set red child's color to black\n\t- left rotate parent\n\t- set x pointer to root\n",
+      "type": "text",
+      "width": 460,
+      "x": 2340,
+      "y": 740
     },
     {
       "color": "#00bfff",
@@ -1181,95 +1220,43 @@
       "y": 880
     },
     {
-      "height": 320,
-      "id": "0d2c6cc91b386a0f",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": null
-      },
-      "text": "max-heap\n\nThe keys stored at each node of the tree must be comparable according to a total order relations of comparability, antisymmetry, and transitivity.\n\n- binary tree\n- parent element is max value of its subtree\n- complete.",
-      "type": "text",
-      "width": 300,
-      "x": 1820,
-      "y": 640
-    },
-    {
       "height": 150,
-      "id": "dce6d2b1daf416ac",
+      "id": "0e1681e923ab3665",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "heapify\nread the raw data as a binary tree indexed tree\ngo layer by layer, bottom up, and make sure that subtrees from that layer downwards are heaps (by swapping from top to bottom)\n\nIterate bottom up, enforce invariant top down",
+      "text": "Binary Tree\nTree\nAll nodes have 0, 1 or 2 children",
       "type": "text",
-      "width": 400,
-      "x": 1400,
-      "y": 560
+      "width": 260,
+      "x": 2460,
+      "y": -60
     },
     {
-      "height": 520,
-      "id": "74c5b381e62a9002",
+      "height": 216,
+      "id": "2202da18a7062c7c",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "RB-tree\n![[Pasted image 20250407182340.png]]\n\nFor all nodes, any path from this node to a descendant leaf has the same amount of black nodes (includes nil leaves being black)\n\nBlack-height: property of a node/subtree. Number of black nodes on the way to any leaf (includes the blackness of the leaves). Will be the same regardless of path because of the RB-Trees invariant. (Black height is only well-defined when Red-Black Tree invariants are satisfied)\n\nInsertion\n1. Insert the new node as a red node.\n2. If the inserted node was the root, color black\n3. While invariant \"no red children of red parents\" is broken, apply one of the following to the red child:\n\t1. red uncle -> recolor parent, grandparent, uncle\n\t2. black uncle  (triangle) -> rotate parent in opposite direction of child's orientation (if i am left child, rotate right)\n\t3. black uncle (line) -> rotate grandparent opposite direction of  self, recolor original parent, grandparent\n\nDeletion\nIf the to be deleted node has any nil child:\n- transplant(grandparent, child)\n- delete_fixup(child) if deleted was black\nIf the to be deleted node has two children:\n- swap with immediate successor, then delete original.\n- delete_fixup(place_of_deleted_node_after_swap) if deleted was black\n\nDelete_fixup(x):\nsibling is w\nif:\n- w is red:\n\t- set w black\n\t- set parent red\n\t- left rotate parent\n\t- set sibling pointer to new sibling\n- w is black parent of two black children\n\t- set w red\n\t- set x pointer to x's parent\n- w is black parent of red left child and black right child\n\t- set left child black\n\t- set w to red\n\t- right rotate w\n\t- set sibling pointer to new sibling\n- w is black parent of red right child\n\t- set w to parents color\n\t- set parents color to black\n\t- set red child's color to black\n\t- left rotate parent\n\t- set x pointer to root\n",
+      "text": "Full Binary Tree\n0 or 2 children\n![[Pasted image 20250407180301.png]]",
       "type": "text",
-      "width": 460,
-      "x": 2340,
-      "y": 740
-    },
-    {
-      "height": 460,
-      "id": "78008a33ae1aba07",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Balanced Binary Tree\n![[Pasted image 20250407181002.png]]\nno two leaves differ in depth by more than one\n\nMore specifically:\n1. difference between the left and the right subtree heights for any node is not more than one\n2. the left subtree is balanced\n3. the right subtree is balanced",
-      "type": "text",
-      "width": 400,
-      "x": 4320,
+      "width": 160,
+      "x": 2440,
       "y": 160
     },
     {
-      "height": 380,
-      "id": "8a9231b254e3b0fb",
+      "height": 360,
+      "id": "13b13025ca9b84bb",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "AVL-Tree\n![[Pasted image 20250414231859.png]]\nheight of left and right subtrees may not differ by more than 1, for all subtrees",
+      "text": "Complete Binary Tree\n![[Pasted image 20250407180314.png]]\n\nFilled from left\n-levels 0 until h-1 are completely full\n-level h is left-most",
       "type": "text",
-      "width": 480,
-      "x": 4280,
-      "y": 720
-    },
-    {
-      "height": 60,
-      "id": "f25a876b98d12bb0",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Stack",
-      "type": "text",
-      "width": 160,
-      "x": 1080,
-      "y": 180
-    },
-    {
-      "height": 60,
-      "id": "f264a6d7f9f971c2",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Queue",
-      "type": "text",
-      "width": 160,
-      "x": 1080,
-      "y": 280
+      "width": 250,
+      "x": 2160,
+      "y": 160
     },
     {
       "height": 148,
@@ -1285,6 +1272,19 @@
       "y": 320
     },
     {
+      "height": 380,
+      "id": "e5d38de2c76d11e5",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Binary Search tree\nThe rightmost child of the left child is smaller than the leftmost child of the right child\n![[Pasted image 20250407185418.png]]",
+      "type": "text",
+      "width": 300,
+      "x": 2620,
+      "y": 160
+    },
+    {
       "height": 60,
       "id": "6a25b6662d783183",
       "styleAttributes": {
@@ -1298,56 +1298,30 @@
       "y": 540
     },
     {
-      "height": 60,
-      "id": "3f5ffd642805b818",
+      "height": 150,
+      "id": "dce6d2b1daf416ac",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "Doubly Linked List",
+      "text": "heapify\nread the raw data as a binary tree indexed tree\ngo layer by layer, bottom up, and make sure that subtrees from that layer downwards are heaps (by swapping from top to bottom)\n\nIterate bottom up, enforce invariant top down",
       "type": "text",
-      "width": 160,
-      "x": 1080,
-      "y": -320
+      "width": 400,
+      "x": 1400,
+      "y": 560
     },
     {
-      "height": 60,
-      "id": "b1540284dafa76df",
+      "height": 320,
+      "id": "0d2c6cc91b386a0f",
       "styleAttributes": {
         "border": "dashed",
-        "textAlign": "center"
+        "textAlign": null
       },
-      "text": "Graph",
+      "text": "max-heap\n\nThe keys stored at each node of the tree must be comparable according to a total order relations of comparability, antisymmetry, and transitivity.\n\n- binary tree\n- parent element is max value of its subtree\n- complete.",
       "type": "text",
-      "width": 160,
-      "x": 1080,
-      "y": 80
-    },
-    {
-      "height": 60,
-      "id": "29653a0c82beb068",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Hash Table",
-      "type": "text",
-      "width": 160,
-      "x": 1080,
-      "y": -120
-    },
-    {
-      "height": 60,
-      "id": "64f59c14cc855861",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Heap",
-      "type": "text",
-      "width": 160,
-      "x": 1080,
-      "y": -20
+      "width": 300,
+      "x": 1820,
+      "y": 640
     },
     {
       "height": 60,
@@ -1361,6 +1335,32 @@
       "width": 160,
       "x": 1080,
       "y": -220
+    },
+    {
+      "height": 60,
+      "id": "c651c3f7a0cbc1f8",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Graph\nNode Edge",
+      "type": "text",
+      "width": 260,
+      "x": 2460,
+      "y": -440
+    },
+    {
+      "height": 60,
+      "id": "3f5ffd642805b818",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Doubly Linked List",
+      "type": "text",
+      "width": 160,
+      "x": 1080,
+      "y": -320
     },
     {
       "height": 60,

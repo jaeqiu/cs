@@ -8,5 +8,6 @@
   "advanced-canvas",
   "obsidian-annotator",
   "dataview",
-  "obsidian-image-toolkit"
+  "obsidian-image-toolkit",
+  "node-auto-resize"
 ]

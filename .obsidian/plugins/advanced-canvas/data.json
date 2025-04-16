@@ -46,7 +46,7 @@
   "disableNodePopup": false,
   "disableZoom": false,
   "disablePan": false,
-  "autoResizeNodeFeatureEnabled": true,
+  "autoResizeNodeFeatureEnabled": false,
   "autoResizeNodeEnabledByDefault": true,
   "autoResizeNodeMaxHeight": -1,
   "autoResizeNodeSnapToGrid": false,

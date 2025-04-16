@@ -192,7 +192,7 @@
     },
     {
       "fromNode": "5f8e47ce871e45b2",
-      "fromSide": "left",
+      "fromSide": "top",
       "id": "3f357273f6909d07",
       "styleAttributes": {
         "pathfindingMethod": "square"
@@ -215,10 +215,24 @@
       "y": -420
     },
     {
+      "color": "2",
+      "height": 1040,
+      "id": "6c46668e8aaf072a",
+      "label": "ANN",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 2220,
+      "x": -180,
+      "y": 480
+    },
+    {
       "color": "1",
       "height": 1320,
       "id": "e04954ab57484210",
       "label": "GA",
+      "styleAttributes": {
+      },
       "type": "group",
       "width": 2280,
       "x": 2200,
@@ -229,6 +243,8 @@
       "height": 1320,
       "id": "3abd125d16d94d96",
       "label": "SI",
+      "styleAttributes": {
+      },
       "type": "group",
       "width": 2280,
       "x": -120,
@@ -239,28 +255,22 @@
       "height": 1320,
       "id": "b6f85fedc382414f",
       "label": "RL",
+      "styleAttributes": {
+      },
       "type": "group",
       "width": 2280,
       "x": 2200,
       "y": 2000
     },
     {
-      "color": "2",
-      "height": 1040,
-      "id": "6c46668e8aaf072a",
-      "label": "ANN",
-      "type": "group",
-      "width": 2220,
-      "x": -180,
-      "y": 480
-    },
-    {
       "color": "4",
       "height": 520,
       "id": "324f1f7dde7356ad",
       "label": "Tasks",
+      "styleAttributes": {
+      },
       "type": "group",
-      "width": 1520,
+      "width": 1280,
       "x": -220,
       "y": -200
     },
@@ -268,62 +278,25 @@
       "height": 140,
       "id": "b02e286b238b7f98",
       "label": "Problem",
+      "styleAttributes": {
+      },
       "type": "group",
       "width": 500,
-      "x": 2560,
-      "y": 1580
-    },
-    {
-      "height": 60,
-      "id": "b76abff4d15004ef",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "= methods inspired by nature to solve complex problems using adaptive algorithms.",
-      "type": "text",
-      "width": 400,
-      "x": -220,
-      "y": -400
+      "x": 2240,
+      "y": 1720
     },
     {
       "height": 150,
-      "id": "c753e479e477d064",
+      "id": "e74cdbc99f4d1ce5",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "Velocity\nthe speed and direction a particle moves in PSO to explore different areas of the solution space.\n",
+      "text": "Regression\npredicting a continuous value, such as forecasting temperatures or prices.\n",
       "type": "text",
       "width": 400,
-      "x": 740,
-      "y": 2620
-    },
-    {
-      "height": 150,
-      "id": "06c77fa19c14edf3",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "ACO Ant Colony Optimization",
-      "type": "text",
-      "width": 400,
-      "x": 1460,
-      "y": 2060
-    },
-    {
-      "height": 150,
-      "id": "dbd55d6f73df9feb",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Evaporation\nreducing pheromone levels over time in ant colony optimization to avoid converging too soon.\n",
-      "type": "text",
-      "width": 400,
-      "x": 1360,
-      "y": 2380
+      "x": 20,
+      "y": 100
     },
     {
       "height": 60,
@@ -339,17 +312,197 @@
       "y": 660
     },
     {
-      "height": 150,
-      "id": "f0d5e18e15493701",
+      "height": 249,
+      "id": "cb619ba78ca4ed6e",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "Action selection with delayed rewards\nchoosing actions when rewards come after a delay, not immediately.\n",
+      "text": "Evaluation\n![[Pasted image 20250416200622.png]]\n\nCompute the fitness of all the chromosomes in the population\n\n",
+      "type": "text",
+      "width": 220,
+      "x": 2380,
+      "y": 820
+    },
+    {
+      "height": 44,
+      "id": "fd72204162328e16",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "chromosome",
+      "type": "text",
+      "width": 187,
+      "x": 2240,
+      "y": 1426
+    },
+    {
+      "height": 295,
+      "id": "328af62d958cab21",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Population\n![[Pasted image 20250416200513.png]]\n\n\n\n\nRandomly select an initial population of N chromosomes",
+      "type": "text",
+      "width": 280,
+      "x": 2340,
+      "y": 1125
+    },
+    {
+      "height": 92,
+      "id": "5f8e47ce871e45b2",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Encoding\nEach chromosome is a candidate solution",
+      "type": "text",
+      "width": 296,
+      "x": 2300,
+      "y": 1580
+    },
+    {
+      "height": 160,
+      "id": "324ba1ebf44ad1c8",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Chinese room thought experiment\n\nMachines might be able to demonstrate “intelligent behavior” while not being conscious or having under- standing in a human sense.",
+      "type": "text",
+      "width": 600,
+      "x": 1180,
+      "y": -80
+    },
+    {
+      "height": 260,
+      "id": "e37acc5c242057ab",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Frame problem\nthe challenge of determining which pieces of information are important when conditions change.\n\nThe frame problem is so difficult to solve, because we don’t know everything contextually required, to solve a particular problem, so we cannot convey all the relevant data to an AI agent.\n",
+      "type": "text",
+      "width": 500,
+      "x": 460,
+      "y": -160
+    },
+    {
+      "height": 44,
+      "id": "49551d8af2d21033",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Solution form",
+      "type": "text",
+      "width": 191,
+      "x": 2400,
+      "y": 1740
+    },
+    {
+      "height": 150,
+      "id": "b3d5b95f82fc581b",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Classification\nsorting data into groups based on similar features.\n",
       "type": "text",
       "width": 400,
-      "x": 2420,
-      "y": 2220
+      "x": -40,
+      "y": -100
+    },
+    {
+      "height": 150,
+      "id": "5311852f472bb621",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "PSO Particle Swarm Optimization\na method where particles fly through the solution space, guided by their own and neighbors' best positions.\n",
+      "type": "text",
+      "width": 400,
+      "x": 20,
+      "y": 2100
+    },
+    {
+      "height": 150,
+      "id": "06c77fa19c14edf3",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "ACO Ant Colony Optimization",
+      "type": "text",
+      "width": 400,
+      "x": 1260,
+      "y": 2080
+    },
+    {
+      "height": 50,
+      "id": "9cd97802fd020405",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "using the collective behaviors of simple agents to solve complicated problems.\n",
+      "type": "text",
+      "width": 400,
+      "x": -80,
+      "y": 2020
+    },
+    {
+      "height": 60,
+      "id": "b94e55db009d71dd",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "learning through trial and error where actions are rewarded or punished.\n",
+      "type": "text",
+      "width": 400,
+      "x": 2240,
+      "y": 2040
+    },
+    {
+      "height": 44,
+      "id": "8d919a0652557279",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "modified offspring",
+      "type": "text",
+      "width": 223,
+      "x": 2660,
+      "y": 1200
+    },
+    {
+      "file": "attachments/Pasted image 20250416194613.png",
+      "height": 240,
+      "id": "5df7cdc695cb4bf9",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 624,
+      "x": 3200,
+      "y": 680
+    },
+    {
+      "height": 271,
+      "id": "92f0e85f0d6f6f12",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Selection\n![[Pasted image 20250416200736.png]]\n\n\nKeep selecting two chromosomes for reproduction\n",
+      "type": "text",
+      "width": 268,
+      "x": 2860,
+      "y": 780
     },
     {
       "height": 150,
@@ -366,42 +519,55 @@
     },
     {
       "height": 150,
-      "id": "7e79e3cf119a0f2e",
+      "id": "f0d5e18e15493701",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "Solution Space\nthe entire set of possible answers a problem can have.\n",
+      "text": "Action selection with delayed rewards\nchoosing actions when rewards come after a delay, not immediately.\n",
       "type": "text",
       "width": 400,
-      "x": -40,
-      "y": 2480
+      "x": 2420,
+      "y": 2220
     },
     {
       "height": 150,
-      "id": "21782d01dd89efd5",
+      "id": "797d2c059ce5d268",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "**PSO formula**\nequations that update a particle's velocity and position based on current and best-found solutions.\n\n\n",
+      "text": "**Utility function**\na tool to measure the benefit of an action, guiding a system towards achieving its goal.\n",
       "type": "text",
       "width": 400,
-      "x": 300,
-      "y": 2620
+      "x": 2920,
+      "y": 2220
     },
     {
-      "height": 150,
-      "id": "0a019d7aea308ffe",
+      "height": 309,
+      "id": "f1811824cbd2eada",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "**Pr(r | s, a, s')**\nthe chance of getting reward r when you take action a in state s and reach state s′.\n",
+      "text": "Reproduction\n\n1. Get 2 children per pair (for every pair of parents):\n\t- with p_c: clone both parents into next generation\n\t- with 1-p_c: pick random cross-over bit, swap to get two children\n2. For each child, for each gene, flip the gene's bit with probability p_m\n\n",
       "type": "text",
-      "width": 400,
-      "x": 2360,
-      "y": 2700
+      "width": 338,
+      "x": 3062,
+      "y": 1231
+    },
+    {
+      "height": 44,
+      "id": "aff43d0ec5183593",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "parents",
+      "type": "text",
+      "width": 149,
+      "x": 2920,
+      "y": 1187
     },
     {
       "height": 150,
@@ -431,6 +597,110 @@
     },
     {
       "height": 150,
+      "id": "5bdd725fd4849284",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Evaluation Criterion\na measure for judging how good a solution is, often linked to the fitness function.\n",
+      "type": "text",
+      "width": 400,
+      "x": 3100,
+      "y": 1620
+    },
+    {
+      "height": 60,
+      "id": "b76abff4d15004ef",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "= methods inspired by nature to solve complex problems using adaptive algorithms.",
+      "type": "text",
+      "width": 400,
+      "x": -220,
+      "y": -400
+    },
+    {
+      "height": 200,
+      "id": "827f34e8286d27f5",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Fitness Function\nthe value that tells you how well a candidate solution performs on a given task\n\nThe fitness function specifies the objective for the behavior modeled by the transfer function.",
+      "type": "text",
+      "width": 440,
+      "x": 3820,
+      "y": 960
+    },
+    {
+      "height": 150,
+      "id": "c753e479e477d064",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Velocity\nthe speed and direction a particle moves in PSO to explore different areas of the solution space.\n",
+      "type": "text",
+      "width": 400,
+      "x": 740,
+      "y": 2620
+    },
+    {
+      "height": 150,
+      "id": "21782d01dd89efd5",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**PSO formula**\nequations that update a particle's velocity and position based on current and best-found solutions.\n\n\n",
+      "type": "text",
+      "width": 400,
+      "x": 300,
+      "y": 2620
+    },
+    {
+      "height": 150,
+      "id": "dbd55d6f73df9feb",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Evaporation\nreducing pheromone levels over time in ant colony optimization to avoid converging too soon.\n",
+      "type": "text",
+      "width": 400,
+      "x": 1160,
+      "y": 2400
+    },
+    {
+      "height": 150,
+      "id": "7e79e3cf119a0f2e",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Solution Space\nthe entire set of possible answers a problem can have.\n",
+      "type": "text",
+      "width": 400,
+      "x": -40,
+      "y": 2480
+    },
+    {
+      "height": 150,
+      "id": "0a019d7aea308ffe",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Pr(r | s, a, s')**\nthe chance of getting reward r when you take action a in state s and reach state s′.\n",
+      "type": "text",
+      "width": 400,
+      "x": 2360,
+      "y": 2700
+    },
+    {
+      "height": 150,
       "id": "9c960a019fcd54c9",
       "styleAttributes": {
         "border": "dashed",
@@ -444,133 +714,81 @@
     },
     {
       "height": 150,
-      "id": "5311852f472bb621",
+      "id": "0e8091b305e7fae5",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "PSO Particle Swarm Optimization\na method where particles fly through the solution space, guided by their own and neighbors' best positions.\n",
+      "text": "Roulette Wheel Selection\na technique where candidates are chosen based on probability proportional to their fitness.\n",
       "type": "text",
       "width": 400,
-      "x": 20,
-      "y": 2100
+      "x": 3808,
+      "y": 1400
     },
     {
-      "height": 150,
-      "id": "797d2c059ce5d268",
+      "height": 92,
+      "id": "6e73dbc2b446b9dc",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "**Utility function**\na tool to measure the benefit of an action, guiding a system towards achieving its goal.\n",
+      "text": "Chromosome\na string or representation of a candidate solution in a genetic algorithm.",
       "type": "text",
-      "width": 400,
-      "x": 2920,
-      "y": 2220
+      "width": 576,
+      "x": 3740,
+      "y": 1280
     },
     {
       "height": 150,
-      "id": "e74cdbc99f4d1ce5",
+      "id": "3d0de73d30c363f8",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "Regression\npredicting a continuous value, such as forecasting temperatures or prices.\n",
+      "text": "A chromosome's probability of being selected\n\ndetermined by its fitness, influencing chances to evolve.\n",
       "type": "text",
       "width": 400,
-      "x": 140,
-      "y": 120
+      "x": 3940,
+      "y": 1672
     },
     {
       "height": 150,
-      "id": "b3d5b95f82fc581b",
+      "id": "bbc6f28afdbd28a1",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "Classification\nsorting data into groups based on similar features.\n",
+      "text": "**Forward pass**\nprocessing input through a network to produce an output or prediction.\n",
       "type": "text",
       "width": 400,
-      "x": 80,
-      "y": -80
+      "x": -140,
+      "y": 1120
     },
     {
-      "height": 150,
-      "id": "e37acc5c242057ab",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Frame problem\nthe challenge of determining which pieces of information are important when conditions change.\n",
-      "type": "text",
-      "width": 400,
-      "x": 660,
-      "y": -60
-    },
-    {
-      "height": 50,
-      "id": "9cd97802fd020405",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "using the collective behaviors of simple agents to solve complicated problems.\n",
-      "type": "text",
-      "width": 400,
-      "x": -80,
-      "y": 2020
-    },
-    {
-      "height": 60,
-      "id": "b94e55db009d71dd",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "learning through trial and error where actions are rewarded or punished.\n",
-      "type": "text",
-      "width": 400,
-      "x": 2240,
-      "y": 2040
-    },
-    {
-      "height": 150,
+      "height": 240,
       "id": "94ec34c5ef38d579",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "MLP Multi-Layer Perceptron\na basic neural network with multiple layers for learning complex, non-linear patterns.\n",
+      "text": "MLP Multi-Layer Perceptron\n![[neuralnetwork.png]]\na basic neural network with multiple layers for learning complex, non-linear patterns.\n",
       "type": "text",
       "width": 400,
       "x": 80,
       "y": 860
     },
     {
-      "height": 150,
-      "id": "3a7510e9512faba7",
+      "height": 50,
+      "id": "14da08bd61e3f170",
       "styleAttributes": {
-        "border": "dashed",
+        "border": "invisible",
         "textAlign": "center"
       },
-      "text": "**Activation functions**\na formula applied to a neuron's output to decide whether it should be passed on.\n",
+      "text": "a computer model made of interconnected units that mimics the human brain.\n",
       "type": "text",
       "width": 400,
-      "x": 300,
-      "y": 1120
-    },
-    {
-      "height": 150,
-      "id": "e504ed0cb6b750af",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "**Softmax**\nan activation function that converts outputs into probabilities over multiple classes.\n",
-      "type": "text",
-      "width": 400,
-      "x": 300,
-      "y": 1340
+      "x": 640,
+      "y": 520
     },
     {
       "height": 150,
@@ -587,6 +805,19 @@
     },
     {
       "height": 150,
+      "id": "3a7510e9512faba7",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Activation functions**\na formula applied to a neuron's output to decide whether it should be passed on.\n",
+      "type": "text",
+      "width": 400,
+      "x": 300,
+      "y": 1120
+    },
+    {
+      "height": 150,
       "id": "10a489b9dec8e846",
       "styleAttributes": {
         "border": "dashed",
@@ -596,6 +827,19 @@
       "type": "text",
       "width": 400,
       "x": -120,
+      "y": 1340
+    },
+    {
+      "height": 150,
+      "id": "e504ed0cb6b750af",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Softmax**\nan activation function that converts outputs into probabilities over multiple classes.\n",
+      "type": "text",
+      "width": 400,
+      "x": 300,
       "y": 1340
     },
     {
@@ -613,19 +857,6 @@
     },
     {
       "height": 150,
-      "id": "9721b3aa6dcfd1a6",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "CNN Convolutional Neural Network\na type of neural network that uses convolution layers to analyze images and signals.\n",
-      "type": "text",
-      "width": 400,
-      "x": 1200,
-      "y": 760
-    },
-    {
-      "height": 150,
       "id": "c2af52c4656c8bfc",
       "styleAttributes": {
         "border": "dashed",
@@ -636,6 +867,30 @@
       "width": 400,
       "x": 1200,
       "y": 1100
+    },
+    {
+      "file": "attachments/Pasted image 20250416203732.png",
+      "height": 179,
+      "id": "4b21869b9ab599c9",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 1300,
+      "y": 520
+    },
+    {
+      "height": 240,
+      "id": "9721b3aa6dcfd1a6",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "CNN Convolutional Neural Network\n![[Pasted image 20250416203732.png]]\n\na type of neural network that uses convolution layers to analyze images and signals.\n",
+      "type": "text",
+      "width": 400,
+      "x": 1200,
+      "y": 760
     },
     {
       "height": 150,
@@ -649,232 +904,6 @@
       "width": 400,
       "x": 1620,
       "y": 1100
-    },
-    {
-      "height": 150,
-      "id": "bbc6f28afdbd28a1",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "**Forward pass**\nprocessing input through a network to produce an output or prediction.\n",
-      "type": "text",
-      "width": 400,
-      "x": -140,
-      "y": 1120
-    },
-    {
-      "file": "attachments/Pasted image 20250416194042.png",
-      "height": 320,
-      "id": "f597b2824aef88f3",
-      "type": "file",
-      "width": 652,
-      "x": 520,
-      "y": 600
-    },
-    {
-      "height": 50,
-      "id": "14da08bd61e3f170",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "a computer model made of interconnected units that mimics the human brain.\n",
-      "type": "text",
-      "width": 400,
-      "x": 640,
-      "y": 520
-    },
-    {
-      "height": 150,
-      "id": "0e8091b305e7fae5",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Roulette Wheel Selection\na technique where candidates are chosen based on probability proportional to their fitness.\n",
-      "type": "text",
-      "width": 400,
-      "x": 3740,
-      "y": 1420
-    },
-    {
-      "height": 150,
-      "id": "3d0de73d30c363f8",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "A chromosome's probability of being selected\n\ndetermined by its fitness, influencing chances to evolve.\n",
-      "type": "text",
-      "width": 400,
-      "x": 3880,
-      "y": 1740
-    },
-    {
-      "height": 150,
-      "id": "5bdd725fd4849284",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Evaluation Criterion\na measure for judging how good a solution is, often linked to the fitness function.\n",
-      "type": "text",
-      "width": 400,
-      "x": 3020,
-      "y": 1760
-    },
-    {
-      "height": 50,
-      "id": "cb619ba78ca4ed6e",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Evaluation",
-      "type": "text",
-      "width": 107,
-      "x": 2560,
-      "y": 980
-    },
-    {
-      "height": 50,
-      "id": "92f0e85f0d6f6f12",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Selection",
-      "type": "text",
-      "width": 107,
-      "x": 2880,
-      "y": 980
-    },
-    {
-      "height": 60,
-      "id": "aff43d0ec5183593",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "parents",
-      "type": "text",
-      "width": 140,
-      "x": 2800,
-      "y": 1060
-    },
-    {
-      "height": 60,
-      "id": "8d919a0652557279",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "modified offspring",
-      "type": "text",
-      "width": 140,
-      "x": 2700,
-      "y": 1120
-    },
-    {
-      "height": 50,
-      "id": "328af62d958cab21",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Population",
-      "type": "text",
-      "width": 107,
-      "x": 2560,
-      "y": 1160
-    },
-    {
-      "height": 50,
-      "id": "f1811824cbd2eada",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Reproduction",
-      "type": "text",
-      "width": 107,
-      "x": 2880,
-      "y": 1160
-    },
-    {
-      "height": 180,
-      "id": "5f8e47ce871e45b2",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Encoding",
-      "type": "text",
-      "width": 70,
-      "x": 2740,
-      "y": 1260
-    },
-    {
-      "height": 60,
-      "id": "fd72204162328e16",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "chromosome",
-      "type": "text",
-      "width": 180,
-      "x": 2440,
-      "y": 1220
-    },
-    {
-      "height": 150,
-      "id": "6e73dbc2b446b9dc",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Chromosome\na string or representation of a candidate solution in a genetic algorithm.\n",
-      "type": "text",
-      "width": 400,
-      "x": 3220,
-      "y": 1260
-    },
-    {
-      "file": "attachments/Pasted image 20250416194613.png",
-      "height": 240,
-      "id": "5df7cdc695cb4bf9",
-      "type": "file",
-      "width": 624,
-      "x": 3040,
-      "y": 680
-    },
-    {
-      "height": 50,
-      "id": "49551d8af2d21033",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Solution form",
-      "type": "text",
-      "width": 107,
-      "x": 2720,
-      "y": 1600
-    },
-    {
-      "height": 30,
-      "id": "827f34e8286d27f5",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Fitness Function\nthe value that tells you how well a candidate solution performs on a given task.\n",
-      "type": "text",
-      "width": 561,
-      "x": 3300,
-      "y": 1000
     }
   ]
 }
