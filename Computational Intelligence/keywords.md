@@ -1,0 +1,5 @@
+- Computational Intelligence, "Intelligence", Fitness function,  transfer function, classification,  regression, frame problem, utility function
+- Artificial neural network, cnn, mlp, feature map, convolution, activation function, ReLu, Tanh, Softmax, MLP, forward pass,
+- Genetic algorithm ,chromosome, evaluation criterion, fitness, roulette wheel selection strategy, a chromosome's probability of being selected for modification, 
+- Swarm intelligence, PSO Particle Swarm Optimization, solution space, velocity, PSO formula, exploration vs exploitation, aco evaporation
+- Reinforcement Learning, action selection problem with delayed rewards, R(s'), R(s,a,s'), Pr(r|s,a,s'), reward formulation.

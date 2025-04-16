@@ -1,6 +1,6 @@
 {
   "downloadTimestamp": 1744037821305,
-  "askedForDonation": false,
+  "askedForDonation": true,
   "nodeTypeOnDoubleClick": "text",
   "alignNewNodesToGrid": true,
   "defaultTextNodeWidth": 400,

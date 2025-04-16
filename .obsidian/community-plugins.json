@@ -5,5 +5,8 @@
   "find-unlinked-files",
   "link-nodes-in-canvas",
   "obsidian-paste-png-to-jpeg",
-  "advanced-canvas"
+  "advanced-canvas",
+  "obsidian-annotator",
+  "dataview",
+  "obsidian-image-toolkit"
 ]
