@@ -1,0 +1,676 @@
+{
+  "edges": [
+    {
+      "fromNode": "5311852f472bb621",
+      "fromSide": "bottom",
+      "id": "90a93ed0c0861454",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "7e79e3cf119a0f2e",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "5311852f472bb621",
+      "fromSide": "bottom",
+      "id": "8af675cc0fed941d",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "c753e479e477d064",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "5311852f472bb621",
+      "fromSide": "bottom",
+      "id": "6b7bbfff731415f3",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "21782d01dd89efd5",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "5311852f472bb621",
+      "fromSide": "bottom",
+      "id": "f7abc60b28133d78",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "e5a5545167069be1",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "06c77fa19c14edf3",
+      "fromSide": "bottom",
+      "id": "840294ba2cb1c76d",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "dbd55d6f73df9feb",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "94ec34c5ef38d579",
+      "fromSide": "bottom",
+      "id": "8be66a8fa0c48d9b",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "bbc6f28afdbd28a1",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "9721b3aa6dcfd1a6",
+      "fromSide": "bottom",
+      "id": "3fa5342dc0f46af2",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "9c46c129035ead5d",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "9721b3aa6dcfd1a6",
+      "fromSide": "bottom",
+      "id": "9a4dafc812a15cdc",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "c2af52c4656c8bfc",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "9721b3aa6dcfd1a6",
+      "fromSide": "bottom",
+      "id": "63f2799a2caa9bd4",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "d01c7c74440987a8",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "94ec34c5ef38d579",
+      "fromSide": "bottom",
+      "id": "e5ccf32f5d4f88d0",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "3a7510e9512faba7",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "3a7510e9512faba7",
+      "fromSide": "bottom",
+      "id": "a934a765347ac500",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "10a489b9dec8e846",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "3a7510e9512faba7",
+      "fromSide": "bottom",
+      "id": "0bc0f0bbe625a0e2",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "6e2da7f7caa90cb7",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "3a7510e9512faba7",
+      "fromSide": "bottom",
+      "id": "b8e7addda24e5942",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "e504ed0cb6b750af",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "0e8091b305e7fae5",
+      "fromSide": "bottom",
+      "id": "2aca0d93316b0305",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "3d0de73d30c363f8",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "color": "#ff00dd",
+      "height": 4260,
+      "id": "ae2b3286821c1a41",
+      "label": "Computational Intelligence",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 5240,
+      "x": -280,
+      "y": -420
+    },
+    {
+      "color": "4",
+      "height": 1320,
+      "id": "6c46668e8aaf072a",
+      "label": "ANN",
+      "type": "group",
+      "width": 2280,
+      "x": -120,
+      "y": 640
+    },
+    {
+      "color": "4",
+      "height": 1320,
+      "id": "e04954ab57484210",
+      "label": "GA",
+      "type": "group",
+      "width": 2280,
+      "x": 2200,
+      "y": 640
+    },
+    {
+      "color": "4",
+      "height": 1320,
+      "id": "3abd125d16d94d96",
+      "label": "SI",
+      "type": "group",
+      "width": 2280,
+      "x": -120,
+      "y": 2000
+    },
+    {
+      "color": "4",
+      "height": 1320,
+      "id": "b6f85fedc382414f",
+      "label": "RL",
+      "type": "group",
+      "width": 2280,
+      "x": 2200,
+      "y": 2000
+    },
+    {
+      "color": "4",
+      "height": 520,
+      "id": "324f1f7dde7356ad",
+      "label": "Tasks",
+      "type": "group",
+      "width": 1520,
+      "x": -220,
+      "y": -200
+    },
+    {
+      "height": 60,
+      "id": "b76abff4d15004ef",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "= methods inspired by nature to solve complex problems using adaptive algorithms.",
+      "type": "text",
+      "width": 400,
+      "x": -220,
+      "y": -400
+    },
+    {
+      "height": 150,
+      "id": "9721b3aa6dcfd1a6",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "CNN Convolutional Neural Network\na type of neural network that uses convolution layers to analyze images and signals.\n",
+      "type": "text",
+      "width": 400,
+      "x": 1240,
+      "y": 900
+    },
+    {
+      "height": 150,
+      "id": "c753e479e477d064",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Velocity\nthe speed and direction a particle moves in PSO to explore different areas of the solution space.\n",
+      "type": "text",
+      "width": 400,
+      "x": 740,
+      "y": 2620
+    },
+    {
+      "height": 150,
+      "id": "06c77fa19c14edf3",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "ACO Ant Colony Optimization",
+      "type": "text",
+      "width": 400,
+      "x": 1460,
+      "y": 2060
+    },
+    {
+      "height": 150,
+      "id": "dbd55d6f73df9feb",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Evaporation\nreducing pheromone levels over time in ant colony optimization to avoid converging too soon.\n",
+      "type": "text",
+      "width": 400,
+      "x": 1360,
+      "y": 2380
+    },
+    {
+      "height": 150,
+      "id": "827f34e8286d27f5",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Fitness Function\nthe value that tells you how well a candidate solution performs on a given task.\n",
+      "type": "text",
+      "width": 400,
+      "x": 2520,
+      "y": 1120
+    },
+    {
+      "height": 150,
+      "id": "5bdd725fd4849284",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Evaluation Criterion\na measure for judging how good a solution is, often linked to the fitness function.\n",
+      "type": "text",
+      "width": 400,
+      "x": 2300,
+      "y": 1300
+    },
+    {
+      "height": 60,
+      "id": "04cab98a33a32310",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "an optimization method using evolution-like steps to find good solutions.\n",
+      "type": "text",
+      "width": 440,
+      "x": 2240,
+      "y": 660
+    },
+    {
+      "height": 150,
+      "id": "6e73dbc2b446b9dc",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Chromosome\na string or representation of a candidate solution in a genetic algorithm.\n",
+      "type": "text",
+      "width": 400,
+      "x": 2640,
+      "y": 840
+    },
+    {
+      "height": 150,
+      "id": "f0d5e18e15493701",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Action selection with delayed rewards\nchoosing actions when rewards come after a delay, not immediately.\n",
+      "type": "text",
+      "width": 400,
+      "x": 2420,
+      "y": 2220
+    },
+    {
+      "height": 150,
+      "id": "e5a5545167069be1",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Exploration vs exploitation**\nbalancing trying new solutions with refining known good ones to find the best answer.\n",
+      "type": "text",
+      "width": 400,
+      "x": 440,
+      "y": 2320
+    },
+    {
+      "height": 150,
+      "id": "7e79e3cf119a0f2e",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Solution Space\nthe entire set of possible answers a problem can have.\n",
+      "type": "text",
+      "width": 400,
+      "x": -40,
+      "y": 2480
+    },
+    {
+      "height": 150,
+      "id": "21782d01dd89efd5",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**PSO formula**\nequations that update a particle's velocity and position based on current and best-found solutions.\n\n\n",
+      "type": "text",
+      "width": 400,
+      "x": 300,
+      "y": 2620
+    },
+    {
+      "height": 150,
+      "id": "0a019d7aea308ffe",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Pr(r | s, a, s')**\nthe chance of getting reward r when you take action a in state s and reach state s′.\n",
+      "type": "text",
+      "width": 400,
+      "x": 2360,
+      "y": 2700
+    },
+    {
+      "height": 150,
+      "id": "70ffab3d6f2895e1",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Reward formulation**\ndesigning reward signals so that an agent learns to make the right decisions.\n",
+      "type": "text",
+      "width": 400,
+      "x": 2500,
+      "y": 2440
+    },
+    {
+      "height": 150,
+      "id": "0c1e06c446c69493",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**R(s')**\nthe reward received when arriving at a new state s', helping measure success.\n",
+      "type": "text",
+      "width": 400,
+      "x": 2920,
+      "y": 2420
+    },
+    {
+      "height": 150,
+      "id": "9c960a019fcd54c9",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**R(s,a,s')**\nthe reward obtained when taking action a in state s and ending up in state s′.\n",
+      "type": "text",
+      "width": 400,
+      "x": 3080,
+      "y": 2600
+    },
+    {
+      "height": 150,
+      "id": "5311852f472bb621",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "PSO Particle Swarm Optimization\na method where particles fly through the solution space, guided by their own and neighbors' best positions.\n",
+      "type": "text",
+      "width": 400,
+      "x": 20,
+      "y": 2100
+    },
+    {
+      "height": 150,
+      "id": "797d2c059ce5d268",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Utility function**\na tool to measure the benefit of an action, guiding a system towards achieving its goal.\n",
+      "type": "text",
+      "width": 400,
+      "x": 2920,
+      "y": 2220
+    },
+    {
+      "height": 150,
+      "id": "94ec34c5ef38d579",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "MLP Multi-Layer Perceptron\na basic neural network with multiple layers for learning complex, non-linear patterns.\n",
+      "type": "text",
+      "width": 400,
+      "x": 80,
+      "y": 840
+    },
+    {
+      "height": 150,
+      "id": "c2af52c4656c8bfc",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Feature map**\nthe grid of outputs from a convolution layer that shows the presence of specific patterns.\n",
+      "type": "text",
+      "width": 400,
+      "x": 1300,
+      "y": 1300
+    },
+    {
+      "height": 150,
+      "id": "bbc6f28afdbd28a1",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Forward pass**\nprocessing input through a network to produce an output or prediction.\n",
+      "type": "text",
+      "width": 400,
+      "x": 0,
+      "y": 1100
+    },
+    {
+      "height": 150,
+      "id": "d01c7c74440987a8",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Activation functions**\na formula applied to a neuron's output to decide whether it should be passed on.\n",
+      "type": "text",
+      "width": 400,
+      "x": 1700,
+      "y": 1120
+    },
+    {
+      "height": 150,
+      "id": "9c46c129035ead5d",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Convolution\nsliding a filter over data to extract key features like edges in an image.\n",
+      "type": "text",
+      "width": 400,
+      "x": 1020,
+      "y": 1100
+    },
+    {
+      "height": 150,
+      "id": "3a7510e9512faba7",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Activation functions**\na formula applied to a neuron's output to decide whether it should be passed on.\n",
+      "type": "text",
+      "width": 400,
+      "x": 500,
+      "y": 1100
+    },
+    {
+      "height": 150,
+      "id": "10a489b9dec8e846",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**ReLu**\nan activation function that outputs the input when positive and zero when negative, speeding up training.\n",
+      "type": "text",
+      "width": 400,
+      "x": 220,
+      "y": 1320
+    },
+    {
+      "height": 150,
+      "id": "e504ed0cb6b750af",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Softmax**\nan activation function that converts outputs into probabilities over multiple classes.\n",
+      "type": "text",
+      "width": 400,
+      "x": 460,
+      "y": 1520
+    },
+    {
+      "height": 150,
+      "id": "e74cdbc99f4d1ce5",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Regression\npredicting a continuous value, such as forecasting temperatures or prices.\n",
+      "type": "text",
+      "width": 400,
+      "x": 140,
+      "y": 120
+    },
+    {
+      "height": 150,
+      "id": "b3d5b95f82fc581b",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Classification\nsorting data into groups based on similar features.\n",
+      "type": "text",
+      "width": 400,
+      "x": 80,
+      "y": -80
+    },
+    {
+      "height": 150,
+      "id": "e37acc5c242057ab",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Frame problem\nthe challenge of determining which pieces of information are important when conditions change.\n",
+      "type": "text",
+      "width": 400,
+      "x": 660,
+      "y": -60
+    },
+    {
+      "height": 50,
+      "id": "14da08bd61e3f170",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "a computer model made of interconnected units that mimics the human brain.\n",
+      "type": "text",
+      "width": 400,
+      "x": -80,
+      "y": 680
+    },
+    {
+      "height": 150,
+      "id": "6e2da7f7caa90cb7",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Tanh**\nan activation function that squashes values to between -1 and 1 for smoother gradients.\n",
+      "type": "text",
+      "width": 400,
+      "x": 920,
+      "y": 1540
+    },
+    {
+      "height": 50,
+      "id": "9cd97802fd020405",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "using the collective behaviors of simple agents to solve complicated problems.\n",
+      "type": "text",
+      "width": 400,
+      "x": -80,
+      "y": 2020
+    },
+    {
+      "height": 60,
+      "id": "b94e55db009d71dd",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "learning through trial and error where actions are rewarded or punished.\n",
+      "type": "text",
+      "width": 400,
+      "x": 2240,
+      "y": 2040
+    },
+    {
+      "height": 150,
+      "id": "0e8091b305e7fae5",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Roulette Wheel Selection\na technique where candidates are chosen based on probability proportional to their fitness.\n",
+      "type": "text",
+      "width": 400,
+      "x": 2940,
+      "y": 1300
+    },
+    {
+      "height": 150,
+      "id": "3d0de73d30c363f8",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "A chromosome's probability of being selected\n\ndetermined by its fitness, influencing chances to evolve.\n",
+      "type": "text",
+      "width": 400,
+      "x": 3080,
+      "y": 1620
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "nodeTypeOnDoubleClick": "text",
   "alignNewNodesToGrid": true,
   "defaultTextNodeWidth": 400,
-  "defaultTextNodeHeight": 150,
+  "defaultTextNodeHeight": 50,
   "defaultFileNodeWidth": 400,
   "defaultFileNodeHeight": 400,
   "minNodeSize": 60,
@@ -16,7 +16,7 @@
   "nodeStylingFeatureEnabled": true,
   "customNodeStyleAttributes": [],
   "defaultTextNodeStyleAttributes": {
-    "border": "dashed",
+    "border": "invisible",
     "textAlign": "center"
   },
   "edgesStylingFeatureEnabled": true,

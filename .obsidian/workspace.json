@@ -11,10 +11,34 @@
             "id": "3f9d3645a48a785e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "canvas",
+              "state": {
+                "file": "Computational Intelligence/ci_canvas.canvas",
+                "viewState": {
+                  "x": 612.3303544128923,
+                  "y": 2044.9661600553845,
+                  "zoom": -1.9999999999999998
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "ci_canvas"
+            }
+          },
+          {
+            "id": "9c44c86930a9d7d1",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Algorithms and Data Structures/ads_canvas.canvas",
+                "viewState": {
+                  "x": 1794.6271351144128,
+                  "y": 49.549257942952636,
+                  "zoom": -0.3349805590584924
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "ads_canvas"
             }
           }
         ]
@@ -168,9 +192,11 @@
   },
   "active": "3f9d3645a48a785e",
   "lastOpenFiles": [
+    "Algorithms and Data Structures/ads_canvas.canvas",
+    "Computational Intelligence/ci_canvas.canvas",
+    "Computational Intelligence/keywords.md",
     "Computational Intelligence/testt.pdf",
     "Computational Intelligence/Drawing 2025-04-16 17.42.09.excalidraw.md",
-    "Computational Intelligence/keywords.md",
     "attachments/Pasted Image 20250416174242_902.png",
     "attachments/Pasted image 20250414231956.png",
     "attachments/image/testing-1744818150123.jpeg",
@@ -193,7 +219,6 @@
     "Computational Intelligence/Drawing 2025-04-16 17.17.14.excalidraw.md",
     "Computational Intelligence/Drawing 2025-04-16 17.14.38.excalidraw.md",
     "Drawing 2025-04-16 17.11.06.excalidraw.md",
-    "Algorithms and Data Structures/ads_canvas.canvas",
     "testtt.md",
     "Algorithms and Data Structures/ads_merged_unified.pdf",
     "Algorithms and Data Structures/Open Addressing.md",
