@@ -15,30 +15,13 @@
               "state": {
                 "file": "Computational Intelligence/ci_canvas.canvas",
                 "viewState": {
-                  "x": 612.3303544128923,
-                  "y": 2044.9661600553845,
-                  "zoom": -1.9999999999999998
+                  "x": 3073.4999999999995,
+                  "y": 1228.6346055920642,
+                  "zoom": 1.1102230246251565e-16
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "ci_canvas"
-            }
-          },
-          {
-            "id": "9c44c86930a9d7d1",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Algorithms and Data Structures/ads_canvas.canvas",
-                "viewState": {
-                  "x": 1794.6271351144128,
-                  "y": 49.549257942952636,
-                  "zoom": -0.3349805590584924
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "ads_canvas"
             }
           }
         ]
@@ -192,6 +175,9 @@
   },
   "active": "3f9d3645a48a785e",
   "lastOpenFiles": [
+    "attachments/Pasted image 20250416194613.png",
+    "attachments/Pasted image 20250416194518.png",
+    "attachments/Pasted image 20250416194042.png",
     "Algorithms and Data Structures/ads_canvas.canvas",
     "Computational Intelligence/ci_canvas.canvas",
     "Computational Intelligence/keywords.md",
@@ -206,14 +192,12 @@
     "attachments/Pasted image 20250407175041.png",
     "Computational Intelligence/Drawing 2025-04-16 17.26.32.excalidraw.md",
     "attachments/image/Untitled-1744817294664.jpeg",
-    "attachments/image/Untitled-1744817945323.jpeg",
     "Computational Intelligence/ci_merged_unified.pdf",
     "Excalidraw/Drawing 2025-04-16 17.26.13.excalidraw.md",
     "test.md",
     "Excalidraw/Drawing 2025-04-16 17.22.23.excalidraw.md",
     "Excalidraw/Drawing 2025-04-16 17.22.32.excalidraw.md",
     "Excalidraw",
-    "attachments/image/test-1744816926138.jpeg",
     "attachments/image",
     "Computational Intelligence/Drawing 2025-04-16 17.21.46.excalidraw.md",
     "Computational Intelligence/Drawing 2025-04-16 17.17.14.excalidraw.md",

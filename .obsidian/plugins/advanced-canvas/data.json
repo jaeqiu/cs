@@ -16,7 +16,7 @@
   "nodeStylingFeatureEnabled": true,
   "customNodeStyleAttributes": [],
   "defaultTextNodeStyleAttributes": {
-    "border": "invisible",
+    "border": "dashed",
     "textAlign": "center"
   },
   "edgesStylingFeatureEnabled": true,
@@ -46,10 +46,10 @@
   "disableNodePopup": false,
   "disableZoom": false,
   "disablePan": false,
-  "autoResizeNodeFeatureEnabled": false,
-  "autoResizeNodeEnabledByDefault": false,
+  "autoResizeNodeFeatureEnabled": true,
+  "autoResizeNodeEnabledByDefault": true,
   "autoResizeNodeMaxHeight": -1,
-  "autoResizeNodeSnapToGrid": true,
+  "autoResizeNodeSnapToGrid": false,
   "collapsibleGroupsFeatureEnabled": true,
   "collapsedGroupPreviewOnDrag": true,
   "focusModeFeatureEnabled": true,

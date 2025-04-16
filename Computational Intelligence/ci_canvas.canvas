@@ -139,33 +139,83 @@
       },
       "toNode": "3d0de73d30c363f8",
       "toSide": "top"
+    },
+    {
+      "fromNode": "cb619ba78ca4ed6e",
+      "fromSide": "right",
+      "id": "ead386c02aa20f2a",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "92f0e85f0d6f6f12",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "92f0e85f0d6f6f12",
+      "fromSide": "bottom",
+      "id": "494e4e516f71f6a4",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "f1811824cbd2eada",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "f1811824cbd2eada",
+      "fromSide": "left",
+      "id": "3712cc4799980ab6",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "328af62d958cab21",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "328af62d958cab21",
+      "fromSide": "top",
+      "id": "2562628f047e1358",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "cb619ba78ca4ed6e",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "b02e286b238b7f98",
+      "fromSide": "top",
+      "id": "7cf4fc729ef65679",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "5f8e47ce871e45b2",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "5f8e47ce871e45b2",
+      "fromSide": "left",
+      "id": "3f357273f6909d07",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "328af62d958cab21",
+      "toSide": "bottom"
     }
   ],
   "nodes": [
     {
-      "color": "#ff00dd",
-      "height": 4260,
+      "color": "#fb00ff",
+      "height": 3780,
       "id": "ae2b3286821c1a41",
       "label": "Computational Intelligence",
       "styleAttributes": {
       },
       "type": "group",
-      "width": 5240,
+      "width": 4800,
       "x": -280,
       "y": -420
     },
     {
-      "color": "4",
-      "height": 1320,
-      "id": "6c46668e8aaf072a",
-      "label": "ANN",
-      "type": "group",
-      "width": 2280,
-      "x": -120,
-      "y": 640
-    },
-    {
-      "color": "4",
+      "color": "1",
       "height": 1320,
       "id": "e04954ab57484210",
       "label": "GA",
@@ -175,7 +225,7 @@
       "y": 640
     },
     {
-      "color": "4",
+      "color": "5",
       "height": 1320,
       "id": "3abd125d16d94d96",
       "label": "SI",
@@ -195,6 +245,16 @@
       "y": 2000
     },
     {
+      "color": "2",
+      "height": 1040,
+      "id": "6c46668e8aaf072a",
+      "label": "ANN",
+      "type": "group",
+      "width": 2220,
+      "x": -180,
+      "y": 480
+    },
+    {
       "color": "4",
       "height": 520,
       "id": "324f1f7dde7356ad",
@@ -203,6 +263,15 @@
       "width": 1520,
       "x": -220,
       "y": -200
+    },
+    {
+      "height": 140,
+      "id": "b02e286b238b7f98",
+      "label": "Problem",
+      "type": "group",
+      "width": 500,
+      "x": 2560,
+      "y": 1580
     },
     {
       "height": 60,
@@ -216,19 +285,6 @@
       "width": 400,
       "x": -220,
       "y": -400
-    },
-    {
-      "height": 150,
-      "id": "9721b3aa6dcfd1a6",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "CNN Convolutional Neural Network\na type of neural network that uses convolution layers to analyze images and signals.\n",
-      "type": "text",
-      "width": 400,
-      "x": 1240,
-      "y": 900
     },
     {
       "height": 150,
@@ -270,32 +326,6 @@
       "y": 2380
     },
     {
-      "height": 150,
-      "id": "827f34e8286d27f5",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Fitness Function\nthe value that tells you how well a candidate solution performs on a given task.\n",
-      "type": "text",
-      "width": 400,
-      "x": 2520,
-      "y": 1120
-    },
-    {
-      "height": 150,
-      "id": "5bdd725fd4849284",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Evaluation Criterion\na measure for judging how good a solution is, often linked to the fitness function.\n",
-      "type": "text",
-      "width": 400,
-      "x": 2300,
-      "y": 1300
-    },
-    {
       "height": 60,
       "id": "04cab98a33a32310",
       "styleAttributes": {
@@ -307,19 +337,6 @@
       "width": 440,
       "x": 2240,
       "y": 660
-    },
-    {
-      "height": 150,
-      "id": "6e73dbc2b446b9dc",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Chromosome\na string or representation of a candidate solution in a genetic algorithm.\n",
-      "type": "text",
-      "width": 400,
-      "x": 2640,
-      "y": 840
     },
     {
       "height": 150,
@@ -453,110 +470,6 @@
     },
     {
       "height": 150,
-      "id": "94ec34c5ef38d579",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "MLP Multi-Layer Perceptron\na basic neural network with multiple layers for learning complex, non-linear patterns.\n",
-      "type": "text",
-      "width": 400,
-      "x": 80,
-      "y": 840
-    },
-    {
-      "height": 150,
-      "id": "c2af52c4656c8bfc",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "**Feature map**\nthe grid of outputs from a convolution layer that shows the presence of specific patterns.\n",
-      "type": "text",
-      "width": 400,
-      "x": 1300,
-      "y": 1300
-    },
-    {
-      "height": 150,
-      "id": "bbc6f28afdbd28a1",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "**Forward pass**\nprocessing input through a network to produce an output or prediction.\n",
-      "type": "text",
-      "width": 400,
-      "x": 0,
-      "y": 1100
-    },
-    {
-      "height": 150,
-      "id": "d01c7c74440987a8",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "**Activation functions**\na formula applied to a neuron's output to decide whether it should be passed on.\n",
-      "type": "text",
-      "width": 400,
-      "x": 1700,
-      "y": 1120
-    },
-    {
-      "height": 150,
-      "id": "9c46c129035ead5d",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Convolution\nsliding a filter over data to extract key features like edges in an image.\n",
-      "type": "text",
-      "width": 400,
-      "x": 1020,
-      "y": 1100
-    },
-    {
-      "height": 150,
-      "id": "3a7510e9512faba7",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "**Activation functions**\na formula applied to a neuron's output to decide whether it should be passed on.\n",
-      "type": "text",
-      "width": 400,
-      "x": 500,
-      "y": 1100
-    },
-    {
-      "height": 150,
-      "id": "10a489b9dec8e846",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "**ReLu**\nan activation function that outputs the input when positive and zero when negative, speeding up training.\n",
-      "type": "text",
-      "width": 400,
-      "x": 220,
-      "y": 1320
-    },
-    {
-      "height": 150,
-      "id": "e504ed0cb6b750af",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "**Softmax**\nan activation function that converts outputs into probabilities over multiple classes.\n",
-      "type": "text",
-      "width": 400,
-      "x": 460,
-      "y": 1520
-    },
-    {
-      "height": 150,
       "id": "e74cdbc99f4d1ce5",
       "styleAttributes": {
         "border": "dashed",
@@ -596,32 +509,6 @@
     },
     {
       "height": 50,
-      "id": "14da08bd61e3f170",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "a computer model made of interconnected units that mimics the human brain.\n",
-      "type": "text",
-      "width": 400,
-      "x": -80,
-      "y": 680
-    },
-    {
-      "height": 150,
-      "id": "6e2da7f7caa90cb7",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "**Tanh**\nan activation function that squashes values to between -1 and 1 for smoother gradients.\n",
-      "type": "text",
-      "width": 400,
-      "x": 920,
-      "y": 1540
-    },
-    {
-      "height": 50,
       "id": "9cd97802fd020405",
       "styleAttributes": {
         "border": "invisible",
@@ -648,6 +535,158 @@
     },
     {
       "height": 150,
+      "id": "94ec34c5ef38d579",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "MLP Multi-Layer Perceptron\na basic neural network with multiple layers for learning complex, non-linear patterns.\n",
+      "type": "text",
+      "width": 400,
+      "x": 80,
+      "y": 860
+    },
+    {
+      "height": 150,
+      "id": "3a7510e9512faba7",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Activation functions**\na formula applied to a neuron's output to decide whether it should be passed on.\n",
+      "type": "text",
+      "width": 400,
+      "x": 300,
+      "y": 1120
+    },
+    {
+      "height": 150,
+      "id": "e504ed0cb6b750af",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Softmax**\nan activation function that converts outputs into probabilities over multiple classes.\n",
+      "type": "text",
+      "width": 400,
+      "x": 300,
+      "y": 1340
+    },
+    {
+      "height": 150,
+      "id": "6e2da7f7caa90cb7",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Tanh**\nan activation function that squashes values to between -1 and 1 for smoother gradients.\n",
+      "type": "text",
+      "width": 400,
+      "x": 720,
+      "y": 1340
+    },
+    {
+      "height": 150,
+      "id": "10a489b9dec8e846",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**ReLu**\nan activation function that outputs the input when positive and zero when negative, speeding up training.\n",
+      "type": "text",
+      "width": 400,
+      "x": -120,
+      "y": 1340
+    },
+    {
+      "height": 150,
+      "id": "9c46c129035ead5d",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Convolution\nsliding a filter over data to extract key features like edges in an image.\n",
+      "type": "text",
+      "width": 400,
+      "x": 780,
+      "y": 1100
+    },
+    {
+      "height": 150,
+      "id": "9721b3aa6dcfd1a6",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "CNN Convolutional Neural Network\na type of neural network that uses convolution layers to analyze images and signals.\n",
+      "type": "text",
+      "width": 400,
+      "x": 1200,
+      "y": 760
+    },
+    {
+      "height": 150,
+      "id": "c2af52c4656c8bfc",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Feature map**\nthe grid of outputs from a convolution layer that shows the presence of specific patterns.\n",
+      "type": "text",
+      "width": 400,
+      "x": 1200,
+      "y": 1100
+    },
+    {
+      "height": 150,
+      "id": "d01c7c74440987a8",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Activation functions**\na formula applied to a neuron's output to decide whether it should be passed on.\n",
+      "type": "text",
+      "width": 400,
+      "x": 1620,
+      "y": 1100
+    },
+    {
+      "height": 150,
+      "id": "bbc6f28afdbd28a1",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Forward pass**\nprocessing input through a network to produce an output or prediction.\n",
+      "type": "text",
+      "width": 400,
+      "x": -140,
+      "y": 1120
+    },
+    {
+      "file": "attachments/Pasted image 20250416194042.png",
+      "height": 320,
+      "id": "f597b2824aef88f3",
+      "type": "file",
+      "width": 652,
+      "x": 520,
+      "y": 600
+    },
+    {
+      "height": 50,
+      "id": "14da08bd61e3f170",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "a computer model made of interconnected units that mimics the human brain.\n",
+      "type": "text",
+      "width": 400,
+      "x": 640,
+      "y": 520
+    },
+    {
+      "height": 150,
       "id": "0e8091b305e7fae5",
       "styleAttributes": {
         "border": "dashed",
@@ -656,8 +695,8 @@
       "text": "Roulette Wheel Selection\na technique where candidates are chosen based on probability proportional to their fitness.\n",
       "type": "text",
       "width": 400,
-      "x": 2940,
-      "y": 1300
+      "x": 3740,
+      "y": 1420
     },
     {
       "height": 150,
@@ -669,8 +708,173 @@
       "text": "A chromosome's probability of being selected\n\ndetermined by its fitness, influencing chances to evolve.\n",
       "type": "text",
       "width": 400,
-      "x": 3080,
-      "y": 1620
+      "x": 3880,
+      "y": 1740
+    },
+    {
+      "height": 150,
+      "id": "5bdd725fd4849284",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Evaluation Criterion\na measure for judging how good a solution is, often linked to the fitness function.\n",
+      "type": "text",
+      "width": 400,
+      "x": 3020,
+      "y": 1760
+    },
+    {
+      "height": 50,
+      "id": "cb619ba78ca4ed6e",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Evaluation",
+      "type": "text",
+      "width": 107,
+      "x": 2560,
+      "y": 980
+    },
+    {
+      "height": 50,
+      "id": "92f0e85f0d6f6f12",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Selection",
+      "type": "text",
+      "width": 107,
+      "x": 2880,
+      "y": 980
+    },
+    {
+      "height": 60,
+      "id": "aff43d0ec5183593",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "parents",
+      "type": "text",
+      "width": 140,
+      "x": 2800,
+      "y": 1060
+    },
+    {
+      "height": 60,
+      "id": "8d919a0652557279",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "modified offspring",
+      "type": "text",
+      "width": 140,
+      "x": 2700,
+      "y": 1120
+    },
+    {
+      "height": 50,
+      "id": "328af62d958cab21",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Population",
+      "type": "text",
+      "width": 107,
+      "x": 2560,
+      "y": 1160
+    },
+    {
+      "height": 50,
+      "id": "f1811824cbd2eada",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Reproduction",
+      "type": "text",
+      "width": 107,
+      "x": 2880,
+      "y": 1160
+    },
+    {
+      "height": 180,
+      "id": "5f8e47ce871e45b2",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Encoding",
+      "type": "text",
+      "width": 70,
+      "x": 2740,
+      "y": 1260
+    },
+    {
+      "height": 60,
+      "id": "fd72204162328e16",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "chromosome",
+      "type": "text",
+      "width": 180,
+      "x": 2440,
+      "y": 1220
+    },
+    {
+      "height": 150,
+      "id": "6e73dbc2b446b9dc",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Chromosome\na string or representation of a candidate solution in a genetic algorithm.\n",
+      "type": "text",
+      "width": 400,
+      "x": 3220,
+      "y": 1260
+    },
+    {
+      "file": "attachments/Pasted image 20250416194613.png",
+      "height": 240,
+      "id": "5df7cdc695cb4bf9",
+      "type": "file",
+      "width": 624,
+      "x": 3040,
+      "y": 680
+    },
+    {
+      "height": 50,
+      "id": "49551d8af2d21033",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Solution form",
+      "type": "text",
+      "width": 107,
+      "x": 2720,
+      "y": 1600
+    },
+    {
+      "height": 30,
+      "id": "827f34e8286d27f5",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Fitness Function\nthe value that tells you how well a candidate solution performs on a given task.\n",
+      "type": "text",
+      "width": 561,
+      "x": 3300,
+      "y": 1000
     }
   ]
 }
