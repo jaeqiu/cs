@@ -11,20 +11,45 @@
             "id": "c0dd23f074418856",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Computational Intelligence/ci_merged_unified.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "ci_merged_unified"
+            }
+          },
+          {
+            "id": "a7d834e82914d55b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Computational Intelligence/answers_asdfasdf.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "answers_asdfasdf"
+            }
+          },
+          {
+            "id": "ea628b3064bf167e",
+            "type": "leaf",
+            "state": {
               "type": "canvas",
               "state": {
                 "file": "Computational Intelligence/ci_canvas.canvas",
                 "viewState": {
-                  "x": 2770.905035312879,
-                  "y": 2713.474367621548,
-                  "zoom": 0.3333333333333332
+                  "x": 6758.460686103446,
+                  "y": 4132.565379315702,
+                  "zoom": 0.3333333333333334
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "ci_canvas"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -173,29 +198,28 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "c0dd23f074418856",
+  "active": "ea628b3064bf167e",
   "lastOpenFiles": [
+    "Computational Intelligence/ci_merged_unified.pdf",
+    "Computational Intelligence/ci_canvas.canvas",
+    "Computational Intelligence/answers_asdfasdf.pdf",
+    "attachments/Pasted image 20250417001513.png",
+    "attachments/Pasted image 20250417000700.png",
+    "Computational Intelligence/Drawing 2025-04-16 17.42.09.excalidraw.md",
+    "Computational Intelligence/testt.pdf",
+    "attachments/Pasted image 20250416234514.png",
+    "attachments/Pasted image 20250416233959.png",
+    "attachments/Pasted image 20250416233950.png",
+    "attachments/Pasted image 20250416233853.png",
     "attachments/Pasted image 20250416233814.png",
     "attachments/Pasted image 20250416233749.png",
     "attachments/Pasted image 20250416233307.png",
     "attachments/Pasted image 20250416233235.png",
-    "attachments/Pasted image 20250416233022.png",
-    "attachments/Pasted image 20250416232432.png",
-    "attachments/Pasted image 20250416225908.png",
-    "attachments/Pasted image 20250416224402.png",
-    "attachments/Pasted image 20250416224355.png",
-    "attachments/Pasted image 20250416220602.png",
-    "attachments/Pasted image 20250416220127.png",
-    "Computational Intelligence/ci_canvas.canvas",
     "Algorithms and Data Structures/ads_canvas.canvas",
     "orphaned files output.md",
-    "Computational Intelligence/Drawing 2025-04-16 17.42.09.excalidraw.md",
-    "Computational Intelligence/answers_asdfasdf.pdf",
-    "Computational Intelligence/testt.pdf",
     "Computational Intelligence/answers_asdfasdf.pdf.crdownload",
     "Computational Intelligence/keywords.md",
     "Computational Intelligence/Drawing 2025-04-16 17.26.32.excalidraw.md",
-    "Computational Intelligence/ci_merged_unified.pdf",
     "Excalidraw/Drawing 2025-04-16 17.26.13.excalidraw.md",
     "test.md",
     "Excalidraw/Drawing 2025-04-16 17.22.23.excalidraw.md",

@@ -627,20 +627,12 @@
       "y": 2000
     },
     {
-      "color": "4",
-      "height": 3210,
-      "id": "d761d7c9e3157dea",
-      "label": "Convolutional Neural Network",
-      "type": "group",
-      "width": 2440,
-      "x": 2080,
-      "y": 2080
-    },
-    {
       "color": "5",
       "height": 3210,
       "id": "459b0f865c0787b3",
       "label": "Multi-Layer Perceptron",
+      "styleAttributes": {
+      },
       "type": "group",
       "width": 2200,
       "x": -200,
@@ -655,8 +647,20 @@
       },
       "type": "group",
       "width": 2280,
-      "x": 8400,
-      "y": -400
+      "x": 5440,
+      "y": 1120
+    },
+    {
+      "color": "4",
+      "height": 3210,
+      "id": "d761d7c9e3157dea",
+      "label": "Convolutional Neural Network",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1160,
+      "x": 2080,
+      "y": 2080
     },
     {
       "color": "1",
@@ -679,8 +683,20 @@
       },
       "type": "group",
       "width": 2280,
-      "x": 8400,
-      "y": 2000
+      "x": 5440,
+      "y": 3520
+    },
+    {
+      "color": "2",
+      "height": 3210,
+      "id": "fe5fb4216773473f",
+      "label": "Recurrent Neural Network",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 618,
+      "x": 3320,
+      "y": 2080
     },
     {
       "color": "4",
@@ -699,6 +715,8 @@
       "height": 460,
       "id": "4243ba19f4f7e394",
       "label": "Training",
+      "styleAttributes": {
+      },
       "type": "group",
       "width": 1180,
       "x": -160,
@@ -712,14 +730,16 @@
       },
       "type": "group",
       "width": 500,
-      "x": 8440,
-      "y": 680
+      "x": 5480,
+      "y": 2200
     },
     {
       "color": "2",
       "height": 340,
       "id": "4e7df5f3455252ae",
       "label": "hidden",
+      "styleAttributes": {
+      },
       "type": "group",
       "width": 200,
       "x": 780,
@@ -730,6 +750,8 @@
       "height": 340,
       "id": "d1e6be128c9e0155",
       "label": "input",
+      "styleAttributes": {
+      },
       "type": "group",
       "width": 100,
       "x": 680,
@@ -740,10 +762,95 @@
       "height": 340,
       "id": "5ede19ddfd7784e0",
       "label": "output",
+      "styleAttributes": {
+      },
       "type": "group",
       "width": 100,
       "x": 980,
       "y": 2200
+    },
+    {
+      "height": 140,
+      "id": "87605dcfbc30d53f",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Why not MLP?\n-Scales badly on input size\n-Ignores spatial structure: (learning from pixels is not locality sensitive\n-cannot handle translation: the same shape translated to another part of the image is not recognised.",
+      "type": "text",
+      "width": 580,
+      "x": 2180,
+      "y": 2180
+    },
+    {
+      "file": "attachments/Pasted image 20250416233814.png",
+      "height": 400,
+      "id": "1a1014ca7b137a26",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 975,
+      "x": 2180,
+      "y": 2360
+    },
+    {
+      "file": "attachments/Pasted image 20250416233749.png",
+      "height": 122,
+      "id": "773c988f99c8c667",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 320,
+      "x": 2180,
+      "y": 3080
+    },
+    {
+      "file": "attachments/Pasted image 20250416233950.png",
+      "height": 213,
+      "id": "ad9ed98a8c8de23e",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 399,
+      "x": 2680,
+      "y": 3040
+    },
+    {
+      "file": "attachments/Pasted image 20250416233959.png",
+      "height": 218,
+      "id": "3322526af2dc0f76",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 2380,
+      "y": 2780
+    },
+    {
+      "height": 160,
+      "id": "324ba1ebf44ad1c8",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Chinese room thought experiment\n\nMachines might be able to demonstrate “intelligent behavior” while not being conscious or having under- standing in a human sense.",
+      "type": "text",
+      "width": 600,
+      "x": 1180,
+      "y": -80
+    },
+    {
+      "height": 260,
+      "id": "e37acc5c242057ab",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Frame problem\nthe challenge of determining which pieces of information are important when conditions change.\n\nThe frame problem is so difficult to solve, because we don’t know everything contextually required, to solve a particular problem, so we cannot convey all the relevant data to an AI agent.\n",
+      "type": "text",
+      "width": 500,
+      "x": 460,
+      "y": -160
     },
     {
       "height": 150,
@@ -772,19 +879,6 @@
       "y": 1040
     },
     {
-      "height": 160,
-      "id": "324ba1ebf44ad1c8",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Chinese room thought experiment\n\nMachines might be able to demonstrate “intelligent behavior” while not being conscious or having under- standing in a human sense.",
-      "type": "text",
-      "width": 600,
-      "x": 1180,
-      "y": -80
-    },
-    {
       "height": 150,
       "id": "c753e479e477d064",
       "styleAttributes": {
@@ -796,19 +890,6 @@
       "width": 400,
       "x": 620,
       "y": 1260
-    },
-    {
-      "height": 260,
-      "id": "e37acc5c242057ab",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Frame problem\nthe challenge of determining which pieces of information are important when conditions change.\n\nThe frame problem is so difficult to solve, because we don’t know everything contextually required, to solve a particular problem, so we cannot convey all the relevant data to an AI agent.\n",
-      "type": "text",
-      "width": 500,
-      "x": 460,
-      "y": -160
     },
     {
       "height": 150,
@@ -838,19 +919,6 @@
     },
     {
       "height": 150,
-      "id": "7e79e3cf119a0f2e",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Solution Space\nthe entire set of possible answers a problem can have.\n",
-      "type": "text",
-      "width": 400,
-      "x": -160,
-      "y": 1120
-    },
-    {
-      "height": 150,
       "id": "5311852f472bb621",
       "styleAttributes": {
         "border": "dashed",
@@ -861,19 +929,6 @@
       "width": 400,
       "x": -100,
       "y": 740
-    },
-    {
-      "height": 50,
-      "id": "9cd97802fd020405",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "using the collective behaviors of simple agents to solve complicated problems.\n",
-      "type": "text",
-      "width": 400,
-      "x": -200,
-      "y": 660
     },
     {
       "height": 150,
@@ -887,6 +942,58 @@
       "width": 400,
       "x": 20,
       "y": 100
+    },
+    {
+      "height": 68,
+      "id": "14da08bd61e3f170",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "interconnected units mimic the human brain.\n",
+      "type": "text",
+      "width": 400,
+      "x": -180,
+      "y": 2060
+    },
+    {
+      "height": 740,
+      "id": "277f1d753ffe4d87",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Output Layer Activation Functions\nThe output layer computes the final linear combinations and calls all these results \"logits\".\nThe logits can be passed into a final activation function to arrive at something useful\n1. Binary classification: use sigmoid(z) LOSS=binary cross-entropy\n2. Multiclass classification (mutually exclusive labels): use softmax(zi), where i is the considered label LOSS=categorical cross-entropy\n3. Multiclass classification (maybe overlapping labels) use sigmoid(zi) LOSS=binary cross-entropy per output\n4. Regression: use raw logit z (or zi if there are multiple output nodes) LOSS=MSE\n- sigmoid(z)\n\n![[Pasted image 20250416232432.png|500]]\n\n",
+      "type": "text",
+      "width": 1020,
+      "x": 960,
+      "y": 2600
+    },
+    {
+      "height": 150,
+      "id": "7e79e3cf119a0f2e",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Solution Space\nthe entire set of possible answers a problem can have.\n",
+      "type": "text",
+      "width": 400,
+      "x": -160,
+      "y": 1120
+    },
+    {
+      "height": 50,
+      "id": "9cd97802fd020405",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "using the collective behaviors of simple agents to solve complicated problems.\n",
+      "type": "text",
+      "width": 400,
+      "x": -200,
+      "y": 660
     },
     {
       "height": 150,
@@ -915,45 +1022,6 @@
       "y": -400
     },
     {
-      "height": 68,
-      "id": "14da08bd61e3f170",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "interconnected units mimic the human brain.\n",
-      "type": "text",
-      "width": 400,
-      "x": -180,
-      "y": 2060
-    },
-    {
-      "height": 44,
-      "id": "301f4cc3563c5978",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "calculate gradient descent update",
-      "type": "text",
-      "width": 294,
-      "x": 480,
-      "y": 4620
-    },
-    {
-      "height": 44,
-      "id": "a82b15ca3218734e",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "compute prediction's loss",
-      "type": "text",
-      "width": 269,
-      "x": 660,
-      "y": 4480
-    },
-    {
       "file": "attachments/cnnvisual.png",
       "height": 179,
       "id": "4b21869b9ab599c9",
@@ -963,6 +1031,19 @@
       "width": 400,
       "x": 1220,
       "y": 4520
+    },
+    {
+      "height": 92,
+      "id": "d769b9d1390a8875",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Loss functions\n\n",
+      "type": "text",
+      "width": 194,
+      "x": 1100,
+      "y": 2260
     },
     {
       "height": 240,
@@ -1017,6 +1098,97 @@
       "y": 5100
     },
     {
+      "height": 60,
+      "id": "5bf2d450c62a05d6",
+      "styleAttributes": {
+        "border": null,
+        "shape": "circle",
+        "textAlign": "center"
+      },
+      "text": "",
+      "type": "text",
+      "width": 60,
+      "x": 1000,
+      "y": 2294
+    },
+    {
+      "height": 60,
+      "id": "5aa6e984a15cab0e",
+      "styleAttributes": {
+        "border": null,
+        "shape": "circle",
+        "textAlign": "center"
+      },
+      "text": "",
+      "type": "text",
+      "width": 60,
+      "x": 1000,
+      "y": 2374
+    },
+    {
+      "height": 212,
+      "id": "d046404286422757",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Combat Underfitting\n-Increase network complexity\n\n(universal approximation theorem: a network with just one hidden layer can approximate any function, given enough neurons)",
+      "type": "text",
+      "width": 294,
+      "x": 1000,
+      "y": 3520
+    },
+    {
+      "height": 400,
+      "id": "49375f4f81251361",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Combat Overfitting\n- Ensure training set is i.i.d. from validation set\n- Gather more data\n- Augment data (reuse in altered way)\n- Decrease network complexity\n- Regularize:\n\t- ![[Pasted image 20250416233022.png]]",
+      "type": "text",
+      "width": 380,
+      "x": 1100,
+      "y": 3840
+    },
+    {
+      "file": "attachments/Pasted image 20250416233307.png",
+      "height": 171,
+      "id": "589734d22c8ad2d1",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 399,
+      "x": 1480,
+      "y": 3520
+    },
+    {
+      "height": 44,
+      "id": "301f4cc3563c5978",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "calculate gradient descent update",
+      "type": "text",
+      "width": 294,
+      "x": 480,
+      "y": 4620
+    },
+    {
+      "height": 44,
+      "id": "a82b15ca3218734e",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "compute prediction's loss",
+      "type": "text",
+      "width": 269,
+      "x": 660,
+      "y": 4480
+    },
+    {
       "height": 44,
       "id": "3aad5b36e6d028e6",
       "styleAttributes": {
@@ -1056,19 +1228,6 @@
       "y": 4420
     },
     {
-      "height": 895,
-      "id": "75ab7a645db8ee7e",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Hidden Layer Activation Functions\n![[Pasted image 20250416225908.png|300]]\n\nThe hidden layer needs activation functions to learn non-linear relationships.\n1. Sigmoid (maps to 0 through 1)\n\t- ❌ small and large values vanish the gradient.\n\t- ❌ not zero centered\n2. tanh (maps to -1 through 1)\n\t- ❌ vanishing gradient\n\t- ✅ zero centered\n3. ReLU (positive linear)\n\t- ✅ no vanishing gradient\n\t- ❌ dying ReLU\n4. LReLU (piecewise linear)\n\t- ✅ no vanishing gradient\n\t- ✅ no dying ReLU\n\n\n",
-      "type": "text",
-      "width": 1020,
-      "x": -160,
-      "y": 2760
-    },
-    {
       "height": 60,
       "id": "6c4951da0951d221",
       "styleAttributes": {
@@ -1081,6 +1240,60 @@
       "width": 60,
       "x": 800,
       "y": 2460
+    },
+    {
+      "height": 60,
+      "id": "bc53a9425515245e",
+      "styleAttributes": {
+        "border": null,
+        "shape": "circle",
+        "textAlign": "center"
+      },
+      "text": "",
+      "type": "text",
+      "width": 60,
+      "x": 800,
+      "y": 2380
+    },
+    {
+      "height": 60,
+      "id": "6ed9eca59ee9d99f",
+      "styleAttributes": {
+        "border": null,
+        "shape": "circle",
+        "textAlign": "center"
+      },
+      "text": "",
+      "type": "text",
+      "width": 60,
+      "x": 700,
+      "y": 2420
+    },
+    {
+      "height": 480,
+      "id": "17be59681af2dcf8",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Weight initialization:\nIf all weights are initialized at 0, all neurons would learn the same features.\nChoices:\n- Gaussian distribution, 0 mean, 1 variance\n- When using sigmoid/tanh: xavier initialization\n- When using ReLU/LReLU: He initialization\n![[Pasted image 20250416233235.png]]",
+      "type": "text",
+      "width": 560,
+      "x": 440,
+      "y": 3900
+    },
+    {
+      "height": 895,
+      "id": "75ab7a645db8ee7e",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Hidden Layer Activation Functions\n![[Pasted image 20250416225908.png|300]]\n\nThe hidden layer needs activation functions to learn non-linear relationships.\n1. Sigmoid (maps to 0 through 1)\n\t- ❌ small and large values vanish the gradient.\n\t- ❌ not zero centered\n2. tanh (maps to -1 through 1)\n\t- ❌ vanishing gradient\n\t- ✅ zero centered\n3. ReLU (positive linear)\n\t- ✅ no vanishing gradient\n\t- ❌ dying ReLU\n4. LReLU (piecewise linear)\n\t- ✅ no vanishing gradient\n\t- ✅ no dying ReLU\n\n\n",
+      "type": "text",
+      "width": 1020,
+      "x": -160,
+      "y": 2760
     },
     {
       "height": 60,
@@ -1098,34 +1311,6 @@
     },
     {
       "height": 60,
-      "id": "5bf2d450c62a05d6",
-      "styleAttributes": {
-        "border": null,
-        "shape": "circle",
-        "textAlign": "center"
-      },
-      "text": "",
-      "type": "text",
-      "width": 60,
-      "x": 1000,
-      "y": 2294
-    },
-    {
-      "height": 60,
-      "id": "e0257c0f7299c365",
-      "styleAttributes": {
-        "border": null,
-        "shape": "circle",
-        "textAlign": "center"
-      },
-      "text": "",
-      "type": "text",
-      "width": 60,
-      "x": 800,
-      "y": 2300
-    },
-    {
-      "height": 60,
       "id": "ce65cefacbaa1ad7",
       "styleAttributes": {
         "border": null,
@@ -1137,34 +1322,6 @@
       "width": 60,
       "x": 900,
       "y": 2300
-    },
-    {
-      "height": 60,
-      "id": "5aa6e984a15cab0e",
-      "styleAttributes": {
-        "border": null,
-        "shape": "circle",
-        "textAlign": "center"
-      },
-      "text": "",
-      "type": "text",
-      "width": 60,
-      "x": 1000,
-      "y": 2374
-    },
-    {
-      "height": 60,
-      "id": "bc53a9425515245e",
-      "styleAttributes": {
-        "border": null,
-        "shape": "circle",
-        "textAlign": "center"
-      },
-      "text": "",
-      "type": "text",
-      "width": 60,
-      "x": 800,
-      "y": 2380
     },
     {
       "height": 60,
@@ -1209,6 +1366,46 @@
       "y": 2220
     },
     {
+      "height": 312,
+      "id": "bda5cf10c4a4db39",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "dying ReLU\nIf a neuron’s input is always negative, the gradient will be zero, and the neuron will stop learning (this happens for the entire neuron, not just a single instance). This is called \"dying ReLU.\"",
+      "type": "text",
+      "width": 460,
+      "x": -100,
+      "y": 3760
+    },
+    {
+      "height": 116,
+      "id": "38a337aaa412bf53",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Vanishing Gradient\nsmall gradients get smaller through backpropagation and reduce the ability to learn",
+      "type": "text",
+      "width": 295,
+      "x": 460,
+      "y": 3760
+    },
+    {
+      "height": 60,
+      "id": "e0257c0f7299c365",
+      "styleAttributes": {
+        "border": null,
+        "shape": "circle",
+        "textAlign": "center"
+      },
+      "text": "",
+      "type": "text",
+      "width": 60,
+      "x": 800,
+      "y": 2300
+    },
+    {
       "height": 60,
       "id": "ada052d7523021c9",
       "styleAttributes": {
@@ -1237,285 +1434,26 @@
       "y": 2340
     },
     {
-      "height": 60,
-      "id": "6ed9eca59ee9d99f",
-      "styleAttributes": {
-        "border": null,
-        "shape": "circle",
-        "textAlign": "center"
-      },
-      "text": "",
-      "type": "text",
-      "width": 60,
-      "x": 700,
-      "y": 2420
-    },
-    {
-      "height": 92,
-      "id": "d769b9d1390a8875",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Loss functions\n\n",
-      "type": "text",
-      "width": 194,
-      "x": 1100,
-      "y": 2260
-    },
-    {
-      "height": 740,
-      "id": "277f1d753ffe4d87",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Output Layer Activation Functions\nThe output layer computes the final linear combinations and calls all these results \"logits\".\nThe logits can be passed into a final activation function to arrive at something useful\n1. Binary classification: use sigmoid(z) LOSS=binary cross-entropy\n2. Multiclass classification (mutually exclusive labels): use softmax(zi), where i is the considered label LOSS=categorical cross-entropy\n3. Multiclass classification (maybe overlapping labels) use sigmoid(zi) LOSS=binary cross-entropy per output\n4. Regression: use raw logit z (or zi if there are multiple output nodes) LOSS=MSE\n- sigmoid(z)\n\n![[Pasted image 20250416232432.png|500]]\n\n",
-      "type": "text",
-      "width": 1020,
-      "x": 960,
-      "y": 2600
-    },
-    {
-      "height": 312,
-      "id": "bda5cf10c4a4db39",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "dying ReLU\nIf a neuron’s input is always negative, the gradient will be zero, and the neuron will stop learning (this happens for the entire neuron, not just a single instance). This is called \"dying ReLU.\"",
-      "type": "text",
-      "width": 460,
-      "x": -100,
-      "y": 3760
-    },
-    {
-      "height": 116,
-      "id": "38a337aaa412bf53",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Vanishing Gradient\nsmall gradients get smaller through backpropagation and reduce the ability to learn",
-      "type": "text",
-      "width": 295,
-      "x": 460,
-      "y": 3760
-    },
-    {
-      "height": 212,
-      "id": "d046404286422757",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Combat Underfitting\n-Increase network complexity\n\n(universal approximation theorem: a network with just one hidden layer can approximate any function, given enough neurons)",
-      "type": "text",
-      "width": 294,
-      "x": 1000,
-      "y": 3520
-    },
-    {
-      "height": 400,
-      "id": "49375f4f81251361",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Combat Overfitting\n- Ensure training set is i.i.d. from validation set\n- Gather more data\n- Augment data (reuse in altered way)\n- Decrease network complexity\n- Regularize:\n\t- ![[Pasted image 20250416233022.png]]",
-      "type": "text",
-      "width": 380,
-      "x": 1100,
-      "y": 3840
-    },
-    {
-      "height": 480,
-      "id": "17be59681af2dcf8",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Weight initialization:\nIf all weights are initialized at 0, all neurons would learn the same features.\nChoices:\n- Gaussian distribution, 0 mean, 1 variance\n- When using sigmoid/tanh: xavier initialization\n- When using ReLU/LReLU: He initialization\n![[Pasted image 20250416233235.png]]",
-      "type": "text",
-      "width": 560,
-      "x": 440,
-      "y": 3900
-    },
-    {
-      "file": "attachments/Pasted image 20250416233307.png",
-      "height": 171,
-      "id": "589734d22c8ad2d1",
+      "file": "attachments/Pasted image 20250417000700.png",
+      "height": 320,
+      "id": "053ee8d84d9e56c7",
       "type": "file",
-      "width": 400,
-      "x": 1480,
-      "y": 3520
+      "width": 1358,
+      "x": 520,
+      "y": 1520
     },
     {
-      "height": 92,
-      "id": "6e73dbc2b446b9dc",
+      "height": 180,
+      "id": "8ae14aea02c57299",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "Chromosome\na string or representation of a candidate solution in a genetic algorithm.",
+      "text": "alpha is preference for pheromone\nbeta is preference for proximity",
       "type": "text",
-      "width": 576,
-      "x": 8640,
-      "y": 1040
-    },
-    {
-      "height": 150,
-      "id": "0e8091b305e7fae5",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Roulette Wheel Selection\na technique where candidates are chosen based on probability proportional to their fitness.\n",
-      "type": "text",
-      "width": 400,
-      "x": 8708,
-      "y": 1160
-    },
-    {
-      "height": 150,
-      "id": "0c1e06c446c69493",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "**R(s')**\nthe reward received when arriving at a new state s', helping measure success.\n",
-      "type": "text",
-      "width": 400,
-      "x": 9120,
-      "y": 2420
-    },
-    {
-      "height": 150,
-      "id": "797d2c059ce5d268",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "**Utility function**\na tool to measure the benefit of an action, guiding a system towards achieving its goal.\n",
-      "type": "text",
-      "width": 400,
-      "x": 9120,
-      "y": 2220
-    },
-    {
-      "height": 60,
-      "id": "b94e55db009d71dd",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "learning through trial and error where actions are rewarded or punished.\n",
-      "type": "text",
-      "width": 400,
-      "x": 8440,
-      "y": 2040
-    },
-    {
-      "height": 150,
-      "id": "3d0de73d30c363f8",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "A chromosome's probability of being selected\n\ndetermined by its fitness, influencing chances to evolve.\n",
-      "type": "text",
-      "width": 400,
-      "x": 8840,
-      "y": 1432
-    },
-    {
-      "height": 150,
-      "id": "70ffab3d6f2895e1",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "**Reward formulation**\ndesigning reward signals so that an agent learns to make the right decisions.\n",
-      "type": "text",
-      "width": 400,
-      "x": 8700,
-      "y": 2440
-    },
-    {
-      "height": 150,
-      "id": "9c960a019fcd54c9",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "**R(s,a,s')**\nthe reward obtained when taking action a in state s and ending up in state s′.\n",
-      "type": "text",
-      "width": 400,
-      "x": 9280,
-      "y": 2600
-    },
-    {
-      "height": 150,
-      "id": "0a019d7aea308ffe",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "**Pr(r | s, a, s')**\nthe chance of getting reward r when you take action a in state s and reach state s′.\n",
-      "type": "text",
-      "width": 400,
-      "x": 8560,
-      "y": 2700
-    },
-    {
-      "file": "attachments/fitnessofchromosome.png",
-      "height": 240,
-      "id": "5df7cdc695cb4bf9",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 624,
-      "x": 9400,
-      "y": -360
-    },
-    {
-      "height": 200,
-      "id": "827f34e8286d27f5",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Fitness Function\nthe value that tells you how well a candidate solution performs on a given task\n\nThe fitness function specifies the objective for the behavior modeled by the transfer function.",
-      "type": "text",
-      "width": 440,
-      "x": 9640,
-      "y": 0
-    },
-    {
-      "height": 782,
-      "id": "465564df0390b3f1",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Pareto Optimal Solution\n![[paretooptimalsolutions.png]]\n\nA solution is pareto optimal if no other solution exists, that improves any objective(s) without degrading performance in any other objective function.\n\n![[Pasted image 20250416220127.png]]\n\nA solution pareto dominates another solution if it is better on all accounts.\n\n\n\n",
-      "type": "text",
-      "width": 280,
-      "x": 9760,
-      "y": 660
-    },
-    {
-      "height": 774,
-      "id": "630af48e1f46e0b2",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "NSGA II, Pareto Rank\n![[Pasted image 20250416220602.png]]\nYou can find multiple non-dominated fronts of solutions by repeatedly taking out the non-dominated front, then finding another (newly non-dominated) front, rank 1 goes to solutions that belong to the first\n\n\nCD Crowding Distance\nEach solution gets a **crowding distance** value — it tells you how \"isolated\" it is in objective space.\n\nThis encourages **diversity**.  \nThe more isolated you are → the more likely you are selected in a size-constrained set of solutions\n\nFitness Strategy:\nPressure Mechanism for Selection: Non-dominated Sorting\nPreservation of diversity: Crowding Distance\n",
-      "type": "text",
-      "width": 560,
-      "x": 10080,
-      "y": 760
+      "width": 660,
+      "x": 1280,
+      "y": 1320
     },
     {
       "height": 309,
@@ -1527,60 +1465,21 @@
       "text": "Reproduction\n\n1. Get 2 children per pair (for every pair of parents):\n\t- with p_c: clone both parents into next generation\n\t- with 1-p_c: pick random cross-over bit, swap to get two children\n2. For each child, for each gene, flip the gene's bit with probability p_m\n\n",
       "type": "text",
       "width": 338,
-      "x": 9262,
-      "y": 191
+      "x": 6302,
+      "y": 1711
     },
     {
-      "height": 150,
-      "id": "5bdd725fd4849284",
+      "height": 200,
+      "id": "827f34e8286d27f5",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "Evaluation Criterion\na measure for judging how good a solution is, often linked to the fitness function.\n",
+      "text": "Fitness Function\nthe value that tells you how well a candidate solution performs on a given task\n\nThe fitness function specifies the objective for the behavior modeled by the transfer function.",
       "type": "text",
-      "width": 400,
-      "x": 9080,
-      "y": 580
-    },
-    {
-      "height": 44,
-      "id": "49551d8af2d21033",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Solution form",
-      "type": "text",
-      "width": 191,
-      "x": 8600,
-      "y": 700
-    },
-    {
-      "height": 44,
-      "id": "fd72204162328e16",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "chromosome",
-      "type": "text",
-      "width": 187,
-      "x": 8440,
-      "y": 386
-    },
-    {
-      "height": 92,
-      "id": "5f8e47ce871e45b2",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "Encoding\nEach chromosome is a candidate solution",
-      "type": "text",
-      "width": 296,
-      "x": 8500,
-      "y": 540
+      "width": 440,
+      "x": 6680,
+      "y": 1520
     },
     {
       "height": 342,
@@ -1592,86 +1491,60 @@
       "text": "Multi-Objective Optimization with GA\n\nPro's:\n- GA supports non-linear objectives\n- GA doesn't assume the shape/continuity of the pareto front\n- GA is flexible, works for convoluted problems.\n- GA finds the Pareto solution set in a SINGLE RUN",
       "type": "text",
       "width": 297,
-      "x": 10180,
-      "y": 260
+      "x": 7220,
+      "y": 1780
     },
     {
-      "height": 60,
-      "id": "04cab98a33a32310",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "an optimization method using evolution-like steps to find good solutions.\n",
-      "type": "text",
-      "width": 440,
-      "x": 8440,
-      "y": -380
-    },
-    {
-      "height": 295,
-      "id": "328af62d958cab21",
+      "height": 150,
+      "id": "0e8091b305e7fae5",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "Population\n![[chromosomefitness.png]]\n\n\n\n\nRandomly select an initial population of N chromosomes",
+      "text": "Roulette Wheel Selection\na technique where candidates are chosen based on probability proportional to their fitness.\n",
       "type": "text",
-      "width": 280,
-      "x": 8540,
-      "y": 85
+      "width": 400,
+      "x": 5748,
+      "y": 2680
     },
     {
-      "height": 249,
-      "id": "cb619ba78ca4ed6e",
+      "height": 150,
+      "id": "3d0de73d30c363f8",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "Evaluation\n![[fitnessofchromosome2.png]]\n\nCompute the fitness of all the chromosomes in the population\n\n",
+      "text": "A chromosome's probability of being selected\n\ndetermined by its fitness, influencing chances to evolve.\n",
       "type": "text",
-      "width": 220,
-      "x": 8580,
-      "y": -220
+      "width": 400,
+      "x": 5880,
+      "y": 2952
     },
     {
-      "height": 44,
-      "id": "8d919a0652557279",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "modified offspring",
-      "type": "text",
-      "width": 223,
-      "x": 8860,
-      "y": 160
-    },
-    {
-      "height": 271,
-      "id": "92f0e85f0d6f6f12",
+      "height": 150,
+      "id": "797d2c059ce5d268",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "Selection\n![[geneticalgorouletteselection.png]]\n\n\nKeep selecting two chromosomes for reproduction\n",
+      "text": "**Utility function**\na tool to measure the benefit of an action, guiding a system towards achieving its goal.\n",
       "type": "text",
-      "width": 268,
-      "x": 9060,
-      "y": -260
+      "width": 400,
+      "x": 6160,
+      "y": 3740
     },
     {
-      "height": 44,
-      "id": "aff43d0ec5183593",
+      "height": 150,
+      "id": "0c1e06c446c69493",
       "styleAttributes": {
-        "border": "invisible",
+        "border": "dashed",
         "textAlign": "center"
       },
-      "text": "parents",
+      "text": "**R(s')**\nthe reward received when arriving at a new state s', helping measure success.\n",
       "type": "text",
-      "width": 149,
-      "x": 9120,
-      "y": 147
+      "width": 400,
+      "x": 6160,
+      "y": 3940
     },
     {
       "height": 150,
@@ -1683,39 +1556,286 @@
       "text": "Action selection with delayed rewards\nchoosing actions when rewards come after a delay, not immediately.\n",
       "type": "text",
       "width": 400,
-      "x": 8620,
-      "y": 2220
+      "x": 5660,
+      "y": 3740
     },
     {
-      "height": 140,
-      "id": "87605dcfbc30d53f",
+      "height": 782,
+      "id": "465564df0390b3f1",
       "styleAttributes": {
         "border": "dashed",
         "textAlign": "center"
       },
-      "text": "Why not MLP?\n-Scales badly on input size\n-Ignores spatial structure: (learning from pixels is not locality sensitive\n-cannot handle translation: the same shape translated to another part of the image is not recognised.",
+      "text": "Pareto Optimal Solution\n![[paretooptimalsolutions.png]]\n\nA solution is pareto optimal if no other solution exists, that improves any objective(s) without degrading performance in any other objective function.\n\n![[Pasted image 20250416220127.png]]\n\nA solution pareto dominates another solution if it is better on all accounts.\n\n\n\n",
       "type": "text",
-      "width": 580,
-      "x": 2180,
+      "width": 280,
+      "x": 6800,
       "y": 2180
     },
     {
-      "file": "attachments/Pasted image 20250416233749.png",
-      "height": 122,
-      "id": "773c988f99c8c667",
-      "type": "file",
-      "width": 320,
-      "x": 2180,
-      "y": 2880
+      "height": 44,
+      "id": "49551d8af2d21033",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Solution form",
+      "type": "text",
+      "width": 191,
+      "x": 5640,
+      "y": 2220
     },
     {
-      "file": "attachments/Pasted image 20250416233814.png",
+      "height": 774,
+      "id": "630af48e1f46e0b2",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "NSGA II, Pareto Rank\n![[Pasted image 20250416220602.png]]\nYou can find multiple non-dominated fronts of solutions by repeatedly taking out the non-dominated front, then finding another (newly non-dominated) front, rank 1 goes to solutions that belong to the first\n\n\nCD Crowding Distance\nEach solution gets a **crowding distance** value — it tells you how \"isolated\" it is in objective space.\n\nThis encourages **diversity**.  \nThe more isolated you are → the more likely you are selected in a size-constrained set of solutions\n\nFitness Strategy:\nPressure Mechanism for Selection: Non-dominated Sorting\nPreservation of diversity: Crowding Distance\n",
+      "type": "text",
+      "width": 560,
+      "x": 7120,
+      "y": 2280
+    },
+    {
+      "height": 92,
+      "id": "6e73dbc2b446b9dc",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Chromosome\na string or representation of a candidate solution in a genetic algorithm.",
+      "type": "text",
+      "width": 576,
+      "x": 5680,
+      "y": 2560
+    },
+    {
+      "height": 44,
+      "id": "8d919a0652557279",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "modified offspring",
+      "type": "text",
+      "width": 223,
+      "x": 5900,
+      "y": 1680
+    },
+    {
+      "height": 44,
+      "id": "fd72204162328e16",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "chromosome",
+      "type": "text",
+      "width": 187,
+      "x": 5480,
+      "y": 1906
+    },
+    {
+      "height": 92,
+      "id": "5f8e47ce871e45b2",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Encoding\nEach chromosome is a candidate solution",
+      "type": "text",
+      "width": 296,
+      "x": 5540,
+      "y": 2060
+    },
+    {
+      "height": 150,
+      "id": "5bdd725fd4849284",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Evaluation Criterion\na measure for judging how good a solution is, often linked to the fitness function.\n",
+      "type": "text",
+      "width": 400,
+      "x": 6120,
+      "y": 2100
+    },
+    {
+      "height": 44,
+      "id": "aff43d0ec5183593",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "parents",
+      "type": "text",
+      "width": 149,
+      "x": 6160,
+      "y": 1667
+    },
+    {
+      "height": 60,
+      "id": "b94e55db009d71dd",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "learning through trial and error where actions are rewarded or punished.\n",
+      "type": "text",
+      "width": 400,
+      "x": 5480,
+      "y": 3560
+    },
+    {
+      "height": 150,
+      "id": "70ffab3d6f2895e1",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Reward formulation**\ndesigning reward signals so that an agent learns to make the right decisions.\n",
+      "type": "text",
+      "width": 400,
+      "x": 5740,
+      "y": 3960
+    },
+    {
+      "height": 150,
+      "id": "9c960a019fcd54c9",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**R(s,a,s')**\nthe reward obtained when taking action a in state s and ending up in state s′.\n",
+      "type": "text",
+      "width": 400,
+      "x": 6320,
+      "y": 4120
+    },
+    {
+      "height": 150,
+      "id": "0a019d7aea308ffe",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Pr(r | s, a, s')**\nthe chance of getting reward r when you take action a in state s and reach state s′.\n",
+      "type": "text",
+      "width": 400,
+      "x": 5600,
+      "y": 4220
+    },
+    {
+      "file": "attachments/Pasted image 20250416234514.png",
       "height": 400,
-      "id": "1a1014ca7b137a26",
+      "id": "58027cb270afc65b",
+      "styleAttributes": {
+      },
       "type": "file",
-      "width": 975,
-      "x": 2180,
-      "y": 2360
+      "width": 362,
+      "x": 7020,
+      "y": 3720
+    },
+    {
+      "height": 60,
+      "id": "04cab98a33a32310",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "an optimization method using evolution-like steps to find good solutions.\n",
+      "type": "text",
+      "width": 440,
+      "x": 5480,
+      "y": 1140
+    },
+    {
+      "height": 271,
+      "id": "92f0e85f0d6f6f12",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Selection\n![[geneticalgorouletteselection.png]]\n\n\nKeep selecting two chromosomes for reproduction\n",
+      "type": "text",
+      "width": 268,
+      "x": 6100,
+      "y": 1260
+    },
+    {
+      "height": 249,
+      "id": "cb619ba78ca4ed6e",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Evaluation\n![[fitnessofchromosome2.png]]\n\nCompute the fitness of all the chromosomes in the population\n\n",
+      "type": "text",
+      "width": 220,
+      "x": 5620,
+      "y": 1300
+    },
+    {
+      "height": 295,
+      "id": "328af62d958cab21",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Population\n![[chromosomefitness.png]]\n\n\n\n\nRandomly select an initial population of N chromosomes",
+      "type": "text",
+      "width": 280,
+      "x": 5580,
+      "y": 1605
+    },
+    {
+      "file": "attachments/fitnessofchromosome.png",
+      "height": 240,
+      "id": "5df7cdc695cb4bf9",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 624,
+      "x": 6440,
+      "y": 1160
+    },
+    {
+      "height": 44,
+      "id": "0e0c6eca6dde5711",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "SDM Sequential Decision Making",
+      "type": "text",
+      "width": 291,
+      "x": 6180,
+      "y": 4420
+    },
+    {
+      "height": 44,
+      "id": "6dbc9bef2d1cf70d",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "MDP Markov Decision Processes",
+      "type": "text",
+      "width": 294,
+      "x": 6540,
+      "y": 4380
+    },
+    {
+      "file": "attachments/Pasted image 20250417001513.png",
+      "height": 440,
+      "id": "ff11b58ac1074c28",
+      "type": "file",
+      "width": 678,
+      "x": 6880,
+      "y": 4160
     }
   ]
 }
