@@ -615,6 +615,18 @@
       "y": -440
     },
     {
+      "color": "4",
+      "height": 1320,
+      "id": "b6f85fedc382414f",
+      "label": "RL",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 2280,
+      "x": 5440,
+      "y": 3520
+    },
+    {
       "color": "2",
       "height": 3320,
       "id": "6c46668e8aaf072a",
@@ -673,18 +685,6 @@
       "width": 2280,
       "x": -240,
       "y": 640
-    },
-    {
-      "color": "4",
-      "height": 1320,
-      "id": "b6f85fedc382414f",
-      "label": "RL",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 2280,
-      "x": 5440,
-      "y": 3520
     },
     {
       "color": "2",
@@ -1437,6 +1437,8 @@
       "file": "attachments/Pasted image 20250417000700.png",
       "height": 320,
       "id": "053ee8d84d9e56c7",
+      "styleAttributes": {
+      },
       "type": "file",
       "width": 1358,
       "x": 520,
@@ -1519,32 +1521,6 @@
       "width": 400,
       "x": 5880,
       "y": 2952
-    },
-    {
-      "height": 150,
-      "id": "797d2c059ce5d268",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "**Utility function**\na tool to measure the benefit of an action, guiding a system towards achieving its goal.\n",
-      "type": "text",
-      "width": 400,
-      "x": 6160,
-      "y": 3740
-    },
-    {
-      "height": 150,
-      "id": "0c1e06c446c69493",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "**R(s')**\nthe reward received when arriving at a new state s', helping measure success.\n",
-      "type": "text",
-      "width": 400,
-      "x": 6160,
-      "y": 3940
     },
     {
       "height": 150,
@@ -1691,32 +1667,6 @@
     },
     {
       "height": 150,
-      "id": "70ffab3d6f2895e1",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "**Reward formulation**\ndesigning reward signals so that an agent learns to make the right decisions.\n",
-      "type": "text",
-      "width": 400,
-      "x": 5740,
-      "y": 3960
-    },
-    {
-      "height": 150,
-      "id": "9c960a019fcd54c9",
-      "styleAttributes": {
-        "border": "dashed",
-        "textAlign": "center"
-      },
-      "text": "**R(s,a,s')**\nthe reward obtained when taking action a in state s and ending up in state s′.\n",
-      "type": "text",
-      "width": 400,
-      "x": 6320,
-      "y": 4120
-    },
-    {
-      "height": 150,
       "id": "0a019d7aea308ffe",
       "styleAttributes": {
         "border": "dashed",
@@ -1727,17 +1677,6 @@
       "width": 400,
       "x": 5600,
       "y": 4220
-    },
-    {
-      "file": "attachments/Pasted image 20250416234514.png",
-      "height": 400,
-      "id": "58027cb270afc65b",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 362,
-      "x": 7020,
-      "y": 3720
     },
     {
       "height": 60,
@@ -1803,6 +1742,69 @@
       "y": 1160
     },
     {
+      "height": 150,
+      "id": "797d2c059ce5d268",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Utility function**\na tool to measure the benefit of an action, guiding a system towards achieving its goal.\n",
+      "type": "text",
+      "width": 400,
+      "x": 6160,
+      "y": 3740
+    },
+    {
+      "height": 150,
+      "id": "0c1e06c446c69493",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**R(s')**\nthe reward received when arriving at a new state s', helping measure success.\n",
+      "type": "text",
+      "width": 400,
+      "x": 6160,
+      "y": 3940
+    },
+    {
+      "height": 150,
+      "id": "70ffab3d6f2895e1",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**Reward formulation**\ndesigning reward signals so that an agent learns to make the right decisions.\n",
+      "type": "text",
+      "width": 400,
+      "x": 5740,
+      "y": 3960
+    },
+    {
+      "height": 150,
+      "id": "9c960a019fcd54c9",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "**R(s,a,s')**\nthe reward obtained when taking action a in state s and ending up in state s′.\n",
+      "type": "text",
+      "width": 400,
+      "x": 6320,
+      "y": 4120
+    },
+    {
+      "file": "attachments/Pasted image 20250416234514.png",
+      "height": 400,
+      "id": "58027cb270afc65b",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 362,
+      "x": 7020,
+      "y": 3720
+    },
+    {
       "height": 44,
       "id": "0e0c6eca6dde5711",
       "styleAttributes": {
@@ -1832,6 +1834,8 @@
       "file": "attachments/Pasted image 20250417001513.png",
       "height": 440,
       "id": "ff11b58ac1074c28",
+      "styleAttributes": {
+      },
       "type": "file",
       "width": 678,
       "x": 6880,
