@@ -11,10 +11,17 @@
             "id": "ef79f34be9f311b6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "canvas",
+              "state": {
+                "file": "Architecutral overview.canvas",
+                "viewState": {
+                  "x": 310,
+                  "y": -560,
+                  "zoom": -0.6030772952807608
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Architecutral overview"
             }
           }
         ]
