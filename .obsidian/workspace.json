@@ -4,52 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "16cb8744ea60c26e",
+        "id": "2ec16d6b1d9d988b",
         "type": "tabs",
         "children": [
           {
-            "id": "c0dd23f074418856",
+            "id": "ef79f34be9f311b6",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Computational Intelligence/ci_merged_unified.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "ci_merged_unified"
-            }
-          },
-          {
-            "id": "a7d834e82914d55b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Computational Intelligence/answers_asdfasdf.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "answers_asdfasdf"
-            }
-          },
-          {
-            "id": "ea628b3064bf167e",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Computational Intelligence/ci_canvas.canvas",
-                "viewState": {
-                  "x": 6758.460686103446,
-                  "y": 4132.565379315702,
-                  "zoom": 0.3333333333333334
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "ci_canvas"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,11 +166,13 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "ea628b3064bf167e",
+  "active": "ef79f34be9f311b6",
   "lastOpenFiles": [
+    "Architecutral overview.canvas",
+    "Unconfirmed 519610.crdownload",
     "Computational Intelligence/ci_merged_unified.pdf",
-    "Computational Intelligence/ci_canvas.canvas",
     "Computational Intelligence/answers_asdfasdf.pdf",
+    "Computational Intelligence/ci_canvas.canvas",
     "attachments/Pasted image 20250417001513.png",
     "attachments/Pasted image 20250417000700.png",
     "Computational Intelligence/Drawing 2025-04-16 17.42.09.excalidraw.md",
@@ -246,7 +216,6 @@
     "Algorithms and Data Structures/fdsafdas.md",
     "Algorithms and Data Structures/fdsafdsa.md",
     "Algorithms and Data Structures/gfsdgfds.md",
-    "attachments",
     "Algorithms and Data Structures/Untitled 1.canvas",
     "Untitled.canvas",
     "big canvs.canvas",

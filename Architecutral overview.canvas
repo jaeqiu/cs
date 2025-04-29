@@ -1,0 +1,376 @@
+{
+  "edges": [
+    {
+      "fromNode": "a013e0444357ac5b",
+      "fromSide": "right",
+      "id": "1abe2cd07679dd31",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "89c6de19046df468",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "378174c9751be70b",
+      "fromSide": "left",
+      "id": "90ea91d2b8b9702a",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "0c1571a06f6311c6",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "836cffe82e1b94ff",
+      "fromSide": "left",
+      "id": "81bf946b59fe8ace",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "57f3f5c5cefb059d",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "57f3f5c5cefb059d",
+      "fromSide": "left",
+      "id": "a5119466046fc272",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "f78db52ff28e267b",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "836cffe82e1b94ff",
+      "fromSide": "top",
+      "id": "f14d7f62d2479691",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "15cacfbdaddd8b4b",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "0c1571a06f6311c6",
+      "fromSide": "top",
+      "id": "d361ff22dc221b07",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "89c6de19046df468",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "836cffe82e1b94ff",
+      "fromSide": "left",
+      "id": "a1f75a74a4b47312",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "f78db52ff28e267b",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "f78db52ff28e267b",
+      "fromSide": "bottom",
+      "id": "b4760932f46a707e",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "836cffe82e1b94ff",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "6218cfc76b76fcf3",
+      "fromSide": "left",
+      "id": "a91dd868c4b68180",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "5d491b9dc55d669c",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "f78db52ff28e267b",
+      "fromSide": "left",
+      "id": "aab8443e91b86cd4",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "toNode": "378174c9751be70b",
+      "toSide": "right"
+    }
+  ],
+  "nodes": [
+    {
+      "color": "5",
+      "height": 720,
+      "id": "bce3b20a564e2cd6",
+      "label": "Webapp (for one client",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1280,
+      "x": -800,
+      "y": -920
+    },
+    {
+      "color": "4",
+      "height": 720,
+      "id": "d943100c501f459c",
+      "label": "CLIENT LOCAL NETWORK",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1280,
+      "x": 560,
+      "y": -920
+    },
+    {
+      "color": "1",
+      "height": 660,
+      "id": "ea085b1524d3716b",
+      "label": "BACKEND",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 720,
+      "x": -620,
+      "y": -880
+    },
+    {
+      "color": "2",
+      "height": 720,
+      "id": "4c59a8688e15063f",
+      "label": "PAYNL",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 380,
+      "x": -1220,
+      "y": -920
+    },
+    {
+      "color": "2",
+      "height": 660,
+      "id": "a7f87b5469703611",
+      "label": "FRONTEND",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 280,
+      "x": 140,
+      "y": -880
+    },
+    {
+      "color": "5",
+      "height": 100,
+      "id": "ed04529517fc8a39",
+      "label": "End User Client pc",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 360,
+      "x": 920,
+      "y": -600
+    },
+    {
+      "height": 44,
+      "id": "378174c9751be70b",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "relational db tuple <- mega text",
+      "type": "text",
+      "width": 299,
+      "x": -200,
+      "y": -340
+    },
+    {
+      "height": 60,
+      "id": "0c1571a06f6311c6",
+      "styleAttributes": {
+        "border": "dashed",
+        "shape": "database",
+        "textAlign": "center"
+      },
+      "text": "relational database",
+      "type": "text",
+      "width": 160,
+      "x": -500,
+      "y": -360
+    },
+    {
+      "height": 60,
+      "id": "89c6de19046df468",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Invoice overview on portal",
+      "type": "text",
+      "width": 220,
+      "x": 180,
+      "y": -600
+    },
+    {
+      "height": 60,
+      "id": "6218cfc76b76fcf3",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Log-in",
+      "type": "text",
+      "width": 143,
+      "x": 220,
+      "y": -800
+    },
+    {
+      "height": 100,
+      "id": "c21ae4feffd9ef8b",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Provisioning service\n-clients are able to set up subclient authorization",
+      "type": "text",
+      "width": 320,
+      "x": -320,
+      "y": -720
+    },
+    {
+      "height": 80,
+      "id": "5d491b9dc55d669c",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "Account (auth) service",
+      "type": "text",
+      "width": 326,
+      "x": -320,
+      "y": -840
+    },
+    {
+      "height": 44,
+      "id": "e67af4dbd51474ca",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "fetch",
+      "type": "text",
+      "width": 133,
+      "x": 460,
+      "y": -480
+    },
+    {
+      "height": 60,
+      "id": "b4878ff7d39ac220",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "payment status",
+      "type": "text",
+      "width": 120,
+      "x": -800,
+      "y": -440
+    },
+    {
+      "height": 60,
+      "id": "15cacfbdaddd8b4b",
+      "styleAttributes": {
+        "border": "dashed",
+        "shape": null,
+        "textAlign": "center"
+      },
+      "text": "CURRENT ASOF APPLICATION",
+      "type": "text",
+      "width": 300,
+      "x": 940,
+      "y": -580
+    },
+    {
+      "height": 194,
+      "id": "836cffe82e1b94ff",
+      "styleAttributes": {
+        "border": "dashed",
+        "shape": "database",
+        "textAlign": "center"
+      },
+      "text": "local storage:\n- bunch of text files that are delimited by arbitrary substrings",
+      "type": "text",
+      "width": 460,
+      "x": 1320,
+      "y": -480
+    },
+    {
+      "height": 44,
+      "id": "57f3f5c5cefb059d",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "ASOF TEAM CONNECTOR",
+      "type": "text",
+      "width": 271,
+      "x": 940,
+      "y": -340
+    },
+    {
+      "height": 44,
+      "id": "51b51c5ec93e6dea",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "Read pdf",
+      "type": "text",
+      "width": 160,
+      "x": 940,
+      "y": -420
+    },
+    {
+      "height": 44,
+      "id": "f78db52ff28e267b",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "socket worker (parses?)",
+      "type": "text",
+      "width": 254,
+      "x": 620,
+      "y": -340
+    },
+    {
+      "height": 60,
+      "id": "a013e0444357ac5b",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "3rd party payment plaform",
+      "type": "text",
+      "width": 278,
+      "x": -1140,
+      "y": -620
+    },
+    {
+      "height": 44,
+      "id": "d2ed195fa8ec67a0",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "Write PAYMENT STATUS",
+      "type": "text",
+      "width": 262,
+      "x": 1000,
+      "y": -260
+    }
+  ]
+}
