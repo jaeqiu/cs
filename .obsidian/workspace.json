@@ -23,21 +23,8 @@
               "icon": "lucide-layout-dashboard",
               "title": "Architecutral overview"
             }
-          },
-          {
-            "id": "5c4a402e7615f954",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -186,7 +173,7 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "5c4a402e7615f954",
+  "active": "ef79f34be9f311b6",
   "lastOpenFiles": [
     "Architecutral overview.canvas",
     "Unconfirmed 519610.crdownload",
